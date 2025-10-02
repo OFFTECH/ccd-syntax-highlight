@@ -1,0 +1,168 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Concordia Input",
+	"scopeName": "source.ccd",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#assignments"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.number-sign.ccd",
+					"match": "#.*$"
+				}
+			]
+		},
+		"assignments": {
+			"begin": "^\\s*([a-zA-Z0-9_\\.]+)\\s*(=)",
+			"beginCaptures": {
+				"1": {
+					"name": "variable.other.property.ccd"
+				},
+				"2": {
+					"name": "keyword.operator.assignment.ccd"
+				}
+			},
+			"end": "(?=#)|$",
+			"name": "meta.assignment.ccd",
+			"patterns": [
+				{
+					"include": "#values"
+				}
+			]
+		},
+		"values": {
+			"patterns": [
+				{
+					"include": "#expressions"
+				},
+				{
+					"include": "#strings"
+				},
+				{
+					"include": "#booleans"
+				},
+				{
+					"include": "#numbers"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.single.ccd",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ccd",
+					"match": "\\\\."
+				}
+			]
+		},
+		"booleans": {
+			"name": "constant.language.boolean.ccd",
+			"match": "\\b(true|false)\\b"
+		},
+		"numbers": {
+			"name": "constant.numeric.ccd",
+			"match": "(?<![a-zA-Z])\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)\\b"
+		},
+		"expressions": {
+			"patterns": [
+				{
+					"name": "keyword.operator.transpose.ccd",
+					"match": "(?<=[a-zA-Z0-9\\)\\]])'"
+				},
+				{
+					"begin": "\\[",
+					"end": "\\]",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.begin.bracket.square.ccd"
+						}
+					},
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.end.bracket.square.ccd"
+						}
+					},
+					"name": "meta.array.ccd",
+					"patterns": [
+						{
+							"include": "#values"
+						},
+						{
+							"name": "keyword.operator.range.ccd",
+							"match": ":"
+						},
+						{
+							"name": "punctuation.separator.semicolon.ccd",
+							"match": ";"
+						}
+					]
+				},
+				{
+					"begin": "\\{",
+					"end": "\\}",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.begin.bracket.curly.ccd"
+						}
+					},
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.end.bracket.curly.ccd"
+						}
+					},
+					"name": "meta.cell-array.ccd",
+					"patterns": [
+						{
+							"include": "#values"
+						},
+						{
+							"name": "punctuation.separator.comma.ccd",
+							"match": ","
+						}
+					]
+				},
+				{
+					"begin": "\\(",
+					"end": "\\)",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.begin.bracket.round.ccd"
+						}
+					},
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.end.bracket.round.ccd"
+						}
+					},
+					"name": "meta.expression.ccd",
+					"patterns": [
+						{
+							"include": "#values"
+						},
+						{
+							"name": "support.function.ccd",
+							"match": "\\b(cos|sin)\\b"
+						},
+						{
+							"name": "constant.language.ccd",
+							"match": "\\b(pi)\\b"
+						},
+						{
+							"name": "keyword.operator.arithmetic.ccd",
+							"match": "[\\*\\/\\+-]"
+						}
+					]
+				}
+			]
+		}
+	}
+}

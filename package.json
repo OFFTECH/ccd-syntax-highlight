@@ -1,0 +1,35 @@
+{
+  "name": "ccd-syntax-highlight",
+  "displayName": "CCD Syntax Highlighting",
+  "description": "Syntax highlighting for Concordia (.ccd) input files.",
+  "version": "0.1.0",
+  "publisher": "OFFTECH",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ccd",
+        "aliases": [
+          "Concordia Input",
+          "ccd"
+        ],
+        "extensions": [
+          ".ccd"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ccd",
+        "scopeName": "source.ccd",
+        "path": "./syntaxes/ccd.tmLanguage.json"
+      }
+    ]
+  }
+}
