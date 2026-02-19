@@ -1,8 +1,8 @@
 {
   "name": "ccd-syntax-highlight",
   "displayName": "CCD Syntax Highlighting",
-  "description": "Syntax highlighting for Concordia (.ccd) input files.",
-  "version": "0.1.0",
+  "description": "Syntax highlighting and IntelliSense for Concordia (.ccd) input files.",
+  "version": "0.2.0",
   "publisher": "OFFTECH",
   "engines": {
     "vscode": "^1.80.0"
@@ -14,6 +14,10 @@
     "type": "git",
     "url": "https://github.com/OFFTECH/ccd-syntax-highlight.git"
   },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:ccd"
+  ],
   "contributes": {
     "languages": [
       {
@@ -35,5 +39,21 @@
         "path": "./syntaxes/ccd.tmLanguage.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile"
+  },
+  "dependencies": {
+    "vscode-languageclient": "^9.0.1",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-textdocument": "^1.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.3.0"
   }
 }
