@@ -37,8 +37,13 @@ export function activate(context: ExtensionContext): void {
   };
 
   const clientOptions: LanguageClientOptions = {
-    // Only activate for .ccd files
-    documentSelector: [{ scheme: 'file', language: 'ccd' }],
+    // Activate for all supported files
+    documentSelector: [
+      { scheme: 'file', language: 'ccd' },
+      { scheme: 'file', language: 'uflex' },
+      { scheme: 'file', language: 'bflex' },
+      { scheme: 'file', language: 'simla' }
+    ],
   };
 
   client = new LanguageClient(

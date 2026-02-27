@@ -15,9 +15,6 @@
     "url": "https://github.com/OFFTECH/ccd-syntax-highlight.git"
   },
   "main": "./out/extension.js",
-  "activationEvents": [
-    "onLanguage:ccd"
-  ],
   "contributes": {
     "languages": [
       {
@@ -30,6 +27,42 @@
           ".ccd"
         ],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "uflex",
+        "aliases": [
+          "UFLEX Input",
+          "uflex"
+        ],
+        "extensions": [
+          ".uflex.inp",
+          ".inp"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "bflex",
+        "aliases": [
+          "BFLEX Input",
+          "bflex"
+        ],
+        "extensions": [
+          ".bflex.inp",
+          ".inp"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "simla",
+        "aliases": [
+          "SIMLA Input",
+          "simla"
+        ],
+        "extensions": [
+          ".simla.inp",
+          ".inp"
+        ],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -37,6 +70,21 @@
         "language": "ccd",
         "scopeName": "source.ccd",
         "path": "./syntaxes/ccd.tmLanguage.json"
+      },
+      {
+        "language": "uflex",
+        "scopeName": "source.uflex",
+        "path": "./syntaxes/uflex.tmLanguage.json"
+      },
+      {
+        "language": "bflex",
+        "scopeName": "source.bflex",
+        "path": "./syntaxes/bflex.tmLanguage.json"
+      },
+      {
+        "language": "simla",
+        "scopeName": "source.simla",
+        "path": "./syntaxes/simla.tmLanguage.json"
       }
     ]
   },

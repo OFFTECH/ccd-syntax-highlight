@@ -1,0 +1,38 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "UFLEX Input",
+    "scopeName": "source.uflex",
+    "patterns": [
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#numbers"
+        }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.line.character.uflex",
+                    "match": "^[Cc].*$"
+                },
+                {
+                    "name": "comment.line.number-sign.uflex",
+                    "match": "#.*$"
+                }
+            ]
+        },
+        "keywords": {
+            "name": "keyword.control.uflex",
+            "match": "(?i)\\b(UFLEX|END)\\b"
+        },
+        "numbers": {
+            "name": "constant.numeric.uflex",
+            "match": "(?<![a-zA-Z])\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)\\b"
+        }
+    }
+}

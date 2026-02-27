@@ -1,0 +1,5777 @@
+{
+  "BFLEX2010": {
+    "description": "\u2013 Input data . . . . . . . . . . . . . . . . . . . . . . . 171",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SINTEF": {
+    "description": "- Structures and Concrete. Boru, M. E. (2021). Viv fatigue of dynamic power cables applied in o\ufb00shore wind",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BONCON": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 22, 27",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 22, 28",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONSTR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 22, 29",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PDISP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOCAL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 30, 31",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GLOBAL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 30, 32",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONEQ": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .29, 31",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOCSL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 M",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTCONEQ": {
+    "description": ". . . . . . . . . . . . . . . . . . . 29, 33",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTINT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 22, 34",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTROL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . .22, 37",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRESSFREE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 38 T",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RESTART": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 38",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EIGEN": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AUTOSTART": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 39 B",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COSUPR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .22, 41",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COSURFPR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 22",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSSGEOM": {
+    "description": ". . . . . . . . . . . . . . . . . . 22, 44 \u2013 BFLEX . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 \u2013 BOX . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 45, 74, 96 R",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BOX": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .45",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GENERAL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 46",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BFLEX": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSSECTION-": {
+    "description": "BFLEX2010 Cross sectional input The format of the card is as follows:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNCONT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 22, 67",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNRES_": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . .22, 68",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELCON": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 22, 71",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDAMP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 22, 79",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELECC": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 22, 82 \u2013 BEAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82 \u2013 RADIUS . . . . . . . . . . . . . . . . . . . . . . . . . . 85",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELHIST": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 88",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .22, 90",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELMASS": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 22, 91 \u2013 BEAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80 \u2013 CONTACT . . . . . . . . . . . . . . . . . . . . . . . 80",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELORIENT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 22, 92",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELPROP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .22, 95",
+    "valueType": "number",
+    "section": "General"
+  },
+  "100": {
+    "description": "1 near4",
+    "valueType": "number",
+    "section": "General"
+  },
+  "101": {
+    "description": "Tee-structure Templatestructure 2.28",
+    "valueType": "number",
+    "section": "General"
+  },
+  "102": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "105": {
+    "description": "2.20.7",
+    "valueType": "number",
+    "section": "General"
+  },
+  "106": {
+    "description": "where Fy and Fz are the spring forces in the y- and z-directions, respectively. The mo- ment about the x-axis is calculated as Mx =mx",
+    "valueType": "number",
+    "section": "General"
+  },
+  "107": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "109": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "110": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "111": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "112": {
+    "description": "WD: Dry mass (unit: ML\u22121).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "115": {
+    "description": "be introduced in the lateral transverse direction. Optional. Default value: 0. (unit: FL\u22122).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENVRES_": {
+    "description": "- Envelope results By the ENVRES cards, user select results for a given range of element or nodal nodes will be stored on the .raf \ufb01le on a format that enable envelope results to be presented on",
+    "valueType": "number",
+    "section": "General"
+  },
+  "117": {
+    "description": "2.21",
+    "valueType": "number",
+    "section": "General"
+  },
+  "118": {
+    "description": "2.21.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FATPROP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 23, 119",
+    "valueType": "number",
+    "section": "General"
+  },
+  "119": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "120": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GEOM": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .23, 121",
+    "valueType": "number",
+    "section": "General"
+  },
+  "121": {
+    "description": "2.23",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23",
+    "valueType": "number",
+    "section": "General"
+  },
+  "123": {
+    "description": "2.24",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INISTR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 23, 123",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATERIAL": {
+    "description": ". . . . . . . . . . . . . . . . . . . .23, 124",
+    "valueType": "number",
+    "section": "General"
+  },
+  "124": {
+    "description": "N times with element increment m. To summarise:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE31": {
+    "description": ", HSHEAR353, 363, 364)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "126": {
+    "description": "\u2022 An isotropic dynamic model including static and dynamic friction coe\ufb03- cients, user de\ufb01ned elastic sti\ufb00ness and a dynamic model describing the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "364": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "127": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "129": {
+    "description": "0 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "131": {
+    "description": ".9 # #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "132": {
+    "description": "not the force. Consequently, the \ufb01nal equilibrium state will not be in\ufb02uenced by the sti\ufb00ness modi\ufb01cation. For cont152, the \ufb01rst material point on the negative side is",
+    "valueType": "number",
+    "section": "General"
+  },
+  "133": {
+    "description": "2.26.7",
+    "valueType": "number",
+    "section": "General"
+  },
+  "135": {
+    "description": "mm Number of wires - inner tensile",
+    "valueType": "number",
+    "section": "General"
+  },
+  "139": {
+    "description": "For other contact element types, the local x-direction coincides with the current pipe axial direction, and the local y-direction is determined by the cross product of the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "140": {
+    "description": "2.26.11",
+    "valueType": "number",
+    "section": "General"
+  },
+  "142": {
+    "description": "thickness of the softest material at the interface. Then b is the wire width and cp is a penalty factor to avoid surface penetration. cp = 10 normally su\ufb03ce, however,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "143": {
+    "description": "MU: Friction coe\ufb03cient. Default value: 0.135 Note that during manual modelling,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "148": {
+    "description": "no scaling with \u00b5Fz is applied. Likewise, the x-rotation curve is to be de\ufb01ned as",
+    "valueType": "number",
+    "section": "General"
+  },
+  "149": {
+    "description": "# name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "150": {
+    "description": "MPa Contact sti\ufb00ness",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MOVE_GROUP": {
+    "description": ". . . . . . . . . . . . . . . . . . . .23 move_group . . . . . . . . . . . . . . . . . . . . . . . 150 N",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOCOOR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . .23, 150",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODPROP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 23, 153",
+    "valueType": "number",
+    "section": "General"
+  },
+  "153": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOORIENT": {
+    "description": ". . . . . . . . . . . . . . . . . . . 23, 155",
+    "valueType": "number",
+    "section": "General"
+  },
+  "155": {
+    "description": "2.30",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PELOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 23, 156",
+    "valueType": "number",
+    "section": "General"
+  },
+  "156": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PILOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 23, 157",
+    "valueType": "number",
+    "section": "General"
+  },
+  "157": {
+    "description": "where: fz",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REEL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .23, 159",
+    "valueType": "number",
+    "section": "General"
+  },
+  "159": {
+    "description": "sure 3. For all layers (element groups) surrounded by an internal pressure, both external",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TABLE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 161",
+    "valueType": "number",
+    "section": "General"
+  },
+  "161": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THIST": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 23, 163",
+    "valueType": "number",
+    "section": "General"
+  },
+  "163": {
+    "description": "2.35",
+    "valueType": "number",
+    "section": "General"
+  },
+  "164": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIMECO": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 23, 165",
+    "valueType": "number",
+    "section": "General"
+  },
+  "165": {
+    "description": "# #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .23, 166 V",
+    "valueType": "number",
+    "section": "General"
+  },
+  "166": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VISRES": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .23, 167",
+    "valueType": "number",
+    "section": "General"
+  },
+  "167": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "170": {
+    "description": "3 Bflex2010post Report Generator",
+    "valueType": "number",
+    "section": "General"
+  },
+  "171": {
+    "description": "3.2 Input data",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 171, 196",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IPPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 172",
+    "valueType": "number",
+    "section": "General"
+  },
+  "172": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . .173, 200",
+    "valueType": "number",
+    "section": "General"
+  },
+  "173": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GNPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 176, 201",
+    "valueType": "number",
+    "section": "General"
+  },
+  "176": {
+    "description": "3.6",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GLPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 177, 203",
+    "valueType": "number",
+    "section": "General"
+  },
+  "177": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAPLOT-": {
+    "description": "Fatigue calculation The purpose of the FAPLOT option is to allow the user to perform fatigue damage calculation for all visual nodes in the structure and where the stress components xx, yy",
+    "valueType": "number",
+    "section": "General"
+  },
+  "180": {
+    "description": "mm BS maximum diameter",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NRPLOT-": {
+    "description": "Nodal Reaction PLOTs The purpose of the NRPLOT option is to allow the user to sum the element forces acting on a certain node and follow this node as function of history. The total force is",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RSPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 182 S",
+    "valueType": "number",
+    "section": "General"
+  },
+  "182": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENPLOT-": {
+    "description": "ENvelope PLOTs The ENvelope PLOT format is:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "183": {
+    "description": "3.11",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BFPOST": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 183",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GRPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .184 H",
+    "valueType": "number",
+    "section": "General"
+  },
+  "184": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "186": {
+    "description": "4 Dynpostb Report Generator",
+    "valueType": "number",
+    "section": "General"
+  },
+  "187": {
+    "description": "4.2 Input data to Dynpostb",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MXPLOT": {
+    "description": "1 0.3 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNPLOT": {
+    "description": "- CHANGED - Optional parameter for several plots to",
+    "valueType": "number",
+    "section": "General"
+  },
+  "188": {
+    "description": "\"screening_225_9\" Typical result \ufb01le:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "189": {
+    "description": "5 Pflex Input Guide",
+    "valueType": "number",
+    "section": "General"
+  },
+  "192": {
+    "description": "6 Boundary input guide",
+    "valueType": "number",
+    "section": "General"
+  },
+  "194": {
+    "description": "7 Lifetime input guide",
+    "valueType": "number",
+    "section": "General"
+  },
+  "196": {
+    "description": "8 Bpost Report Generator",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOPLO2": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 198",
+    "valueType": "number",
+    "section": "General"
+  },
+  "198": {
+    "description": "# # nodal plot",
+    "valueType": "number",
+    "section": "General"
+  },
+  "200": {
+    "description": "8.5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "201": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "203": {
+    "description": "8.7",
+    "valueType": "number",
+    "section": "General"
+  },
+  "205": {
+    "description": "9 Examples",
+    "valueType": "number",
+    "section": "General"
+  },
+  "206": {
+    "description": "Table 9.1: CROSS-SECTION PARAMETERS - 4 INCH RISER ID = 101.6 MM No",
+    "valueType": "number",
+    "section": "General"
+  },
+  "207": {
+    "description": "9.2.3 Modelling",
+    "valueType": "number",
+    "section": "General"
+  },
+  "208": {
+    "description": "Table 9.3: ALTERNATIVE MODELLING PROCEDURES - 4 INCH RISER No",
+    "valueType": "number",
+    "section": "General"
+  },
+  "209": {
+    "description": "Figure 9.1: Comparing \u03c3zz with respect to di\ufb00erent contact algorithm at internal pres- sure 20MPa",
+    "valueType": "number",
+    "section": "General"
+  },
+  "213": {
+    "description": "9.3 Stress behaviour of \ufb02exible riser at the platform hang-o\ufb00",
+    "valueType": "number",
+    "section": "General"
+  },
+  "214": {
+    "description": "Table 9.4: INPUT PARAMETERS - SIMULATION OF FLEXIBLE RISER Parameter",
+    "valueType": "number",
+    "section": "General"
+  },
+  "215": {
+    "description": "(a) Stress distribution - helix model (b) Stress distribution - moment model",
+    "valueType": "number",
+    "section": "General"
+  },
+  "216": {
+    "description": "(a) Comparison of curvature distributions (b) Comparison of axial stress distributions",
+    "valueType": "number",
+    "section": "General"
+  },
+  "217": {
+    "description": "9.4.2 Input data",
+    "valueType": "number",
+    "section": "General"
+  },
+  "218": {
+    "description": "The left end was \ufb01xed in translation and torsion rotation whereas the right end was free to move in the horizontal direction and to rotate in torsion.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "219": {
+    "description": "Figure 9.11: Components of stress The test and numerical results in terms of failure/no failure and end rotation are pre-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "220": {
+    "description": "(a) End torsion rotation versus time (b) Stress versus time",
+    "valueType": "number",
+    "section": "General"
+  },
+  "222": {
+    "description": "The midpoint centrenode was \ufb01xed in all directions. Figure 9.15: RUC Model for tensile armour lateral buckling",
+    "valueType": "number",
+    "section": "General"
+  },
+  "227": {
+    "description": "10 Searching for Errors",
+    "valueType": "number",
+    "section": "General"
+  },
+  "228": {
+    "description": "11 Changelists",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHANGES": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "229": {
+    "description": "11.2 Changes in version 3.2.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "231": {
+    "description": "11.3 Changes in version 3.1.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "232": {
+    "description": "11.4 Changes in version 3.1.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "236": {
+    "description": "11.5 Changes in version 3.0.9",
+    "valueType": "number",
+    "section": "General"
+  },
+  "238": {
+    "description": "Bibliography Berge, S., Engseth, A., Fylling, I., Larsen, C., Leira, B., Nygaard, I., and Olufsen, A.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "240": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSSGEO": {
+    "description": "of type BFLEX. . . . . . . . . . . . . . . . . . . . . . . 51",
+    "valueType": "number",
+    "section": "General"
+  },
+  "104": {
+    "description": "Figure 2.25: De\ufb01ning maximum allowable incremental pipe contact point displacement by CONTPAR2=VALUE",
+    "valueType": "number",
+    "section": "General"
+  },
+  "108": {
+    "description": ".8 mm Pressure spiral area",
+    "valueType": "number",
+    "section": "General"
+  },
+  "128": {
+    "description": "for reverse axial loading. Value can also be between 2.0-3.0, corresponding to values 0.0-1.0 in terms of hardening.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "160": {
+    "description": "11 6.5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "210": {
+    "description": "Poisson\u2019s ratio 0.3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "211": {
+    "description": "Figure 9.4: Zoom of moment curvature obtained by alternative modelling procedures versus test data",
+    "valueType": "number",
+    "section": "General"
+  },
+  "212": {
+    "description": "Figure 9.6: Zoom of the corresponding axial friction wire stress at outer \ufb01bre in inner armour during one curvature cycle",
+    "valueType": "number",
+    "section": "General"
+  },
+  "221": {
+    "description": "(a) Pipe con\ufb01guration at the \ufb01nal stage (b) Process of tensile armour buckling",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC": {
+    "description": "Model for tensile armour lateral buckling . . . . . . . . . . . .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "223": {
+    "description": "(a) Bending stress versus time (b) Post buckling stress distribution",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSS-SECTION": {
+    "description": "BOUNDARY DATA Dummy for CTYPE=THER. 60",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALTERNATIVE": {
+    "description": "MODELLING PROCEDURES - 4 INCH RISER .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INPUT": {
+    "description": "PARAMETERS - SIMULATION OF FLEXIBLE RISER . .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FLEXIBLE": {
+    "description": "PIPE DATA . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "224": {
+    "description": "Table 9.5: FLEXIBLE PIPE DATA Part",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TEST": {
+    "description": "CONDITIONS . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "225": {
+    "description": "Table 9.6: TEST CONDITIONS Case",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NUMERICAL": {
+    "description": "RESULTS VERSUS TEST RESULTS IN TERMS OF",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAILURE": {
+    "description": "/NO FAILURE . . . . . . . . . . . . . . . . . . . . . . . .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "226": {
+    "description": "Table 9.8: FLEXIBLE PIPE DATA Part",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2010": {
+    "description": ". \u2022 Improve bflex with respect to feedback from existing users. The new computer program system is termed Bflex2010.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2013": {
+    "description": "), (Dai et al., 2017), (Dai et al., 2020) and (S\u00e6vik, 2 14a). 11 1.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ASCII": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BFLEX2010POST": {
+    "description": ". . . . . . . . . . . . . . . . . 170 \u2013 BFPOST . . . . . . . . . . . . . . . . . . . . . . . . 183 \u2013 ELPLOT . . . . . . . . . . . . . . . . . . . . . . . . 173",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PFLEX": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 189",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BOUNDARY": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 192",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LIFETIME": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 194",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BPOST": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . .196 \u2013 ELPLOT . . . . . . . . . . . . . . . . . . . . . . . . 200 \u2013 General . . . . . . . . . . . . . . . . . . . . . . . . . . 196",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXAMPLE": {
+    "description": ": # name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1992": {
+    "description": ") and supported by the oil industry through several industry and joint industry projects until now. The latest developments \ufb01nalized in 2019 were related to enabling lateral buckling calculations of deep water risers.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ITCODE0": {
+    "description": "and ITCODE1, see Eq. (2.3) and Section 2.20.14. These models are linked to the PIPE52 beam element and the HSHEAR352 sandwhich beam element. In both cases, the axisymmetric stresses and layer contact pressures are found by applying the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ITCODE31": {
+    "description": "mcm and ITCODE1 sbm models, leading to improved accuracy in fatigue prediction, see (S\u00e6vik, 2011). Then in order to enable more \ufb02exible modelling features, Bflex2010 was developed,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FLEXCROSS": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 53",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HSHEAR363": {
+    "description": "3D \ufb02exible",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCONT473": {
+    "description": "considers contact between HSHEAR353 and HSHEAR363 or HSHEAR364, however, also including their respective centreline axial and torsion motions in the rel- ative displacement and friction. The element allows for arbitrary large displacement",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TACT": {
+    "description": "in addition to the desired material properties, see Section 2.20.12, Section 21 2.20.13, Section 2.20.11, Section 2.26.2, Section 2.26.1 and Section 2.26.12.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICONTACT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 140",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHEAR2HELIX": {
+    "description": ". . . . . . . . . . . . . . . . . . . 111",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CODE0": {
+    "description": "as referred to above. Both old (default) or new friction models are avail- able.Linked to the FLEXCROSS automatic \ufb02exible pipe modelling. \u2022 Repated Unit Cell (RUC) modelling based on ITCODE1 as referred to above.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSS": {
+    "description": "automatic \ufb02exible pipe modelling. \u2022 Repated Unit Cell (RUC) modelling based on combining HSHEAR364 and HCONT464 elements for cylindric layers and pressure spirals/tapes.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEAR353": {
+    "description": "with HCONT463 or HCONT453 to establish sbm model for tensile armour layers. Both old (default) and new friction model are available. Linked to the 353FLEXCROSS automatic \ufb02exible pipe modelling. For lateral buckling",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCONT453": {
+    "description": "3D Armour-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHEARHELIX": {
+    "description": ". . . . . . . . . . . . . . . . . . . . .110",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCONT454": {
+    "description": "3D Armour-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEAR364": {
+    "description": "or HSHEAR363 with HCONT464 for cylindric layers and pressure spi- rals/tapes. Then combining HSHEAR353 with HCONT463 or HCONT453 for helix layers. Several friction models are available. If sideways contact are deemed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSSECTION": {
+    "description": ". . . . . . . . . . . . . . . . 22, 52 \u2013 353FLEXCROSS. . . . . . . . . . . . . . . . . .57 \u2013 BENDSTIFF. . . . . . . . . . . . . . . . . . . . . .61",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENVRES_E": {
+    "description": ". . . . . . . . . . . . . . . . . . . 23, 118",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENVRES_N": {
+    "description": ". . . . . . . . . . . . . . . . . . . 23, 117",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENVRES_I": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 23, 118",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TYPE": {
+    "description": ": The analysis type which may be STATIC or DYNAMIC .",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODID": {
+    "description": ": Node ID number j. RO: Outer radius at node j (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DOF": {
+    "description": "eps-unit sigma-unit",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MASTERNODE": {
+    "description": ": Master node number at which the applied boundary condition is re- ferred. Only for SPECIAL.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XANG": {
+    "description": ": Tait\u2013Bryan angle around local x axis, applied to de\ufb01ne the orientation of the applied boundary condition measured relative to the local system of the master node. Only for SPECIAL (unit: rad).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YANG": {
+    "description": ": Tait\u2013Bryan angle around local y axis, applied to de\ufb01ne the orientation of the applied boundary condition measured relative to the local system of the master node. Only for SPECIAL (unit: rad).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZANG": {
+    "description": ": Tait\u2013Bryan angle around local z axis, applied to de\ufb01ne the orientation of the applied boundary condition measured relative to the local system of the master node. Only for SPECIAL (unit: rad).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODINC": {
+    "description": ": Nodal increment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REPEAT": {
+    "description": "4 4 2.26",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HIST": {
+    "description": ": Load history number.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIR": {
+    "description": "has value",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODE": {
+    "description": ": id of node. X:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOAD": {
+    "description": ": Load for \ufb01rst element.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODE2": {
+    "description": ": Last node ID",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOAD2": {
+    "description": ": Load for last element. Linear load interpolation is applied for the intermediate elements. If the REPEAT command is introduced then the previous sequence of load generation",
+    "valueType": "number",
+    "section": "General"
+  },
+  "3001": {
+    "description": "0 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CTYPE": {
+    "description": ": Cross-section layer type identi\ufb01er (character string of length 4). In addition to the same layer types for FLEXCROSS, a TAPE representation is allowed for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PDTYPE": {
+    "description": ": Type of contraint equation. Allowed types are:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DISPVAL": {
+    "description": ": Prescribed displacement value (unit: L for dof 1-3, R for dof 4-6). The dispacement value is multiplied with the time dependent load factor",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTNO": {
+    "description": ": History id, specifying the time dependent load pattern. See Section 2.35.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1041": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SLNOD": {
+    "description": ": Node id of the prescribed (slave) node.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SLDOF": {
+    "description": ": Slave dof number. 34",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MNOD1": {
+    "description": ": id for the master node.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MDOF1": {
+    "description": ": Master dof number. C1:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SLAVEINC": {
+    "description": ": Nodal increment for slave.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MASTINC": {
+    "description": ": Nodal increment for master(s).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1001": {
+    "description": "Dof 1 Maxima Statistics",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PDTYP": {
+    "description": ": Type of constraint, can have values LOCAL or GLOBAL.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THIST0": {
+    "description": ": Time history number for C0, refering to the de\ufb01nition of the time dependent load factor, see Section 2.35.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MNOD": {
+    "description": ": id for the master node.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MDOF": {
+    "description": ": Master dof number. C1:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THIST1": {
+    "description": ": Time history number for C1, refering to the de\ufb01nition of the time dependent load factor, see Section 2.35.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IGAP": {
+    "description": ": Control parameter used to control contact element features depending on con- tact element type. For cont164 the appropriate values are IGAP \u22650 or IGAP < 0. If IGAP \u22650",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GRPNAME": {
+    "description": ": Name of the contact element group.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MASTERNAME": {
+    "description": ": Name of the master element group. 35",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SLAVENAMEI": {
+    "description": ": Name of the slave element group or the name of a contact surface, see the COSURFPR command. If the element type of the contact element group is sea150, then the master group shall have the same name as the sea group, and",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IS1": {
+    "description": ": First slave element in contact range. Dummy for hcont and cont152 elements.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISN": {
+    "description": ": Last slave element in contact range. Dummy for hcont and cont152 elements. Search for contact is carried out between IS1 and ISN. TX: Time at which the contact elements are to be activated in the local x direction.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MAXIT": {
+    "description": ": Maximum number of iterations. Must be given if STEPTYPE is given.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "501": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "600": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1000": {
+    "description": "1e5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "10000": {
+    "description": "1 50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "341": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "441": {
+    "description": "1 -1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "241": {
+    "description": "D",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NDIM": {
+    "description": ": Dimension of analysis: 3 : 3-dimensional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISOLVR": {
+    "description": "=1. The number of accepted eigenvalues and the relative error for each eigenvalue are printed to the log \ufb01le. The maximum number of eigenvalue iterations is for the time being set",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NPOINT": {
+    "description": ": Number of integration points around the cross section. This is used both for the pipe non-linear material elements and for the visual model meshing.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IPRINT": {
+    "description": ": Print parameter One or two digits can be applied to set print of model infor- mation to output \ufb01le (.bof), and print of timestep and iterations to log \ufb01le (.blf) and print to screen. In particular print of time and iteration information can be",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONR": {
+    "description": ": Convergence radius. Recommended value is 10\u22125\u201310\u22127. Overrules the global convergence radius from the CONTROL card in Section 2.6. Must be given if",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GAC": {
+    "description": ": Acceleration of gravity (unit: LT\u22122) 38",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISTRES": {
+    "description": ": Start procedure parameter which may have the following values: STRESS-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FREE": {
+    "description": ", RESTART, EIGEN or AUTOSTART. STRESSFREE means that the ini- tial con\ufb01guration is stressfree. RESTART means restart from a previous analysis.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IRESTP": {
+    "description": ": Load step at which the eigenvalues are wanted.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NEVAL": {
+    "description": ": Number of eigenvalues wanted. If a negative number is given, the eigenvalues are animated from irestp on the raf \ufb01le",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IN1PIP": {
+    "description": ": The \ufb01rst pipe element ID number at the start of the catenary.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAMPLE": {
+    "description": ": Vessel ramp length (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IN2PIP": {
+    "description": ": The last pipe element ID number at the vessel end.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INCPIP": {
+    "description": ": The node increment along the element segment (normally 1).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NROLLS": {
+    "description": ": Number of roller stations along stinger.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICATEN": {
+    "description": ": Catenary parameter.. 2 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IVSNOD": {
+    "description": ": Vessel pipe node id (if relevant), i.e. the pipe node where the pipe is termi- nated in the tensioner. In order to move associated vessel model nodes the same",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DEPAN": {
+    "description": ": Vessel departure angle (unit: R).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FREEB": {
+    "description": ": Vessel freeboard (unit L). See Fig. 2.7",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAMPAN": {
+    "description": ": Vessel ramp angle (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STIRAD": {
+    "description": ": Vessel stinger radius R (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KPTDP0": {
+    "description": "\u2212L Figure 2.6: Position of pipe in free span analysis (ICATEN = 0). Figure 2.7: Vessel de\ufb01nition.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SEABDGRP": {
+    "description": ": Name of seabed element group.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STINGERGRP": {
+    "description": ": Name of stinger contact element group (may be NONE for e.g. J-lay).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VESSELGRP": {
+    "description": ": Name of vessel group (may be NONE). This parameter is used to iden- tify whether there is a vessel and which elements that are used to represent the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "440": {
+    "description": "1 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MLINEID": {
+    "description": ": Material ID of the route line, i.e. the center line if several lines are given.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KP1": {
+    "description": ": Starting point of material properties (KP value).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KP2": {
+    "description": ": End point of material properties (KP value).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MNAME": {
+    "description": ": Material name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "60000": {
+    "description": "soil1 2.8",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONAME": {
+    "description": ": Name of contact surface.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COFILE": {
+    "description": ": Name of the ascii data\ufb01le containing the seabed geometry description.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLINES": {
+    "description": ": Number of seabed lines in contact surface \ufb01le. Must be an odd number 1,3,5 etc. A positive number of lines means that the data is on the standard format in Section 2.8.1.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KP0": {
+    "description": ": KP-value for 1. point in contact surface data\ufb01le, i.e. the KP-value for the \ufb01rst data line in COFILE.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XSTART": {
+    "description": ", YSTART and ANGSTART parameters.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YSTART": {
+    "description": ": y-coordinate at start of contact surface relative to the global coordinate system (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ANGSTART": {
+    "description": ": Angular position angle \u03b8, see Fig. 2.28(unit: R).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MLINEIDN": {
+    "description": ": Material ID of additional seabed lines. To be able to apply several seabed lines, they must also be de\ufb01ned in the contact surface \ufb01le.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IDLINE": {
+    "description": ": Optional. A number between 1 and NLINE, specifying that this seabed line is the only one to be used. The \ufb01rst seabed line is the center line coinciding with the route line, and any succeeding",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NAME": {
+    "description": ": Name of the table.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NINTER": {
+    "description": ": Number of intervals within the segment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CURVCODE": {
+    "description": ": Curve code, given as a character string which may have the following 47",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTERFACE": {
+    "description": ": The local interface number. Interface numbers higher than 1 are used to describe holes in a geometry.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "0": {
+    "description": "2e8 2e8 0.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "360": {
+    "description": "1 #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CCURVE": {
+    "description": ": Curve code, given as a character string of length 2. The legal options are: S :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICODE": {
+    "description": "\u0338= 1 The stress inside the cross sectional area is not calculated. Transverse curvature parameter The transverse curvature parameter is used to avoid zero sti\ufb00ness in the transverse direction (TRCURP). The default value is",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MYPIPENAME": {
+    "description": ": Name of BFLEX2010 cross sectional geometry.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "353FLEXCROSS": {
+    "description": ". . . . . . . . . . . . . . . . . . . .57 A",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BENDSTIFF": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .61",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLBENDSTIFF": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 62",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BENDSTIFF-BEND": {
+    "description": ". . . . . . . . . . . . . . . . 61",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLBENDSTIFF-BEND": {
+    "description": ". . . . . . . . . . . . . 62",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENDFAC": {
+    "description": ": end shear spring sti\ufb00ness factor for element type HSHEAR352. By setting a negative value, all elements will have the same friction spring characteristis. The",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EL1GRP": {
+    "description": ": This is a text string to be speci\ufb01ed either as LAY1-LAY2-ELGRPNAME1-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CFATFL": {
+    "description": "AREA IT",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IFRIC": {
+    "description": ": friction stress control parameter: 0 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DISFAC": {
+    "description": ": Maximum relative displacement in shear spring (last point on shear spring material curve, see old B\ufb02ex).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FORFAC": {
+    "description": ": Maximum non dimensional force (last point on shear spring material curve, see old B\ufb02ex).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GEOFAC": {
+    "description": ": Scaling factor for the geometric sti\ufb00ness. A value greater than 1.0 can be applied to stabilize the pipe-bellmouth interaction behaviour. Optional, default",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HSHEAR352": {
+    "description": "3D \ufb02exible",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIMEINI": {
+    "description": "ILAINT ILAEXT IELBFL FIMOD CONTDEN NLAYGRP",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ITCODE": {
+    "description": "= 32 with reference to Section 2.10.1, however, making use of KSHEAR as the value of k in Eq. (2.6). Care should be taken with respect to not selecting a too low KSTICK as noted above.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ILAEXT": {
+    "description": ": The interface number (outside outer layer = number of layers) where external pressure is applied.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IELBFL": {
+    "description": ": Element where BOUNDARY/PFLEX model is located (dummy as per now as the BOUNDARY/PFLEX functionality only exist for FLEXCROSS, see Sec-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FIMOD": {
+    "description": ": Angle position of BOUNDARY model (dummy as per now as the BOUND-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTDEN": {
+    "description": ": Density of content",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NELGR": {
+    "description": ": Number of element groups related to core and tension armour layers",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EL2GRP": {
+    "description": ": Name of element group 2. Representing tensile armour layer 1. Either a",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE52": {
+    "description": "3D \ufb02exible",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELNGRP": {
+    "description": ": Name of element group N representing tensile armour layer N.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CARC": {
+    "description": "5.0e-3 steel_316",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THER": {
+    "description": "6.0e-3 rubber",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZETA": {
+    "description": "6.4e-3 steel_110",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SPIR": {
+    "description": ": Pressure spiral",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THET": {
+    "description": ": Theta type pressure spiral",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TCLI": {
+    "description": ": Clip used together with theta",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CCLI": {
+    "description": ": C-clip",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TENS": {
+    "description": "2.0e-3 steel_190",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATNAME": {
+    "description": ": For the contact element cont126: Name of contact surface. See the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRIC": {
+    "description": "LAYANG",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LAYANGLE": {
+    "description": ": Lay angle (unit: deg).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RNUM": {
+    "description": "TEMP NLMAT CCODE",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TEMP": {
+    "description": ": element temperature (unit: oC)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLMAT": {
+    "description": ": Non-linear material curve name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CCODE": {
+    "description": "\u0338=MANUAL. (Unit: L4).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AREA": {
+    "description": ": Cross section area of tendon. Dummy for CTYPE=THER, and if CCODE\u0338=MANUAL. (Unit: L2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INY": {
+    "description": "IKS WIDTH 61",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IKS": {
+    "description": ": Inertia moment about weak axis of tendon. Dummy for CTYPE=THER, and if",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WIDTH": {
+    "description": ": Width of tendon. Dummy for CTYPE=THER, and if CCODE=MANUAL. (Unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PRLOC": {
+    "description": ": The local pressure on the inside of the layer. Optional and requires that",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLAYER": {
+    "description": ". (Unit: FL\u22122) Note: If NLMAT\u0338=NONE, material type for this group must be ELASTOPLASTIC. Note: If CCODE=MANUAL the remaining cross-section parameters must be speci\ufb01ed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DATA": {
+    "description": "group, the program will calculate the cross-section data based on the boundary curve given. The remaining data are therefore dummy in this case. Note: The contents of the \ufb01le CFATFL are described in Section 2.10.7.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ILAINT": {
+    "description": ": The interface number (inside inner layer = 1) where internal pressure is applied",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ARY": {
+    "description": "/PFLEX functionality only exist for FLEXCROSS, see Section 2.10.1) (unit: deg)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLAYGRP": {
+    "description": ": Number of layer element groups applied to describe the cross-section",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELGRPNAME2": {
+    "description": "or LAY1-LAY2-ELGRPNAME1. LAY1 and LAY2 refers to the cross-section layer number starting from the inside. If one elgrpname reference is given it must refer to a structural element group (either hshear353 for the ten-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELGROUPNAME1": {
+    "description": "is a contact element group, this will be taken from the next layer. In the opposite case this will be taken from the current layer. The layer numbering starts from the inside (LAY1=1=normally carcass) For the pressure",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TAPE": {
+    "description": "1.0e-3 glass_fil",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1-1-": {
+    "description": "carcass",
+    "valueType": "number",
+    "section": "General"
+  },
+  "3-3-": {
+    "description": "zeta",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2-4-": {
+    "description": "seal-contactseal",
+    "valueType": "number",
+    "section": "General"
+  },
+  "5-5-": {
+    "description": "interlayercontact1-tensile1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "6-6-": {
+    "description": "strutape-tapeinwardcontact",
+    "valueType": "number",
+    "section": "General"
+  },
+  "7-7-": {
+    "description": "interlayercontact2-tensile2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "8-8-": {
+    "description": "outersheath",
+    "valueType": "number",
+    "section": "General"
+  },
+  "9-9-": {
+    "description": "bucklingtape # # CTYPE",
+    "valueType": "number",
+    "section": "General"
+  },
+  "87": {
+    "description": "1 0.0 none",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MANUAL": {
+    "description": ": Time stepping is carried out as normal, but given MAXIT overrules the one given in the CONTROL card.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NONE": {
+    "description": ": usual",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-38": {
+    "description": "6 Antiwear",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FLEXT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "38": {
+    "description": "65 0.0 none",
+    "valueType": "number",
+    "section": "General"
+  },
+  "88": {
+    "description": "0 0.0 none",
+    "valueType": "number",
+    "section": "General"
+  },
+  "83": {
+    "description": "1 0.0 none",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MYTAPE": {
+    "description": "NONE 0.00",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NBNOD": {
+    "description": ": Local node number in the bending sti\ufb00ener de\ufb01nition. 63",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODEID": {
+    "description": "Group name 1 Group name 2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RKS": {
+    "description": ": External wrapping fraction \u03b7 (Range: 0-1). Hence the hydrodynamic diameter that will be applied to calculate drag and mass forces will be: D = (1 \u2212\u03b7)Dop +",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOTH": {
+    "description": ": Number of integration segments in thickness direction.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATIN": {
+    "description": ": Material name for inside bending sti\ufb00ener",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATOUT": {
+    "description": ": Material name for outside bending sti\ufb00ener 2.10.7",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NUSMOD": {
+    "description": "NFDPO1 R1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGUTS": {
+    "description": ": Ultimate stress for mean stress correction (unit: F/L2) Then a number of NFDPO lines on the format:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NFDPO1": {
+    "description": "The number of points in the fatigue S-N diagram for longitudinal failure mode. R1 The R-ratio de\ufb01ned as \u03c3min/\u03c3max for the S-N-diagram for all values of IGERB",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IGERB1": {
+    "description": "Method for taking the mean stress into account for longitudinal failure mode. = 0 No mean stress is taken into account. Stress range calculated considering longitudinal stress range for tensile armour, von Mises for pressure armour.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTCO1": {
+    "description": "Method for interpolation in S-N diagram: = 1 Both stress and N in log scale. = 2 Stress in linear scale, N in log scale.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCF1": {
+    "description": "Stress concentration factor longitudinal failure mode.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NFDPO2": {
+    "description": "R2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IGERB2": {
+    "description": "Method for taking the mean stress into account for transverse failure mode as de\ufb01ned for IGERB2 above.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTCO2": {
+    "description": "Method for interpolation in S-N diagram: = 1 Both stress and N in log scale. = 2 Stress in linear scale, N in log scale.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCF2": {
+    "description": "Stress concentration factor transverse failure mode. 66",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFMAX": {
+    "description": "Stress concentration factor to be used for the mean axial stress (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFMBY": {
+    "description": "Stress concentration factor to be used for the mean normal curvature stress (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFMBZ": {
+    "description": "Stress concentration factor to be used for the mean transverse curvature stress (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFDAX": {
+    "description": "Stress concentration factor to be used for the dynamic axial stress (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFDBY": {
+    "description": "Stress concentration factor to be used for the dynamic normal curvature stress (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFDBZ": {
+    "description": "Stress concentration factor to be used for the dynamic transverse curvature stress (unit: -). By specifying the last 6 parameters the SCF1 and SCF2 parameters will be overruled.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "POINT": {
+    "description": ": The point number =1- .... Number of points.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SRANGE": {
+    "description": ": Stress range (in increasing order), starting with the minimum threshold value (unit: F/L2)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NCYFAL": {
+    "description": "Corresponding number of cycles to failure. Comment: Only numeric values in the fatigue data \ufb01le.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IBERGB1": {
+    "description": "INTCO1 SCR1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IBERGB2": {
+    "description": "INTCO2 SCR2 SIGUTS 2 2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "400": {
+    "description": "12 14.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1030": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1170": {
+    "description": ".645142 7.00E+04 2.11",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MSTAT": {
+    "description": ": Parameter for choosing mass matrix type: 1 : Concentrated mass matrix.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALPHA1": {
+    "description": ": Mass proportional damping factor, \u03b11.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALPHA2": {
+    "description": ": Sti\ufb00ness proportional damping factor, \u03b12.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALPHA": {
+    "description": ": \u03b1 in the HHT-\u03b1 time integration method.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BETA": {
+    "description": ": Tension/torsion coupling parameter \u03b2. For a tensile armour of a \ufb02exible pipe with lay angle \u03b1 and radius R, the strain due to centreline strain and torsion is:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GAMMA": {
+    "description": ": \u03b3 in the HHT-\u03b1 time integration method.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNRES_N": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . .68 E",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODEID2": {
+    "description": ": ID of node 2 (optional, applies only for TYPE=4).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DOF2": {
+    "description": ": DOF of node 2 (optional, applies only for TYPE=4). If the optional numbers NODEID2 and DOF2 are speci\ufb01ed the relative displacements between the two nodes will be presented.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNRES_E": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 69",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELID": {
+    "description": ": id of element. X:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELNOD": {
+    "description": ": Element node (max. 2 for pipe and spring, max. 1 for cont and body502)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE31-33": {
+    "description": ", SPRING137, BODY502 : element types with TYPE=1,2 1 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REFSYS": {
+    "description": ": Reference coordinate system for the result, which can be assigned the values",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SYS": {
+    "description": "=GLOBAL. The local system for the spring and pipe element types coincide with the element system as de\ufb01ned by the ELORIENT card in Section 2.19. 70",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNRES_I": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .70",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RES_": {
+    "description": "with the I option (integration station results) can be applied. For de\ufb01nition of integration points for tubular and rectangular csoss sections, see Fig. 2.17. The format is as follows:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IGAU": {
+    "description": ": Element integration station 1-3, 1 and 3 at element ends.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FOR": {
+    "description": "illustration.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IPOINT": {
+    "description": ": Integration point number, max npoint see Section 2.6.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IPOINT2": {
+    "description": ": Conceptual integration point. This applies to tensile armour models apply- ing either pipe52 or hshear364 which do not have a visual model of the local cross-section. It is then possible to decide where in the cross-section pro\ufb01le (rect-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "439": {
+    "description": "1 1 global",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELGR": {
+    "description": ": Element group name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELTY": {
+    "description": ": Element type. The complete list of available element types is given in Table 2.1 below.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOD1": {
+    "description": "can be used if the user wants to force another node system being eccentric relative to the autostart node system to be moved accordingly.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOD2": {
+    "description": ": Node id, optional depending of element type",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOD3": {
+    "description": ": Node id, optional depending of element type",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOD4": {
+    "description": ": Node id, optional depending of element type If the REPEAT command is introduced, the previous sequence is repeated: N:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NELINC": {
+    "description": ": Element increment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LINEAR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . .126",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE33": {
+    "description": "3D beam constant axial",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELASTOPLASTIC": {
+    "description": ". . . . . . . . . . . . . . . . 127",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CODE": {
+    "description": "=0) See Section 2.10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELASTIC": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .127",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COMPIPE42": {
+    "description": "3D beam constant axial",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COMPIPE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 75, 98",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RESULTANT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . .133",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CABLE111": {
+    "description": "3D cable constant axial strain",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CABLE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 75, 101",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EPCURVE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .129 F",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HYCURVE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 131",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT126": {
+    "description": "3D Seabed contact element (x and y",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SOILCONTACT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HYCRUVE": {
+    "description": "1 Local",
+    "valueType": "number",
+    "section": "General"
+  },
+  "130": {
+    "description": "16 #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT130": {
+    "description": "3D Bellmouth con- tact element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BELLMOUTH": {
+    "description": ": Bellmouth.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "137": {
+    "description": "For the cont126 element type, the optional parameters must either consist of only",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SPRING137": {
+    "description": "3D non-linear",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GENSPRING": {
+    "description": ". . . . . . . . . . . . . . . . . 105, 149",
+    "valueType": "number",
+    "section": "General"
+  },
+  "152": {
+    "description": "Z0: z-coordinate of local system.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT152": {
+    "description": "3D Pipe in body el- ement",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SEA150": {
+    "description": "Sea element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SEA": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 78, 133",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT164": {
+    "description": "3D Stinger contact element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROLLER": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 102",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISOCONTACT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 139",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISOKXYCONTACT": {
+    "description": ". . . . . . . . . . . . . . . 140 L",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELIX231": {
+    "description": "3D elastic helix el- ement",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELIX": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . .76",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELAS-": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIC": {
+    "description": "n-dir: CONTACT, - EPCURVE/",
+    "valueType": "number",
+    "section": "General"
+  },
+  "233": {
+    "description": "\u2022 Add command line option to run Pflex: Syntax: p\ufb02ex.exe -n pre\ufb01x",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELIX233": {
+    "description": "3D elastoplastic",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELASTOPLAS-": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "234": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELIX234": {
+    "description": "3D elastic Sz ele- ment",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SZHELIX": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "235": {
+    "description": "-n: avoid interactive entering of .bpi \ufb01le name and controlling parameters. The program will take pre\ufb01x.bpi as the input \ufb01le.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELIX235": {
+    "description": "3D resultant Sz el- ement",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RE-": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SULTANT": {
+    "description": "2(3) Local",
+    "valueType": "number",
+    "section": "General"
+  },
+  "352": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "353": {
+    "description": "flexcross, see Section 2.10.2: 1. For all layers (element groups) \u2a7eilaext, the same external pressure must be speci\ufb01ed. Extenal pressure will then be applied to the outer surface of ilaext,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HSHEAR353": {
+    "description": "3D \ufb02exible",
+    "valueType": "number",
+    "section": "General"
+  },
+  "363": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HSHEAR364": {
+    "description": "3D \ufb02exible",
+    "valueType": "number",
+    "section": "General"
+  },
+  "437": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELSPR437": {
+    "description": "3D helix spring ele- ment",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELSRPING": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELSPRING": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 150",
+    "valueType": "number",
+    "section": "General"
+  },
+  "453": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LAYERCONTACT": {
+    "description": ". . . . . . . . . . . . . . . . 109",
+    "valueType": "number",
+    "section": "General"
+  },
+  "454": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "463": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCONT463": {
+    "description": "3D Armour-sheath contact element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICVISC": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .142 G",
+    "valueType": "number",
+    "section": "General"
+  },
+  "464": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCONT464": {
+    "description": "3D Layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "473": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "502": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BODY502": {
+    "description": "3D Body element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BODY": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 79, 100",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SPRING": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 76",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HSHEAR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 77",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DOFS": {
+    "description": "at each end of the corresponding helix. In addition 2 two internal DOFs are used to allow accurate description of the longitudinal slip process. The torsion DOFs 4 and 10 are dummy. However, if the model includes a thick-walled based modelling",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCONT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 78",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELSPR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . .78",
+    "valueType": "number",
+    "section": "General"
+  },
+  "340": {
+    "description": "1 1 # #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "342": {
+    "description": "# n j k",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GRNAME": {
+    "description": ": Element group name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BEAM": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 80, 82",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTACT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . .80, 135",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RALEIGH": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 81",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALFA1": {
+    "description": ": Rayleigh damping factor for mass matrix contribution.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALFA2": {
+    "description": ": Rayleigh damping factor for material sti\ufb00ness matrix contribution.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "UPDATE": {
+    "description": "=0 and can then not be changed during analysis restarts. ALFA1 and ALFA2 can however be changed if UPDATE=1 is applied. For two-noded elements, the same damping factors are applied at both element ends. Note that ALFA1 and ALFA2 are",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELTYP": {
+    "description": ": Type of element, which may have the following values:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RADIUS": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 85",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STINGER": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 83",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELEND": {
+    "description": ": Element end 1 or 2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XECC": {
+    "description": ": x-component eccentricity in element coordinates relative to the master node, see ex in Fig. 2.19 (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YECC": {
+    "description": ": y-component eccentricity in element coordinates relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZECC": {
+    "description": ": z-component eccentricity in element coordinates relative to the master node, see ez in Fig. 2.19 (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELINC": {
+    "description": ": ELement increment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "3000": {
+    "description": "1 71.56",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DZ2": {
+    "description": ": z-component eccentricity in element coordinates for the second roller end relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YPHI": {
+    "description": ": Orientation angle of the roller system relative to the element system, see \u03d5 in Fig. 2.19. De\ufb01ned as positive for rotation about the negative y-axis of the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DX1": {
+    "description": ": x-component eccentricity in element coordinates for the \ufb01rst roller end relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DY1": {
+    "description": ": y-component eccentricity in element coordinates for the \ufb01rst roller end relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DZ1": {
+    "description": ": z-component eccentricity in element coordinates for the \ufb01rst roller end relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DX2": {
+    "description": ": x-component eccentricity in element coordinates for the second roller end relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DY2": {
+    "description": ": y-component eccentricity in element coordinates for the second roller end relative to the master node (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYPHI": {
+    "description": ". If the parameter RADN is given, the stinger radius of curvature will be equal to DS divided by DYPHI between rollers i= 1 and i=2, and thereafter change linearly towards RADN between rollers i =N \u22121 and i =N.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RADN": {
+    "description": ": Stinger radius of curvature between the two last rollers, i = N \u22121 and i = N. Linear interpolation of the curvature radius is then applied between rollers i = 2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PEAT": {
+    "description": "card for ELECC STINGER, however, the RADIUS option has increased \ufb02exibil- ity as the roller can rotation-symmetric about each of the three coordinate axes. The 86",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IAXIS": {
+    "description": ": The element axis which the roller end eccentricity vectors is rotated about. The eccentricity vector for end 1 is de\ufb01ned by DX1, DY1 and DZ1 and by DX2,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DPHI": {
+    "description": ": Constant angle increment for rotation about IAXIS=1,2 or 3. Positive rotation directions are de\ufb01ned according to the right-hand rule (unit: rad).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELIDN1": {
+    "description": ": The \ufb01rst element ID of sequence n.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELID11": {
+    "description": ": The \ufb01rst element ID of sequence 1.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELID12": {
+    "description": ": The last element ID of sequence 1. 90",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTNO1": {
+    "description": ": The time history ID number for sequence 1.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELIDN2": {
+    "description": ": The last element ID of sequence n.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTNON": {
+    "description": ": The time history ID number for sequence n.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "300": {
+    "description": "12 8.3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELNR1": {
+    "description": ": First element ID number. T1: Temperature of \ufb01rst element (unit: TE).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELNR2": {
+    "description": ": Last element ID number. T2: Temperature of last element (unit: TE). Linear interpolation is applied for the intermediate elements.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOAD1": {
+    "description": "/LOAD2 is: 1 force in local x axis (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EULERANGLE": {
+    "description": ". In case of COORDINATES the remaining parameters have the following meaning:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INC": {
+    "description": ": Node increment",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XINC": {
+    "description": ": x-coordinate/Tait\u2013Bryan angle increment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YINC": {
+    "description": ": y-coordinate/Tait\u2013Bryan angle increment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZINC": {
+    "description": ": z-coordinate/Tait\u2013Bryan angle increment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COORDINATES": {
+    "description": "1 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-10": {
+    "description": "-1e3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-15": {
+    "description": "41 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-19": {
+    "description": ".75 # #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-20": {
+    "description": "# #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHEARMODEL": {
+    "description": ". . . . . . . . . . . . . . . . . . . 112",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELGRP": {
+    "description": ": Element group name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EPTYP": {
+    "description": ": Element property type as de\ufb01ned above. The number and de\ufb01nition of the following parameters depend on the choice of element property type.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAX": {
+    "description": "=VALUE SCFMY=VALUE SCFMZ=VALUE]",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAD": {
+    "description": ": Helix radius (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDR": {
+    "description": ": Radial drag coe\ufb03cient (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDT": {
+    "description": ": Tangential drag coe\ufb03cient (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMR": {
+    "description": ": Radial mass coe\ufb03cient (Normally 2.0 for circular pipes. This will result in an added mass of (RMADD \u22121.0)\u03c1w",
+    "valueType": "number",
+    "section": "General"
+  },
+  "4D2": {
+    "description": ") (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMT": {
+    "description": ": Tangential mass coe\ufb03cient (Must be \u22651.0. A value of 1.0 will result in no tangential added mass according to the above formula.) (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ODP": {
+    "description": ": Outer diameter Dop (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ODW": {
+    "description": ": External wrapping outer diameter Dow (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "32D4": {
+    "description": "op",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PHIST": {
+    "description": ": External pressure and buoyancy mass history id.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MHIST": {
+    "description": ": Dry mass history id number.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELTIME": {
+    "description": "=VALUE: The activation time for the elasto-plastic material model is spec- i\ufb01ed by VALUE, i.e. the elements behave elastically until VALUE is exceeded.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AUTOPLAST": {
+    "description": "=VALUE: By specifying AUTOPLAST=1, the elements behave elas- tically until the proportionality limit is reached.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VALUE": {
+    "description": "\u0338=1. Only available for compipe42, optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHEARA": {
+    "description": "=VALUE: Shear deformations with a shear rigidity (shear area times shear modulus) given by VALUE will be applied. An in\ufb01nite shear sti\ufb00ness results for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFAX": {
+    "description": "=VALUE:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFMY": {
+    "description": "=VALUE:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCFMZ": {
+    "description": "=VALUE:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RADE": {
+    "description": ": External radius where external pressure acts (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RADI": {
+    "description": ": Internal radius where internal pressure acts (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TCURV": {
+    "description": "=VALUE: The activation time for the bending model is speci\ufb01ed by VALUE. Gives zero bending internal moments and sti\ufb00ness for zero moment until VALUE",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INSIDE": {
+    "description": ": Parameter where 1 means that the master is inside the slave group of larger diameter, and any other value means that the master is outside the slave group.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDZ": {
+    "description": ": Drag coe\ufb03cient for z-direction (unit: L2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COGY": {
+    "description": ": Local x-eccentricity from element origin to COG (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WDTHX": {
+    "description": ": X-rotation structural mass at COG (unit: ML2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WDTHY": {
+    "description": ": Y-rotation structural mass at COG (unit: ML2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WDTHZ": {
+    "description": ": Z-rotation structural mass at COG (unit: ML2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDX": {
+    "description": ": Drag coe\ufb03cient for x-direction (unit: L2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDY": {
+    "description": ": Drag coe\ufb03cient for y-direction (unit: L2).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDTHX": {
+    "description": ": Drag coe\ufb03cient for x-rotation at hydrodynamic center (unit: L5).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDTHY": {
+    "description": ": Drag coe\ufb03cient for y-rotation at hydrodynamic center (unit: L5).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CDTHZ": {
+    "description": ": Drag coe\ufb03cient for z-rotation at hydrodynamic center (unit: L5).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMX": {
+    "description": ": Added mass coe\ufb03cient for x-direction (unit: L3).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMY": {
+    "description": ": Added mass coe\ufb03cient for y-direction (unit: L3).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMZ": {
+    "description": ": Added mass coe\ufb03cient for z-direction (unit: L3).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMTHX": {
+    "description": ": Added mass coe\ufb03cient for x-rotation at hydrodynamic center (unit: L5).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMTHY": {
+    "description": ": Added mass coe\ufb03cient for y-rotation at hydrodynamic center (unit: L5).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMTHZ": {
+    "description": ": Added mass coe\ufb03cient for z-rotation at hydrodynamic center (unit: L5).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COGX": {
+    "description": ": Local x-eccentricity from element origin to COG (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COGZ": {
+    "description": ": Local x-eccentricity from element origin to COG (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICCHYD": {
+    "description": ": Hydrodynamic Coriolis-centripetal load switch, optional, default value: 0. 0 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCX": {
+    "description": ": Local x-eccentricity from element origin to hydrodynamic center, optional, de- fault value: COGX(unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCY": {
+    "description": ": Local y-eccentricity from element origin to hydrodynamic center, optional, de- fault value: COGY(unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCZ": {
+    "description": ": Local z-eccentricity from element origin to hydrodynamic center, optional, de- fault value: COGZ(unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTPAR1": {
+    "description": "= is a character string and VALUE is an integer equal to either 0 or 1. For VALUE=0 which is default, an arbitrary number of contact elements may obtain contact with the same pipe element. If VALUE=1,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTPAR2": {
+    "description": "= is a character string and VALUE is an integer that de\ufb01nes the number of pipe elements a contact point is allowed to move along during one increment or iteration step before the contact is deactivated. For the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TPAR2": {
+    "description": "=VALUE option is currently only available for cont164 in combination with the ISOKXYCONTACT material type in Section 2.26.11. The CONTPAR1=VALUE option is applied in situations where two or more contact",
+    "valueType": "number",
+    "section": "General"
+  },
+  "103": {
+    "description": "20.0 #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "40001": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "5301": {
+    "description": "repeat 9",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IREF": {
+    "description": ": Integer parameter for controlling the reference coordinate system applied for the material curves, the element displacements and the element forces. Further",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICOULCNTR": {
+    "description": ": Integer parameter for controlling the COULOMB force scaling option speci\ufb01ed by the GENSPRING material type in Section 2.26.16. Further descrip-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COULOMB": {
+    "description": ": The XNAME and PXNAME_I curves are scaled by the product of the local z-direction force and MUX, while the YNAME and PYNAME_I",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STEP": {
+    "description": ": Load step at which the friction spring in local curvilinear helix system is acti- vated.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONMAT": {
+    "description": ": The name of the contact material describing the helix radial sti\ufb00ness and the longitudinal helix friction properties",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HELIXRAD": {
+    "description": ": helix radius (unit: L).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LAYANG": {
+    "description": ": Helix lay angle \u03b1, positive according to the right hand rule as in Fig. 2.27",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELSE": {
+    "description": ": Friction stress analysis is carried out.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TTIME": {
+    "description": ": The time when friction is activated. Default: 0.0 Unit: s",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NBACK": {
+    "description": ": Number of ordinary helix lengths used for turning direction, see Fig. 2.28.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LPITCH": {
+    "description": ".",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NUSUAL": {
+    "description": ": Number of ordinary helix pitches between turning direction, see Fig. 2.28.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DELTA": {
+    "description": ": The \u03b4 parameter according to Fig.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LSTART": {
+    "description": ": The parameter lstart (unit: -), see Fig. 2.28. This parameter de\ufb01nes where in the curve the \ufb01rst nodal point starts. If it is zero Bflex2010 assumes that the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CORRESPONDS": {
+    "description": "WD: Dry weight (unit: ML\u22121). WS:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GAP0": {
+    "description": ": Initial gap. Default value =0.0, Unit: L. A non-zero value is only applicable",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CNTR1": {
+    "description": ": For hcont454 this is the \ufb01ll factor. i.e. the fraction \ufb01lled by the cross- section of wires with respect to the layer circumference. Dummy for other hcont",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CNTR2": {
+    "description": ": A contact search parameter that is only relevant for hcont453 and hcont464. Default:e 0.0 If set to 1 for hcont453 an update contact search will be carried",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCALEFACT": {
+    "description": ": Ratio between total number of helices in a layer and the number of helices used to represent that layer (i.e. It is not necessary to represent all 70",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GEOTYPE": {
+    "description": ": Geometry type, TUBE, RECTANGLE or TAPE for element type hs- hear363.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GHIST": {
+    "description": ": Gravity history id.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AXISYM": {
+    "description": ": Allowing the user to control the shear interaction behaviour of the hs- hear353 element. If AXISYM = 2 then the bending shear interaction is turned",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISYM": {
+    "description": "will cause full interaction between all axisymmetric and bending e\ufb00ects. Default value = 10, i.e. fully coupled shear interaction is obtained It is noted that this input is not necessary when using 353FLEXCROSS, see Section",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FACT": {
+    "description": "[PHIST GHIST ]",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALFA": {
+    "description": ": Helix lay angle (unit: Radians).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "113": {
+    "description": "applied models itcode=21 & 31 and itcode=0 &1, respectively linked to the pipe52 and hshear352 tensile armour element groups (flexcross), already include some",
+    "valueType": "number",
+    "section": "General"
+  },
+  "114": {
+    "description": "where the shear sti\ufb00ness parameter k is calculated from the below input as: k = G b",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TEFF": {
+    "description": ": The e\ufb00ective thickness of the tape layer. (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GMOD": {
+    "description": ": Shear modulus of the tape layer. If no values are given for the teff and gmod by using D for each parameter, the default plane surface remain plane",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IFRICTION": {
+    "description": ": A non-zero value will activate the new friction model that is based on a constant stick sti\ufb00ness, while zero will activate the old friction model. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KSURF": {
+    "description": ": Surface sti\ufb00ness Default: 1.51011 (unit: N m2) Typically the surface sti\ufb00ness",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KYEL": {
+    "description": ": A user de\ufb01ned lateral transverse elastic sti\ufb00ness. By activating the new fric- tion model (ifriction) in combination with the kyel parameter, the friction",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THISTTX": {
+    "description": ": Time history for scaling of spring moment and sti\ufb00ness about pipe axial rotation DOF.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TTX": {
+    "description": ": Activation time for spring about pipe axial rotation DOF.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THISTX": {
+    "description": ": Time history for scaling of spring force and sti\ufb00ness in pipe axial direction.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THISTY": {
+    "description": ": Time history for scaling of spring force and sti\ufb00ness in pipe transverse di- rection.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THISTZ": {
+    "description": ": Time history for scaling of spring force and sti\ufb00ness in pipe-seabed normal direction.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XNAME": {
+    "description": ": x-direction material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YNAME": {
+    "description": ": y-direction material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZNAME": {
+    "description": ": z-direction material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TXNAME": {
+    "description": ". Note that the x-moment will be set to zero if the option IGAP=2 is applied for the CONTINT card in Section 2.5. The optional parameters must either consist of only XYCHOICE or all of the optional",
+    "valueType": "number",
+    "section": "General"
+  },
+  "T0_UZ": {
+    "description": ": Reference time for the KP-based soil embedment. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THISTUZ": {
+    "description": ": Time history for scaling of KP-based soil embedment. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "UZNAME": {
+    "description": ": Table name for KP-based soil embedment. Optional. The main purpose of the time-controlled soil springs is to enhance the modelling capa-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "116": {
+    "description": "forces and moments, and will be included in results reported by Bflex2010post. The element property type is optional. No time-controlled springs will be present if the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KP-": {
+    "description": "based soil embedment is modeled by the 2-dimensional table UZNAME. The \ufb01rst table column contains the KP-values with coordinate reference as de\ufb01ned by the CO-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SURFPR": {
+    "description": "card in Section 2.8. The second column of the table contains the soil embed- ment \u00afuz0. See Section 2.34 for de\ufb01nition of the table input format. The reference time T0_UZ refers to the simulation time where the pipeline shall have",
+    "valueType": "number",
+    "section": "General"
+  },
+  "450": {
+    "description": "1.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-100": {
+    "description": ".0 -0.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODE1": {
+    "description": ": First node ID",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIME0": {
+    "description": ": Time to store static information.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "START": {
+    "description": ": Start time for ramping.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STOP": {
+    "description": ": Stop time for ramping.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EL1": {
+    "description": ": Element 1 ID.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EL2": {
+    "description": ": Element 2 ID. Results are stored for element EL1 to EL2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELNODE": {
+    "description": ": Element node, i.e. element end. (1 or 2 for pipe, only 1 for cont).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE31-39": {
+    "description": ", SPRING136-137 : : 1 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2301": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILE": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NFDPO": {
+    "description": ": The number of points in the fatigue S-N diagram R :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IGERB": {
+    "description": ": Method for taking the mean stress into account 0 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTCO": {
+    "description": ": Method for interpolation in S-N diagram: 1 :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SCF": {
+    "description": ": Stress concentration factor (unit: )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NSEG": {
+    "description": ": Number of segments in the geometry. A geometry can be built from several segment types aligned after each other in the sequence they are given in the geometry card.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CYLINDER": {
+    "description": "0.0 4",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THETA": {
+    "description": ": Angle of node coordinate. Under option POLAR the REPEAT sequence has the following parameters:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NVIS": {
+    "description": ": Number of visual sections.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LEN": {
+    "description": ": Length of the segment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIAM": {
+    "description": ": Smallest diameter of segment. (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "122": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RADSTART": {
+    "description": ": Curvature radius at start of segment. (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RADEND": {
+    "description": ": Rate of curvature radius change along segment so that 1/Rad=1/Radstart+1/Radend*s where s is curvilinear length along segment",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PHI0": {
+    "description": ": Slope at start of segment. The slope is measured along the longitudinal direc- tion, and relative to the center line of the bellmouth.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIAM1": {
+    "description": ": Diameter of \ufb01rst segment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIAM2": {
+    "description": ": Diameter of last segment.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TEXT": {
+    "description": ": Descriptive analysis text.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IEL1": {
+    "description": ": First core element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISTR1": {
+    "description": "/ISTR2 is 1 axial strain along local x axis (unit: -)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IEL2": {
+    "description": ": Last core element",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISTR2": {
+    "description": ": Initial strain for the last element, optional. Linear interpolation is applied for intermediate elements. If the REPEAT command is used then the previous sequence of load generation is",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICTION": {
+    "description": ": Various friction models with user de\ufb01ned elastic sti\ufb00ness.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "R_CONTACT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . .143",
+    "valueType": "number",
+    "section": "General"
+  },
+  "125": {
+    "description": "default, the x- and y-direction material curves are to be speci\ufb01ed as displacements versus unit force curves. By specifying USERDEFINED at the end of the contact",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HYPERELASTIC": {
+    "description": ". . . . . . . . . . . . . . . . . 148 I",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MTYPE": {
+    "description": ": Material type as de\ufb01ned above. The following parameters depend on the material type as speci\ufb01ed in the following. 2.26.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GIT": {
+    "description": ": Torsion sti\ufb00ness (unit: FL2) EM:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "POISS": {
+    "description": ": Poisson\u2019s ratio (-)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TALFA": {
+    "description": ": Temperature elongation coe\ufb00. (unit K\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TECOND": {
+    "description": ": Thermal conductivity (dummy) (unit: ET\u22121L\u22121TE\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEATC": {
+    "description": ": Heat capacity (dummy) (unit: E\u22121M\u22121TE\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EIY": {
+    "description": ": Bending sti\ufb00ness about y axis (unit: FL2)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EIZ": {
+    "description": ": Bending sti\ufb00ness about z axis (unit: FL2)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DENSITY": {
+    "description": ": Density (unit: ML\u22123)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ETRANS": {
+    "description": ": Transvere Young\u2019s modulus (unit: FL\u22122)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "800": {
+    "description": "< 1 No failure",
+    "valueType": "number",
+    "section": "General"
+  },
+  "7850": {
+    "description": "1.17e-5 50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IHARD": {
+    "description": ": Hardening parameter; 0 = isotropic hardening; 1 = kinematic hardening.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RHO0": {
+    "description": ": Density (dummy) (unit: ML\u22123)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EPS": {
+    "description": ": Strain",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA": {
+    "description": ": Stress (unit: FL\u22122) values describing the material curve for both positive and negative values of strain and stress.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-1000": {
+    "description": "-1e5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-100000": {
+    "description": ".0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "100000": {
+    "description": ".0 2.26.6",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISOHYCURVE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 132",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SEADEN": {
+    "description": ": Sea density (unit: ML\u22123 )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FQX": {
+    "description": ": Axial stress factor fqx (-) Axial stress = Axial force \u00d7 factor",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BENDNAME": {
+    "description": ": Material name in bending (epcurve, hycurve (only helix235) or iso- hycurve (only compipe42))",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RHO": {
+    "description": ": Density (Dummy) (unit: ML\u22123)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FKX": {
+    "description": ": Torsion stress factor fkx (-). For element type compipe42: Shear stress =",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FKY": {
+    "description": ": y-curvature elastic stress factor fky (-). For element type compipe42: Bending stress = y-curvature \u00d7 factor. For element type helix235: Bending stress =",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FKZ": {
+    "description": ": z-curvature elastic stress factor fkz (-). For element type compipe42: Bending stress = z-curvature \u00d7 factor. For element type helix235: Bending stress =",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REFP": {
+    "description": ": Reference pressure (Dummy) (unit: FL\u22122).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IPDER": {
+    "description": ": Friction moment internal pressure rating factor (Dummy) referring to Section",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AND": {
+    "description": "9.17. The maxium bending stress is stabilized quite rapidly due to the gap closure e\ufb00ect, quite in accordance with the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "134": {
+    "description": "moment from the value given on the material curve de\ufb01ned at refp by linear internal pressure scaling (unit: L3).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EPDER": {
+    "description": ": Friction moment external pressure rating factor (Dummy) referring to Sec- tion 2.31 and see Section 2.35. The parameter can be used to increase the friction",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REFT": {
+    "description": ": Reference temperature (Dummy) (unit: C).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TDER": {
+    "description": ": Temperature derating factor (Dummy) referring to Section 2.37 and Section",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THE": {
+    "description": "friction moment point from the value given on the material curve de\ufb01ned at reft by linear temperature scaling(unit: C\u22121).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AXNAME": {
+    "description": ": Material name in axial direction (epcurve or hycurve)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TORNAME": {
+    "description": ": Material name in torsion (epcurve or hycurve)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "7025": {
+    "description": "81 axmat tomat",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CURVE": {
+    "description": "options in Sections 2.26.4 and 2.26.5, respectively. For both cases the curve is to be de\ufb01ned as a consecutive number of points de\ufb01ning displacement/rotation versus force/moment. As explained in Section 2.20.7, material curves that are scaled accord-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PX_NX": {
+    "description": ": Penetration value at which the last penetration-dependent material curve in local x-direction is valid. Positive for penetration into the seabed. Not speci\ufb01ed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PYNAME_1": {
+    "description": ": Local y-direction \ufb01rst penetration-dependent material curve name. The curve must be hyper-elastic. Not speci\ufb01ed for NY=0. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MUX": {
+    "description": ": Friction coe\ufb03cient in local x-direction (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MUY": {
+    "description": ": Friction coe\ufb03cient in local y-direction. Negative value will provide isotropic friction based on MUX (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XYCHOICE": {
+    "description": ": Enables the user to overrule the Coulomb friction concept by userde\ufb01ned characteristics i x- and y - directions by introducing the parameter USERDE-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "USERDEFINED": {
+    "description": ": The XNAME, YNAME, TXNAME, PXNAME_I and PY-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COULOMB-COULOMB-COULOMB": {
+    "description": ": Scaling according to COULOMB is ap- plied for all material curves for the local x- and y-directions and the local",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COULOMB-USERDEFINED-USERDEFINED": {
+    "description": ": Scaling according to COULOMB for XNAME, YNAME and TXNAME, and USERDEFINED characteristics",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PXNAME_I": {
+    "description": "curves and the third word governs the PYNAME_I curves. This is con- venient when describing soil resistance where one part is related to COULOMB and the second part is related to earth pressure resistance better described by a USERDE-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COULOMB-USERDEFINED-COULOMB": {
+    "description": ": Scaling according to COULOMB for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COULOMB-COULOMB-USERDEFINED": {
+    "description": ": Scaling according to COULOMB for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "USERDEFINED-USERDEFINED-USERDEFINED": {
+    "description": ": The curves as de\ufb01ned by the user are applied for all material curves for the local x-direction, the lo-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "USERDEFINED-COULOMB-USERDEFINED": {
+    "description": ": Scaling according to COULOMB for PXNAME_I, and USERDEFINED characteristics applied for XNAME,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "136": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "USERDEFINED-USERDEFINED-COULOMB": {
+    "description": ": Scaling according to COULOMB for PYNAME_I, and USERDEFINED characteristics applied for XNAME,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "USERDEFINED-COULOMB-COULOMB": {
+    "description": ": Scaling according to COULOMB for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PX_1": {
+    "description": ": Penetration value at which the \ufb01rst penetration-dependent material curve in local x-direction is valid. Positive for penetration into the seabed. Not speci\ufb01ed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PXNAME_1": {
+    "description": ": Local x-direction \ufb01rst penetration-dependent material curve name. The curve must be hyper-elastic. Not speci\ufb01ed for NX=0. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PXNAME_NX": {
+    "description": ": Local x-direction last penetration-dependent material curve name. The curve must be hyper-elastic. Not speci\ufb01ed for NX=0,1. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PY_1": {
+    "description": ": Penetration value at which the \ufb01rst penetration-dependent material curve in local y-direction is valid. Positive for penetration into the seabed. Not speci\ufb01ed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PY_NY": {
+    "description": ": Penetration value at which the last penetration-dependent material curve in local y-direction is valid. Positive for penetration into the seabed. Not speci\ufb01ed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PYNAME_NY": {
+    "description": ": Local y-direction last penetration-dependent material curve name. The curve must be hyper-elastic. Not speci\ufb01ed for NY=0,1. Optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SOILX": {
+    "description": "coulomb-userdefined-userdefined # #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "138": {
+    "description": "a consecutive number of points de\ufb01ning displacement versus force per unit length or force, i.e. no scaling with \u00b5Fz is applied.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MUXY": {
+    "description": ": Friction coe\ufb03cient in local xy-direction (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XYNAME": {
+    "description": ": xy-plane material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KSTICK": {
+    "description": ". As opposed to the ISOCONTACT option, the stick sti\ufb00ness is constant and independent of the normal direction contact force. This may enhance the convergence properties in situations where large normal direction contact forces occur, such as for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MUS": {
+    "description": "MUD",
+    "valueType": "number",
+    "section": "General"
+  },
+  "141": {
+    "description": "mm Lay angle - tensile 2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KEL1": {
+    "description": "KEL2 frac kdyn C1 C2 dim ksurf",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MUD": {
+    "description": ": Dynamic friction coe\ufb03cient. Default value: 0.15",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KEL2": {
+    "description": ": Elastic shear sti\ufb00ness in transverse direction. Default: 1.0109 Unit: N m2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRAC": {
+    "description": ": The ratio between the transition slip distance (from static friction to dynamic friction) and the elastic distance (from zero to static friction) Default: 0.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KDYN": {
+    "description": ": Sti\ufb00ness after the transition to dynamic friction. This sti\ufb00ness might be set to a small positive value to improve numerical stability. Default: 0.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIM": {
+    "description": ": Dimension of model (1, 11, 12, -1, -11 -12= 1D 2, -2 = 2D). The negative values only applies for the Coulomb friction model type=6. By specifying a postive",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATMODEL": {
+    "description": "kstick ktrans ksurf mu c1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KSHEAR": {
+    "description": ": Shear sti\ufb00ness. Default: 1.0109 Unit: N m2 In lack of other information, the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KTRANS": {
+    "description": ": Transverse elastic sti\ufb00ness Default: 0.0 (unit: N m2)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MUTX": {
+    "description": ": Friction coe\ufb03cient in local y-direction due to x-rotation (unit: -).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "144": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NAME_I": {
+    "description": "curves as de\ufb01ned by the user are applied.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FINED": {
+    "description": ". The default value is COULOMB. 2.27",
+    "valueType": "number",
+    "section": "General"
+  },
+  "145": {
+    "description": ".5 mm Lay angle - tensile 3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "146": {
+    "description": "The above modications enable modelling of pipe-soil skin friction e\ufb00ects in situations with non-zero x-rotation and zero y-displacement. For instance, consider a pipe that",
+    "valueType": "number",
+    "section": "General"
+  },
+  "147": {
+    "description": "An arbitrary number of penetration-dependent curves PXNAME_I and PYNAME_I may be given and Bflex2010 will interpolate the force and the sti\ufb00ness based on the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "700": {
+    "description": "12 8.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RXNAME": {
+    "description": ": x-rotation material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RYNAME": {
+    "description": ": y-rotation material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RZNAME": {
+    "description": ": z-rotation material curve name",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AXFRIC": {
+    "description": ": Axial coe\ufb03cient of friction.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XMATNAME": {
+    "description": ": Axial x-direction material curve name, using ep- or hycurve.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "151": {
+    "description": "45 (slowly increas- ing)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "POLAR": {
+    "description": ": Nodal points are given in a polar coordinates system for HSHEAR352. Local origo and orientation of the polar system must be speci\ufb01ed. Nodal coordinates will be described along local x-axis by de\ufb01ning radius, angles",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROTDISP": {
+    "description": ": Enables the user to rotate and displace a given set of coordinates If option COORDINATES is selected, the NOCOOR card has the following ele- ments:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XCOR": {
+    "description": ": x-coordinate along local x-axis.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YCOR": {
+    "description": ": y-coordinate.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZCOR": {
+    "description": ": z-coordinate. Under option COORDINATES, the REPEAT card has the following parameters:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BETA1": {
+    "description": ": Rotation about x for local system.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BETA2": {
+    "description": ": Rotation about y for local system.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BETA3": {
+    "description": ": Rotation about z for local system. R:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THETAINC": {
+    "description": ": Increment in angle. If option ROTDISP is selected, the NOCOOR card has the following elements.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "154": {
+    "description": "RI: Inner radius at node j (unit: L). The NODPROP command allows adjusting the element geometry properties of pipe31,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "255": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1042": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1043": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "256": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1044": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "257": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "242": {
+    "description": "\u2013 CONTACT . . . . . . . . . . . . . . . . . . . . . . 135 \u2013 ELASTIC. . . . . . . . . . . . . . . . . . . . . . . .127",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1045": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "260": {
+    "description": "1 near6",
+    "valueType": "number",
+    "section": "General"
+  },
+  "245": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1046": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "263": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "248": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PRESHIST": {
+    "description": ": External pressure and buoyancy mass history number.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GRAVHIST": {
+    "description": ": Dry mass history number. Refer to the concepts of dry mass and dry buoyancy mass concepts applied in the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "158": {
+    "description": "P2: Internal pressure of last element (unit: FL\u22122). Linear interpolation is applied",
+    "valueType": "number",
+    "section": "General"
+  },
+  "16001": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "16280": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "17001": {
+    "description": "69.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "17280": {
+    "description": "69.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-16001": {
+    "description": "69.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-16280": {
+    "description": "69.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-17001": {
+    "description": "69.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-17280": {
+    "description": "69.0 2.33",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REELGRP": {
+    "description": ": Name of the pipe group intended for REELING.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROPIPE": {
+    "description": ": Outer radius of the reeled pipe.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SPOOLSPRGRP": {
+    "description": ": Name of group containing \u201cspring elements\u201d in spool.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SPOOLCOGRP": {
+    "description": ": Name of group containing \u201ccontact elements\u201d in spool.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RSPOOL": {
+    "description": ": Radius of spool.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FCLIMSPOOL": {
+    "description": ": Contact-force cut-o\ufb00limit for spool.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROLLGRP": {
+    "description": ": Name of group for roll.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROLLCOGRP": {
+    "description": ": Name of group for \u201ccontact element\u201d in roll.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RROLL": {
+    "description": ": Radius of roll.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FCLIMROLL": {
+    "description": ": Contact-force cut-o\ufb00limit for spool. The sequence ROLLGRP ROLLCOGRP RROLL FCLIMROLL can be repeated to model multiple rolls.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "T11": {
+    "description": ": Value of entry (1,1), \ufb01rst arguement value",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TN1": {
+    "description": ": Value of entry (n,1), last argument value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "162": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NCOL": {
+    "description": ": Number of columns in table. Must be larger than or equal to 2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "T12": {
+    "description": ": Value of entry (1,2), \ufb01rst function value of column 2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "T1_NCOL": {
+    "description": ": Value of entry (1,ncol), \ufb01rst function value of last column.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIJ": {
+    "description": ": Value of entry (i,j).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TN2": {
+    "description": ": Value of entry (n,2), last function value of column 2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TN_NCOL": {
+    "description": ": Value of entry (n,ncol), last function value of last column. The \ufb01rst column de\ufb01nes the argument values, and the other columns de\ufb01ne the function values. Linear interpolation of the function values are applied in between the argument",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAC1": {
+    "description": ": Load factor for time t1. T2: Time t2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAC2": {
+    "description": ": Load factor for time t2 An arbitrary sequence may be given, and linear interpolation is applied between the time steps de\ufb01ned by the TIMECO card above. For t \u2208[T1 , T2] the load factor will",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THIST_F": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TFILE": {
+    "description": ": \ufb01le name containing the parameters t1,fac1,t2,fac2...,de\ufb01ned above 2.35.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THIST_H": {
+    "description": "100 0.628 0.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "OMEGA": {
+    "description": ": Frequency, \u03c9.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PHASE": {
+    "description": ": Phase displacement, \u03d5. The load factor at any time t, is then de\ufb01ned by: F = sin(\u03c9t + \u03d5)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THIST_R": {
+    "description": "100 10 20",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAMPTYPE": {
+    "description": ": Type of ramping, only RAMPCOS allowed.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAC": {
+    "description": ": Load factor after the ramping. The shape of the ramping function is a half cosine period, starting at zero slope. Be- tween ramping periods, the load factor is keept constant at the value obtained in the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAMPCOS": {
+    "description": "0.0 2.36",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DTVI": {
+    "description": ": Time increment between each restart/visual storage to the .raf \ufb01le.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DT0": {
+    "description": ": Time increment between each zero setting of the accumulated convergence control vectors.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STEPTYPE": {
+    "description": "is given.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ITCRIT": {
+    "description": ": Iteration criterion parameter, enables the user to select between alternative incremental norms scaled with respect to the associated accumulated norms. Must be given if STEPTYPE is given.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AUTO": {
+    "description": ": If required tolerance is not met within MAXIT, the step is subdivided in two parts. This is repeated until required tolerance is met within MAXIT or",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ITERCO": {
+    "description": ": Iteration control parameter. Must be given if STEPTYPE is given.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GO-ON": {
+    "description": ": the program proceeds after the maximum number of iterations is reached",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DISP": {
+    "description": ": displacement norm is used",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FORC": {
+    "description": ": force norm is used",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENER": {
+    "description": ": energy norm is used",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALL": {
+    "description": ": all norms are used",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MAXDIV": {
+    "description": ": Maximum number of sub-divisions. Must be given if STEPTYPE is given.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STATIC": {
+    "description": "# #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNAMIC": {
+    "description": "auto go-on disp",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MODE": {
+    "description": ": Result presentation mode:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTEGRATION": {
+    "description": ":",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FEM": {
+    "description": "results according to the list de\ufb01ned below is enabled in- cluding consistent representation of all numerical elements of the FEM model in xpost including the applied element and node numbers. In addition to",
+    "valueType": "number",
+    "section": "General"
+  },
+  "168": {
+    "description": "the list below \ufb01nite element resultant force results of all pipe elements is allowed for. Other options are deprecated, but this value are kept for back-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FACTOR": {
+    "description": ": Scaling factor for all radial quantities (scale pipe radius).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RESULT": {
+    "description": ": Result types that will be stored, can be a list. Options are:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX": {
+    "description": ": Total longitudinal stress \u03c3xx (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-YY": {
+    "description": ": Transverse stress \u03c3yy (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XY": {
+    "description": ": \u03c3xy Shear stress at mean surface (pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRAIN-XX": {
+    "description": ": \u03b5xx Longitudinal strain at mean surface - (pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRAIN-YY": {
+    "description": ": \u03b5yy Hoop strain at mean surface (pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRAIN-XY": {
+    "description": ": \u03b5xy Shear strain at mean surface (pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ACCSTRAIN": {
+    "description": ": \u03b5tot Total longitudinal strain (elastoplastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XXI": {
+    "description": ": \u03c3xxi Longitudinal stress at inner surface (elastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-YYI": {
+    "description": ": \u03c3yyi Hoop stress at inner surface-thickwalled theory (elastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XYI": {
+    "description": ": \u03c3xyi Shear stress at inner surface (elastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XXO": {
+    "description": ": \u03c3xxo Longitudinal stress at outer surface (elastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-YYO": {
+    "description": ": \u03c3yyo Hoop stress at outer surface-thickwalled theory (elastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XYO": {
+    "description": ": \u03c3xyo Shear stress at outer surface (elastic pipe elements).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VCONDIS-X": {
+    "description": ": Contact element local x-displacement.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VCONDIS-Y": {
+    "description": ": Contact element local y-displacement.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VCONDIS-Z": {
+    "description": ", VCONFOR-X and VCONFOR-Z can be used to obtain the bending induced e\ufb00ects. These are de\ufb01ned by the contact material in the ELPROP card of the helix.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VCONFOR-X": {
+    "description": ": Contact element local x-force (unit: See Table 2.1)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VCONFOR-Y": {
+    "description": ": Contact element local y-force (unit: See Table 2.1)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VCONFOR-Z": {
+    "description": ": Contact element local z-force (unit: See Table 2.1)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-C1": {
+    "description": ": Longitudinal stress in corner 1 of tensile armour. Only for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-C2": {
+    "description": ": Longitudinal stress in corner 2 of tensile armour. Only for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-C3": {
+    "description": ": Longitudinal stress in corner 3 of tensile armour. Only for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-C4": {
+    "description": ": Longitudinal stress in corner 4 of tensile armour. Only for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-AX": {
+    "description": ": Axial stress in tendon. Only for pipe52, uchshear352 and",
+    "valueType": "number",
+    "section": "General"
+  },
+  "169": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-MY": {
+    "description": ": Longitudinal stress due to bending about weak axis. Only for pipe52, uchshear352 and hshear353 elements.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX-MZ": {
+    "description": ": Longitudinal stress due to bending about strong axis (i.e. about surface normal). Only for pipe52, uchshear352 and hshear353 ele-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NRPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 180 P",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FATIGUE": {
+    "description": "for FATIGUE calculations",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 183",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YSCL": {
+    "description": ": Scaling factor to be used for y-axis (to convert to convenient unit).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAFPRE": {
+    "description": ": The Bflex2010post raf-\ufb01le name pre\ufb01x. If the \ufb01le name is de\ufb01ned by a combination of lower case and upper case letters, use e.g. \u2019input-\ufb01lename\u2019.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MPFPRE": {
+    "description": ": The output .mpf \ufb01le name pre\ufb01x. If the \ufb01le name is de\ufb01ned by a combination of lower case and upper case letters, use e.g. \u2019mpf-\ufb01lename\u2019.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XLEG": {
+    "description": ": The legend name for the x-axis. If the legend name contains more than one word or if the name is de\ufb01ned by a combination of lower case and upper case letters, use e.g. \u2019Displacement (m)\u2019.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XRES": {
+    "description": ": x-axis result type. The following result types are available:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOADSTEP": {
+    "description": ": Load step",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIME": {
+    "description": ": Time",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTN": {
+    "description": ": History number with reference to Bflex2010 input \ufb01le, e.g. HIST100",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YLEG": {
+    "description": ": The legend name for the y-axis. If the legend name contains more than one word or if the name is de\ufb01ned by a combination of lower case and upper case letters, use e.g. \u2019Displacement (m)\u2019.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YRES": {
+    "description": ": y-axis result type. All the result types de\ufb01ned as integration point results. In addition, the following result types can be applied:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODISP-X": {
+    "description": "1 81",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODISP-Y": {
+    "description": ": nodal y-displacement (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODISP-Z": {
+    "description": "1 81",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOROT-X": {
+    "description": ": nodal x-rotations (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOROT-Y": {
+    "description": ": nodal y-rotations (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOROT-Z": {
+    "description": ": nodal z-rotations (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FNODEID": {
+    "description": ": First element ID number in numerical model.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LNODEID": {
+    "description": ": Last element ID number in numerical model.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XSCL": {
+    "description": ": Scaling factor to be used for x-axis (to convert to convenient unit).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "16611": {
+    "description": "10 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CID": {
+    "description": "XSCL YSCL",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FELID": {
+    "description": ": First element ID number in numerical model.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LELID": {
+    "description": ": Last element ID number in numerical model.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LSECID": {
+    "description": ": Integration section number along element. Max 2 for PIPE31, PIPE34 and",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE37": {
+    "description": ". Max 3 for PIPE33, PIPE36, PIPE39, COMPIPE42 and CABLE111.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CSECID": {
+    "description": ": Integration section number in cross-section. The total number is given in the control card of the SIMLA analysis.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "174": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORCE-X": {
+    "description": ": Fx force (unit: N)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORCE-Y": {
+    "description": ": Fy force (unit: N)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORCE-Z": {
+    "description": ": Fz force (unit: N)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELMOM-X": {
+    "description": ": Mx moment about centroid x-axis (unit: Nmm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELMOM-Y": {
+    "description": ": My moment about centroid y-axis (unit: Nmm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELMOM-Z": {
+    "description": ": Mz moment about centroid z-axis (unit: Nmm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDISP-X": {
+    "description": ": Local element x displacement (element elongation for beams) (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDISP-Y": {
+    "description": ": Local element y displacement (zero for beam) (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDISP-Z": {
+    "description": ": Local element z displacement (zero for beam) (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELROT-X": {
+    "description": ": Local x-rotation (rigid body rotation eliminated for beam) (unit: R)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELROT-Y": {
+    "description": ": Local y-rotation (rigid body rotation eliminated for beam) (unit: R)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELROT-Z": {
+    "description": ": Local z-rotation (rigid body rotation eliminated for beam) (unit: R)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELTOR-X": {
+    "description": ": torsion about centroid (unit: 1/mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELCUR-Y": {
+    "description": ": y-curvature about centroid (unit: 1/mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELCUR-Z": {
+    "description": ": z-curvature about centroid (unit: 1/mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONDIS-X": {
+    "description": ": Contact element displacement in local x-direction (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "175": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONDIS-Y": {
+    "description": ": Contact element displacement in local y-direction (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONDIS-Z": {
+    "description": ": Contact element displacement in local z-direction (surface normal) (unit: mm ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONFOR-X": {
+    "description": ": Contact element force in local x-direction (unit: FL\u22121 for all con- tact elements except cont130 having unit: F ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONFOR-Y": {
+    "description": ": Contact element force in local y-direction (unit: FL\u22121 for all con- tact elements except cont130 having unit: F ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONFOR-Z": {
+    "description": ": Contact element force in local z-direction (surface normal) (unit: N ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SUBMASS": {
+    "description": ": dry mass - buoyancy mass (unit: ML\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DRYMASS": {
+    "description": ": dry mass (unit: ML\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INISTRA-X": {
+    "description": ": element initial axial strain (unit: -)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTPRES": {
+    "description": ": internal pressure (unit: FL\u22122)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXTPRES": {
+    "description": ": external pressure (unit: FL\u22122)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INITOR-X": {
+    "description": ": initial torsion (unit: L\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INICUR-Y": {
+    "description": ": initial curvature about local y-axis (unit: L\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INICUR-Z": {
+    "description": ": initial curvature about local z-axis (unit: L\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICONDIS-X": {
+    "description": ": Contact element initial displacement in local x-direction (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICONDIS-Y": {
+    "description": ": Contact element initial displacement in local y-direction (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ICONDIS-Z": {
+    "description": ": Contact element initial displacement in local z-direction (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2316": {
+    "description": "1 1e3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "X-COR": {
+    "description": ": x-coordinate (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "Y-COR": {
+    "description": ": y-coordinate (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "Z-COR": {
+    "description": ": z-coordinate (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "T-COR": {
+    "description": ": Polar theta coordinate (for elements connected to nodes generated by this option) (unit: R)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "A-COR": {
+    "description": ": Polar lay angle (for elements connected to nodes generated by this option) (unit: R)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "E-COR": {
+    "description": "\"Axial force (kN)\" ELFORC-X",
+    "valueType": "number",
+    "section": "General"
+  },
+  "K-COR": {
+    "description": ": curvilinear xy-coordinate, i.e. kp-coordinate for pipeline problems re- quires that a seabed has been de\ufb01ned in Bflex2010 (unit: L)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "178": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "179": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTPOI": {
+    "description": ": Integration point number (around cross section, point 1 start at local y=radius and z = 0 and then clockwise). If no integration point, this is the negative refer- ence load step number. Default value: 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLOADSTEP": {
+    "description": ": If a positive load step number is given, then the results will be measured relative to the state at that step. If no or a negative loadstep is given, then actual values are used. Default value: 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFOR-X": {
+    "description": "1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FAPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 180 Fatigue data . . . . . . . . . . . . . . . . . . . . . . . . 63",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOFPRE": {
+    "description": ": The output .lof \ufb01le name pre\ufb01x. If the \ufb01le name is de\ufb01ned by a combination of lower case and upper case letters, use e.g. \u2019fat-\ufb01lename\u2019. I3: the number of load cycles.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FTIME": {
+    "description": ": the \ufb01rst load step for calculating stress range.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LTIME": {
+    "description": ": the last load step point for calculating stress range.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "OPTSTR": {
+    "description": ": Option for stress range calculation. \u0338= 1 : Stress range is taken to be the di\ufb00erence between the stress ranges obtained",
+    "valueType": "number",
+    "section": "General"
+  },
+  "UNTCONV": {
+    "description": ": unit conversion factor to \ufb01t the fatigue data. 3.9",
+    "valueType": "number",
+    "section": "General"
+  },
+  "181": {
+    "description": "of external loads need to be added manually. This is because only element info is stored on data base.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QX-REACT": {
+    "description": "1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QY-REACT": {
+    "description": ": Fy force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QZ-REACT": {
+    "description": ": Fz force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MX-REACT": {
+    "description": ": Mx moment about centroid x-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MY-REACT": {
+    "description": ": My moment about centroid y-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MZ-REACT": {
+    "description": ": Mz moment about centroid z-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QX-DAMP": {
+    "description": ": Fx damping force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QY-DAMP": {
+    "description": ": Fy damping force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QZ-DAMP": {
+    "description": ": Fz damping force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MX-DAMP": {
+    "description": ": Mx damping moment about centroid x-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MY-DAMP": {
+    "description": ": My damping moment about centroid y-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MZ-DAMP": {
+    "description": ": Mz damping moment about centroid z-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QX-INER": {
+    "description": ": Fx inertia force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QY-INER": {
+    "description": ": Fy inertia force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QZ-INER": {
+    "description": ": Fz inertia force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MX-INER": {
+    "description": ": Mx inertia moment about centroid x-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MY-INER": {
+    "description": ": My inertia moment about centroid y-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MZ-INER": {
+    "description": ": Mz inertia moment about centroid z-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QX-ALL": {
+    "description": ": Fx restoring+damping+inertia force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QY-ALL": {
+    "description": ": Fy restoring+damping+inertia force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QZ-ALL": {
+    "description": ": Fz restoring+damping+inertia force (unit: F)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MX-ALL": {
+    "description": ": Mx restoring+damping+inertia moment about centroid x-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MY-ALL": {
+    "description": ": My restoring+damping+inertia moment about centroid y-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MZ-ALL": {
+    "description": ": Mz restoring+damping+inertia moment about centroid z-axis (unit: FL)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IEND": {
+    "description": ": The element end that shall contribute. Default value = 0 means that all element ends are considered. 3.10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FNODID": {
+    "description": ": First node ID number in numerical model.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODESCL": {
+    "description": ": Scaling factor to be used for node number (i = i - NODESCL ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VALSCL": {
+    "description": ": Scaling factor to be used for x-,y and z-values (xi = xi * VALSCL) . The output \ufb01le format is: Node number, Xi , Yi , Zi , T11, T12, T13, T21, T22, T23, T31, T32, T33",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELEM": {
+    "description": "1 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NCYCLE": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PFLEXMESH": {
+    "description": ": Mesh factor for pflex model. Default = 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "185": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ITRANS": {
+    "description": ": If the value 1 is given the element end reactions are transformed to global system. Default value: 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "A7-AN": {
+    "description": ": pre\ufb01x of all dyn \ufb01les to be processed",
+    "valueType": "number",
+    "section": "General"
+  },
+  "I3B": {
+    "description": ": optional parameter. If speci\ufb01ed, the plot number range i3-i3b will be stored to the same .mpf \ufb01le",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NFILES": {
+    "description": "N",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHRAF": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODE": {
+    "description": "Node position for the Pflex model.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAF1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODE1ILOCAL1DELTA1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MOMCTR1IPROC1": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAFI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODEIILOCALIDELTAI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MOMCTRIIPROCI": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAFN": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODENILOCALNDELTAN": {
+    "description": "MOMCTRNIPROCN where N Number of analysis.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ILOCAL": {
+    "description": "Local deformation parameter.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DELTA0": {
+    "description": "Initial ovalization, optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MOMCTR": {
+    "description": "Bending moment scaling parameter, optional.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IPROC": {
+    "description": "Procedure parameter, optional. \u2022 Add command line option to run Boundary: Syntax: boundary.exe -n pre\ufb01x",
+    "valueType": "number",
+    "section": "General"
+  },
+  "190": {
+    "description": "the Bflex2010 analysis), see also Section 2.1. By this parameter it is possible for the user to study various positions along the Bflex2010 model without having",
+    "valueType": "number",
+    "section": "General"
+  },
+  "191": {
+    "description": "\u2022 The model does not consider the directionality of the load i.e. the load",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODE1FIMOD1ILOCAL1ISTRES1NONLIN1ISTPFR1ISTPBE1ICODE1TRCURP1": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODEIFIMODIILOCALIISTRESINONLINIISTPFRIISTPBEIICODEITRCURPI": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INODENFIMODNILOCALNISTRESNNONLINNISTPFRNISTPBENICODENTRCURPN": {
+    "description": "The meaning of each parameter can be referred to Chapter 6. \u2022 Add command line option to run Lifetime:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "193": {
+    "description": "deformations will be included as well. Local stress parameter If the local stress parameter (ISTRES) = 1, the boundary",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHOUT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PREFIX": {
+    "description": ".LOF",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHINCL": {
+    "description": "NCYCLE NSTART NEND IFLAG",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHINCL1NCYCLE1NSTART1NEND1IFLAG1": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHINCLINCYCLEINSTARTINENDIIFLAGI": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHINCLNNCYCLENNSTARTNNENDNIFLAGN": {
+    "description": "where chout is the result \ufb01le name, full name needs to be speci\ufb01ed. The meaning of other parameters can be referred to Chapter 7.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "195": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INCLUDE": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PREFIX1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YORN1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NCYC1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NS1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NE1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IFL1": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PREFIXI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YORNI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NCYCI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NSI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NEI": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IFLI": {
+    "description": "...",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PREFIXN": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YORNN": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NCYCN": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NSN": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NEN": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IFLN": {
+    "description": "where \ufb01le The pre\ufb01x of the raf \ufb01le being part of the analysis.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NEND": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NSTART": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "IFLAG": {
+    "description": "near1 Y",
+    "valueType": "number",
+    "section": "General"
+  },
+  "91790304": {
+    "description": "25 45",
+    "valueType": "number",
+    "section": "General"
+  },
+  "563135": {
+    "description": "40",
+    "valueType": "number",
+    "section": "General"
+  },
+  "80151": {
+    "description": "60",
+    "valueType": "number",
+    "section": "General"
+  },
+  "13123": {
+    "description": "80",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1153": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "197": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-AX": {
+    "description": ": Axial stress \u03c3xa (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-NX": {
+    "description": ": Normal curvature stress \u03c3xbn (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-TX": {
+    "description": ": Transverse curvature stress \u03c3xbt (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-L1": {
+    "description": ": Total longitudinal stress corner 1 of tensile armour, i.e. the sum of the above \u03c3xx (unit: MPa ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-L2": {
+    "description": ": Total longitudinal stress corner 2 of tensile armour, i.e. the sum of the above \u03c3xx (unit: MPa ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-L3": {
+    "description": ": Total longitudinal stress corner 3 of tensile armour, i.e. the sum of the above \u03c3xx (unit: MPa ).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-ZZ": {
+    "description": ": Normal stress \u03c3zz (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-YZ": {
+    "description": ": Shear stress \u03c3zy (unit: MPa )",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT-PRE": {
+    "description": ": Contact pressure (unit: MPa)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REL-DISP": {
+    "description": ": Relative displacement (unit: mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEL-TORS": {
+    "description": ": Helix torsion (unit: mm\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEL-NCUR": {
+    "description": ": Helix normal curvature (unit: mm\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEL-TCUR": {
+    "description": ": Helix transverse curvature (unit: mm\u22121)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HIST400": {
+    "description": "\"Shear force z (kN)\"",
+    "valueType": "number",
+    "section": "General"
+  },
+  "5264": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "5265": {
+    "description": "1 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STEP0": {
+    "description": "INC",
+    "valueType": "number",
+    "section": "General"
+  },
+  "199": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENERGY": {
+    "description": ": Energy (unit: MJ)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INO1": {
+    "description": ": First node ID number in visual model",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INO2": {
+    "description": ": Last node ID number in visual model",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ISTEP0": {
+    "description": ": All values in YRES is subtracted by the value at load step ISTEP0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "9355": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "10507": {
+    "description": "1 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_AXFO": {
+    "description": ": Axial force per layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_TOMO": {
+    "description": ": Torsion moment per layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_PI": {
+    "description": ": Pressure at inside of each layer + outside at last layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_GAP": {
+    "description": ": Gap between each interface",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_DR": {
+    "description": ": Radial displacmeent of each layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_DT": {
+    "description": ": Thickness change per layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_SXX": {
+    "description": ": Longitudinal stress per layer (along helix for helices)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LA_SZZ": {
+    "description": ": Normal (radial) stress per layer",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORC-X": {
+    "description": "10 10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORC-Y": {
+    "description": "10 10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORC-Z": {
+    "description": "10 10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "202": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "204": {
+    "description": "45 (increasing) Failure",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MCM-ITC21-P52": {
+    "description": "6 2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MCM-ITC31-P52": {
+    "description": "6 3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MCM-ITC32-P52": {
+    "description": "6 4",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MCM-ITC32-P52-SHM": {
+    "description": "6 5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MCM-HC464-HS364-M": {
+    "description": "anually modelled 6 6",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-ITC0-P52-HS352": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "254": {
+    "description": "9",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-ITC1-P52-HS352": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-ITC1-P52-HS352-NF": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-HC464-HC463-HS464-HS353": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "656": {
+    "description": "11",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-HC464-HC463-HS464-HS353-NF": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-HC464-HC453-HS464-HS353-NF": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "526": {
+    "description": "The ruc and ITCODE models both included two segments, i.e. 3 centre nodes. In the former case, the pipe length is governed by the pitch length versus number of wires",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-HC464-HC453-HS464-HS353-NF-SHM": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RUC-HC464-HC463-HS464-HS353-NF-SHM-FAC": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-40": {
+    "description": "deg Number of wires - tensile 3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1096": {
+    "description": "mm BS minimum diameter",
+    "valueType": "number",
+    "section": "General"
+  },
+  "428": {
+    "description": "mm Radial gap between pipe and BS",
+    "valueType": "number",
+    "section": "General"
+  },
+  "500": {
+    "description": "MPa Applied tension",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHOWS": {
+    "description": "\ufb01tting at maximum end rotation of the last cycle. For the moment model, the stress distribution is symmetric whereas for the helix model, signi\ufb01cant stresses also occur at the neutral axis. This is due to the transient e\ufb00ect introduced by the fact that the helix",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WERE": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INDICATES": {
+    "description": "A graphical representation of the failure mechanism and the pipe con\ufb01guration in a failed pipe model are shown in Fig. 9.14. It is seen that severe global torsion deformation occurs during failure.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "310": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "512": {
+    "description": ".5 Num. of wires 47",
+    "valueType": "number",
+    "section": "General"
+  },
+  "415": {
+    "description": "Num. of wires 52",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-26": {
+    "description": ".3 Wire size (mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-30": {
+    "description": ".3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-31": {
+    "description": ".0 Wire size (mm) 3\u00c3\u016e10 5\u00c3\u016e12.54\u00c3\u016e15",
+    "valueType": "number",
+    "section": "General"
+  },
+  "650": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1350": {
+    "description": "E-mod. (GPa)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-84": {
+    "description": ".4 Tape size (mm)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "265": {
+    "description": "8 8.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "277": {
+    "description": "21 14.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "269": {
+    "description": "8 14.3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "411": {
+    "description": "9 14.4",
+    "valueType": "number",
+    "section": "General"
+  },
+  "950": {
+    "description": "12 Table 9.7: NUMERICAL RESULTS VERSUS TEST RESULTS IN TERMS OF FAIL-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "URE": {
+    "description": "/NO FAILURE Experiment Numerical",
+    "valueType": "number",
+    "section": "General"
+  },
+  "392": {
+    "description": "45 (increasing) Failure",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1200": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "6000": {
+    "description": "< 1 No failure",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TROL": {
+    "description": ". \u2022 Default selection of friction model has changed from 0 to 1 (old to new) when",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LIX234": {
+    "description": ", HELIX235 and HELPR437",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DYNRES": {
+    "description": "- NEW - Select result storage for speci\ufb01ed nodal, element or intergration point results for all time steps. These results will be stored for all time steps, regardles of the frequency of result storage that is speci\ufb01ed in the VISRES input. See Section",
+    "valueType": "number",
+    "section": "General"
+  },
+  "230": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CTR": {
+    "description": "=0 for high tension cases, and MOMCTR=1 for small tension cases.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "237": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ASME": {
+    "description": "Journal of Engineering for Industry, 91:687\u2013693. \u00d8stergaard, N. (2012). On Lateral Buckling of Armouring Wires in Flexible Pipes. PhD thesis, Aalborg University, Aalborg, Denmark. ISBN 87-91464-35-8.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "239": {
+    "description": "S\u00e6vik, S. (2005-02-14a). Usap - Test Manual, Marintek report no. 700254.00.03. MAR-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTEK": {
+    "description": ", Trondheim, Norway. S\u00e6vik, S. (2005-02-14b). Usap - Theory Manual, Marintek report no. 700254.00.01.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MARINTEK": {
+    "description": ", Trondheim, Norway. S\u00e6vik, S. (2011). Theoretical and experimental studies of stresses in \ufb02exible pipes. Computer and Structures, 89:2273\u20132291.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COSURFR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .42",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ENVRES": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 117",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEADING": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .123",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIMPOST": {
+    "description": "\u2013 FAPLOT . . . . . . . . . . . . . . . . . . . . . . . . 180 \u2013 RSPLOT . . . . . . . . . . . . . . . . . . . . . . . . 182",
+    "valueType": "number",
+    "section": "General"
+  }
+}

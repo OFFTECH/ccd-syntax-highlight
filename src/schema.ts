@@ -1015,20 +1015,31 @@ export const CCD_SCHEMA: CcdSchema = {
 
 };
 
+import { UFLEX_SCHEMA } from './schema/uflexSchema';
+import { BFLEX_SCHEMA } from './schema/bflexSchema';
+import { SIMLA_SCHEMA } from './schema/simlaSchema';
+
+export const SCHEMAS: Record<string, CcdSchema> = {
+  ccd: CCD_SCHEMA,
+  uflex: UFLEX_SCHEMA,
+  bflex: BFLEX_SCHEMA,
+  simla: SIMLA_SCHEMA
+};
+
 // ---------------------------------------------------------------------------
 // Convenience helpers used by server.ts
 // ---------------------------------------------------------------------------
 
 /** Returns all field names that belong to a given section. */
-export function fieldsInSection(section: string): string[] {
-  return Object.entries(CCD_SCHEMA)
+export function fieldsInSection(schema: CcdSchema, section: string): string[] {
+  return Object.entries(schema)
     .filter(([, def]) => def.section === section)
     .map(([key]) => key);
 }
 
 /** Returns only fields that are marked required. */
-export function requiredFields(): string[] {
-  return Object.entries(CCD_SCHEMA)
+export function requiredFields(schema: CcdSchema): string[] {
+  return Object.entries(schema)
     .filter(([, def]) => def.required === true)
     .map(([key]) => key);
 }

@@ -31,7 +31,7 @@ import {
 } from 'vscode-languageserver/node';
 
 import { TextDocument } from 'vscode-languageserver-textdocument';
-import { CCD_SCHEMA, SECTIONS, ValueType } from './schema';
+import { SCHEMAS, SECTIONS, ValueType, CcdSchema } from './schema';
 
 // ---------------------------------------------------------------------------
 // Bootstrap
@@ -69,8 +69,9 @@ function lineRange(lineIndex: number, doc: TextDocument): Range {
 }
 
 /** Build a markdown hover string for a field definition. */
-function buildHoverMarkdown(fieldName: string): string {
-  const def = CCD_SCHEMA[fieldName];
+function buildHoverMarkdown(fieldName: string, langId: string): string {
+  const schema = SCHEMAS[langId] || SCHEMAS['ccd'];
+  const def = schema[fieldName];
   if (!def) return '';
 
   const lines: string[] = [
@@ -116,11 +117,13 @@ connection.onCompletion((params: TextDocumentPositionParams): CompletionItem[] =
 
   const cleanLine = stripComment(lineText);
 
+  const schema = SCHEMAS[doc.languageId] || SCHEMAS['ccd'];
+
   // After "=" → suggest values for the field on this line
   const rhsMatch = cleanLine.match(/^([\w.]+)\s*=\s*(.*)$/);
   if (rhsMatch) {
     const fieldName = rhsMatch[1];
-    const def = CCD_SCHEMA[fieldName];
+    const def = schema[fieldName];
     if (!def) return [];
 
     if ((def.valueType === 'enum' || def.valueType === 'array') && def.allowedValues) {
@@ -159,7 +162,7 @@ connection.onCompletion((params: TextDocumentPositionParams): CompletionItem[] =
   const fieldNameSoFar = cleanLine.match(/^([\w.]*)$/)?.[1] ?? '';
   const items: CompletionItem[] = [];
 
-  for (const [fieldName, def] of Object.entries(CCD_SCHEMA)) {
+  for (const [fieldName, def] of Object.entries(schema)) {
     if (!fieldName.startsWith(fieldNameSoFar)) continue;
 
     const typeLabel = def.allowedValues && def.allowedValues.length > 0
@@ -173,7 +176,7 @@ connection.onCompletion((params: TextDocumentPositionParams): CompletionItem[] =
       insertText: `${fieldName} = `,
       documentation: {
         kind:  MarkupKind.Markdown,
-        value: buildHoverMarkdown(fieldName),
+        value: buildHoverMarkdown(fieldName, doc.languageId),
       },
       sortText: `${def.section}_${fieldName}`,  // group by section in the list
     });
@@ -198,7 +201,7 @@ connection.onHover((params): Hover | null => {
   const match = stripComment(lineText).match(/^([\w.]+)\s*=/);
   if (!match) return null;
 
-  const markdown = buildHoverMarkdown(match[1]);
+  const markdown = buildHoverMarkdown(match[1], doc.languageId);
   if (!markdown) return null;
 
   return {
@@ -212,6 +215,7 @@ connection.onHover((params): Hover | null => {
 function validateDocument(doc: TextDocument): Diagnostic[] {
   const diagnostics: Diagnostic[] = [];
   const seenFields  = new Set<string>();
+  const schema = SCHEMAS[doc.languageId] || SCHEMAS['ccd'];
 
   for (let i = 0; i < doc.lineCount; i++) {
     const rawLine   = doc.getText({ start: { line: i, character: 0 },
@@ -237,7 +241,7 @@ function validateDocument(doc: TextDocument): Diagnostic[] {
     const value = rawValue.trim().replace(/^'|'$/g, '');  // strip surrounding quotes
     seenFields.add(fieldName);
 
-    const def = CCD_SCHEMA[fieldName];
+    const def = schema[fieldName];
 
     // ── Unknown field ─────────────────────────────────────────────────────
     if (!def) {
@@ -314,7 +318,7 @@ function validateDocument(doc: TextDocument): Diagnostic[] {
   }
 
   // ── Missing required fields ───────────────────────────────────────────────
-  for (const [fieldName, def] of Object.entries(CCD_SCHEMA)) {
+  for (const [fieldName, def] of Object.entries(schema)) {
     if (def.required && !seenFields.has(fieldName)) {
       diagnostics.push({
         severity: DiagnosticSeverity.Warning,
@@ -344,6 +348,7 @@ documents.onDidOpen(event => {
 connection.onDocumentSymbol((params): DocumentSymbol[] => {
   const doc = documents.get(params.textDocument.uri);
   if (!doc) return [];
+  const schema = SCHEMAS[doc.languageId] || SCHEMAS['ccd'];
 
   // Build one parent symbol per section, with each field as a child.
   const sectionMap = new Map<string, DocumentSymbol>();
@@ -356,7 +361,7 @@ connection.onDocumentSymbol((params): DocumentSymbol[] => {
     if (!match) continue;
 
     const [, fieldName, value] = match;
-    const def = CCD_SCHEMA[fieldName];
+    const def = schema[fieldName];
     const sectionLabel = def?.section ?? 'Unknown';
 
     if (!sectionMap.has(sectionLabel)) {

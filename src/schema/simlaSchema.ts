@@ -1,0 +1,6254 @@
+import { CcdSchema } from '../schema';
+
+export const SIMLA_SCHEMA: CcdSchema = {
+  'SIMLA': {
+    description: '. . . . . . . . . . . . . . . . . . . . . 29, 35, 219',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CHANGES': {
+    description: '28 2 Introduction',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BONCON': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . 34, 39',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CLOAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 34, 40',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONSTR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . 34, 41',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PDISP': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOCAL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 42, 46',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GLOBAL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . 42, 47',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAO': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .43',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPECIAL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . 45',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONEQ': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .41, 46',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOCSL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47 M',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HISTCONEQ': {
+    description: '. . . . . . . . . . . . . . . . . . . 41, 48',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FEEDCONEQ': {
+    description: '. . . . . . . . . . . . . . . . . . 41, 49',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTINT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 34, 50',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTROL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . .34, 52',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STRESSFREE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 53 T',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RESTART': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 53',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EIGEN': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53 eigen. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .53',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FILEINIT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . .54',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIMEINIT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .54',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INIJLAY': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . .55',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INISLAY': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . .56',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIMEINITSDD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . 56',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'AUTOSTART': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 57 B',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COSUPR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . .34, 62',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COSURFPR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 34',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CROSSGEOM': {
+    description: '. . . . . . . . . . . . . . . . . . 34, 68 – BOX . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70 – CORR . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TUBE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69 U',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CYLR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69 D',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CORR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BOX': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .70',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RECT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GENERAL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 72 general. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .91',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURLOAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . .34, 74',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNCONT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . 34, 74',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNRES_': {
+    description: '. . . . . . . . . . . . . . . . . . . . . .34, 75',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DROPS_GRID': {
+    description: '. . . . . . . . . . . . . . . . . 34, 80',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DROPS_HCOEF': {
+    description: '. . . . . . . . . . . . . . . 34, 83',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DROPS_LOAD': {
+    description: '. . . . . . . . . . . . . . . . . 34, 86',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELCON': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 34, 94',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '100': {
+    description: '30.0 "test"',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '101': {
+    description: 'Tee-structure Templatestructure 3.39',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELDAMP': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 34, 102',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '102': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '103': {
+    description: '20.0 #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '104': {
+    description: '3.17.3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELECC': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 34, 104 – BEAM. . . . . . . . . . . . . . . . . . . . . . . . . . .105 – RADIUS. . . . . . . . . . . . . . . . . . . . . . . . .108',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '105': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '108': {
+    description: 'Figure 3.21: Element coordinates (x, y, z), roller coordinates (x1, y1, z1), orientation angle φ of the roller coordinate system and incremental change of arch length ds and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELHIST': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . .35, 111',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '111': {
+    description: '0.525 0.0341 1.0 0.1 2.0 0.2 1.661 0.454 1.096 1.096 0.5 ’’p2’’',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELLOAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 35, 113',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '113': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELMASS': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . .35, 114 – BEAM. . . . . . . . . . . . . . . . . . . . . . . . . . .103 – CONTACT . . . . . . . . . . . . . . . . . . . . . . 103',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '114': {
+    description: 'N: Number of times to repeat.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELORIENT': {
+    description: '. . . . . . . . . . . . . . . . . . . . 35, 115',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '115': {
+    description: 'where',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELPROP': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . .35, 118',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '118': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '119': {
+    description: 'The number and definition of the following parameters depend on the choice of element property type.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '120': {
+    description: '.0 10.00',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '122': {
+    description: '3.23.3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '124': {
+    description: 'Figure 3.28: C0-continuous contact geometry for IFULLEDGE set to 0. 3.23.5',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '125': {
+    description: '1.0 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '126': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '127': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '129': {
+    description: '# #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '132': {
+    description: '3.23.11',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENVRES_': {
+    description: '- Envelope results By the ENVRES cards, user select results for a given range of element or nodal nodes will be stored on the .raf file on a format that enable envelope results to be presented',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '134': {
+    description: '3.24',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '135': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FATPROP': {
+    description: '. . . . . . . . . . . . . . . . . . . . . 35, 136',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '136': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FEED': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .35, 137',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FLOWLOAD': {
+    description: '. . . . . . . . . . . . . . . . . . 35, 140',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '140': {
+    description: '.3 (Nm−1) Water depth)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GEOM': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .35, 142',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '142': {
+    description: 'The above example of the file ’flow.txt’ is illustrated in Fig. 3.32 for a model consisting of 6 pipe elements. End 2 of element number IELREF=2 is the location where the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HEAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '148': {
+    description: '3.29',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HLA': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . 35, 148',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HLAPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . .35, 149',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '149': {
+    description: '3.31',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HLAVIS': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . .35, 152',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '152': {
+    description: 'Some examples are shown below.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HYDROPRO': {
+    description: '. . . . . . . . . . . . . . . . . . .35, 153',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '153': {
+    description: 'For OBJTYPE=CPIPE (constant pipe) the format is as follows:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '154': {
+    description: 'The number of and definition of the following parameters depend on the choice of hydrodynamic property type.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '156': {
+    description: '3.33.2 Flat plate rotational drag model',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '158': {
+    description: 'θx and θy are outside of the user-specified definition ranges. The computed Euler angles handle the case of seabed surface normal vectors that are not',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '160': {
+    description: '• If the drag and lift coefficients are not specified on the complete definition ranges αi ∈[0 deg, 360 deg] and/or βi ∈[0 deg, 180 deg], the value at the end points will',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INISTR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 35, 164',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '164': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'JOINTPR_APPLY': {
+    description: '. . . . . . . . . . . . 35, 165',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '165': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'JOINTPR_DEFINE': {
+    description: '. . . . . . . . . . . 35, 166 L',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '166': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MATERIAL': {
+    description: '. . . . . . . . . . . . . . . . . . . .35, 168 – BREAKOUT_Y . . . . . . . . . . . . . . . . . 191 – CLAY_Y . . . . . . . . . . . . . . . . . . . . . . . . 188',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '168': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '170': {
+    description: 'type 137.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '171': {
+    description: '3.37.2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '172': {
+    description: '(a) Kinematic hardening (ihard= 1.0) (b) Isotropic hardening (ihard=0.0)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '174': {
+    description: 'Element type Material',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '175': {
+    description: 'stiffness modification. For cont152, the first material point on the negative side is suggested to be less than 1 percent of the last material point as can be seen in the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '176': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '178': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '182': {
+    description: 'coincide with the radial direction of the pipe cross-section provided that the element initial x-axis and the pipe element initial x-axis coincide, and the local y-direction is',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '183': {
+    description: '3.37.10',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '188': {
+    description: 'For the standard case, the material curves XNAME, YNAME, ZNAME and TXNAME need to be defined using the HYCURVE or EPCURVE options.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '190': {
+    description: 'be assigned zero submerged weight. The result types available for the model are defined in Section 3.12.3.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '191': {
+    description: 'in static analysis must be included either by using KP-based initial soil embedment or by using initial displacement for the seabed contact element, see Sections 3.23.11 and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '192': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '195': {
+    description: 'in the first column and the undrained shear strength values in the second column. The penetration has dimension length and is negative when the pipe penetrates into the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '197': {
+    description: 'friction coefficient associated with the break-out resistance and the residual resistance are defined by the parameters E and F, respectively.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '198': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '200': {
+    description: 'elastic pipe31 and 201 CONT126 elements, see Fig. 8.36. The cyclic motion',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '201': {
+    description: '.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '202': {
+    description: 'It is noted that the material curves need to be defined using the HYCURVE or EPCURVE options. For both cases the curve is to be defined as a consecutive number of points',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MOVE_GROUP': {
+    description: '. . . . . . . . . . . . . . . . . . . .35 move_group . . . . . . . . . . . . . . . . . . . . . . . 203 N',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '203': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOCOOR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . .35, 204',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '204': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODPROP': {
+    description: '. . . . . . . . . . . . . . . . . . . . 35, 207',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '207': {
+    description: '3.40',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOORIENT': {
+    description: '. . . . . . . . . . . . . . . . . . . 35, 208',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '208': {
+    description: '# nodid',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PELOAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 35, 209',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '209': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PILOAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . 35, 210',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '210': {
+    description: 'md0 = dry mass reference value as defined in ELPROP card (unit: ML-1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAOPROP': {
+    description: '. . . . . . . . . . . . . . . . . . . . 35, 211',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '211': {
+    description: '# loadhistnr',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'READTRF': {
+    description: '. . . . . . . . . . . . . . . . . . . . .35, 214',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '214': {
+    description: '0.34906585 1.0798',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REEL': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .35, 216',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '216': {
+    description: '3.46',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEALO': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 35, 218',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '218': {
+    description: 'roll4 droll4',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '219': {
+    description: '3.48',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TABLE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 35, 222',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '222': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THIST': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 35, 223',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '223': {
+    description: 'be applied. If the argument is larger than TN1, the last function value of the column(s) will be applied.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '224': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIMECO': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 35, 226',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '226': {
+    description: '3.51',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TLOAD': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . .35, 228',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '228': {
+    description: '# 3.52',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UNITS': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 35, 228',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VISRES': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . .35, 229',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '229': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVELO': {
+    description: 'sea1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '230': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '231': {
+    description: '• CM,t: Inertia coefficient (tangential to pipe) from Morison’s equation. CM,n: In- ertia coefficient (normal to pipe) from Morison’s equation.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '232': {
+    description: '3.55.2 Regular wave loading, WAVETYPE=REGULAR',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '235': {
+    description: '4 SimPost Report Generator',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .236',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '236': {
+    description: 'Comment text strings are defined by introducing # at the start of the line. The following identifiers define the different data groups:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IPPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . 237',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '237': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 238',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '238': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GNPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .240 H',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '240': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GLPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 242',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '242': {
+    description: 'which is convenient when evaluating displacement from the route configuration for pipeline cases.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FAPLOT-': {
+    description: 'Fatigue calculation The purpose of the FAPLOT option is to allow the user to perform fatigue damage calculation for all visual nodes in the structure and where the stress components xx, yy',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '244': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NRPLOT-': {
+    description: 'Nodal Reaction PLOTs The purpose of the NRPLOT option is to allow the user to sum the element forces acting on a certain node and follow this node as function of history. The total force is',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '245': {
+    description: '1. That the fatigue data relevant for structural element material is defined, see Sec- tion 3.25',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RSPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 247 S',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '247': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENPLOT-': {
+    description: 'ENvelope PLOTs The ENvelope PLOT format is:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VIVFAT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . 248 W',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '248': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '250': {
+    description: 'm J-tube inner diameter',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MXPLOT': {
+    description: '1 0.3 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '251': {
+    description: 'The following identifiers define the different data groups: • MXPLOT for MaXima or MiNima postprocessing.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNPLOT': {
+    description: '"slay-nt" "slay-nt-my"',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '252': {
+    description: '0.3490E+02 0.1477E+00',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '253': {
+    description: '6 Searching for Errors',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '254': {
+    description: '7 Third party licenses',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '255': {
+    description: '8 Examples',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '257': {
+    description: 'The static and dynamic analysis is defined in two sequences using the TIMECO card, steps 0-1 with step length 1s for static anslysis and then steps 1.1s-120s with 0.1s step',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '258': {
+    description: 'Figure 8.2: Vessel dynamic displacement history in surge node id 3001. Figure 8.3: Vessel dynamic displacement history in heave node id 3001.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '260': {
+    description: 'Figure 8.6: Dynamic displacement in heave at pipe tensioner node id 441. Figure 8.7: Dynamic axial force in element id 440.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '262': {
+    description: '• CONT126 - a seabed contact element that includes a penalty spring representa- tion of the soil vertical stiffness and a Coulomb friction model for the transverse',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '267': {
+    description: 'the critical torsion moment value is expected to be larger than the one obtained by the Greenhill’s equation. Substituting the observed tension values at the beginning of the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '268': {
+    description: 'Figure 8.20: Critical torsion moment variations along the length of the non-linear model Figure 8.21: Torsion buckling results for COMPIPE42 model',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '274': {
+    description: '(a) Principal model outline (b) 3D view of model at riser inlet with bell-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '276': {
+    description: '8.4.4 Results',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '277': {
+    description: '(a) Stage I (b) Stage II',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '278': {
+    description: 'Figure 8.32: Non-dimensional transient temperature profiles (a) Axial force distribution',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '279': {
+    description: '(a) Zoom of axial displ. in mid-section (b) Associated soil force versus displacement',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '281': {
+    description: 'is dissipated. During this stage, the initial pipe penetration does not change from the initial value. When exposed to cyclic motions in the plastic regime, the soil penetration',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '283': {
+    description: '(a) Cyclic soil resistance force at buckle apex(b) Bending moment distribution after last cy- cle',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '286': {
+    description: 'The approach in the above was that if agreement is demonstrated for trawl boards it should be feasible also to achieve consistent behaviour for other and future trawl gear',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '288': {
+    description: '(a) Configuration during pull-over phase (b) Configuration',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '289': {
+    description: '(a) Warp-line force versus time (b) Longitudinal pipe stress history at contact',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '292': {
+    description: 'Sævik, S. (2017). Simla Theory Manual. SINTEF Ocean, Trondheim, Norway. Sævik, S. and Levold, E. (1995). High temperature snaking behaviour of pipelines. In',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '109': {
+    description: 'Figure 3.22: Modelling of spiral with linearly changing radius of curvature.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '112': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '116': {
+    description: 'During the analysis, the element coordinate system for pipe and hshear elements follows the rotation of the end nodes in an averaged sense, while the element coordinate',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '123': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'C0-': {
+    description: 'continuous contact geometry for IFULLEDGE set to 0. . . . . . .',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '130': {
+    description: 'Figure 3.30: Analysis where CONTPAR1=1 and CONTPAR2=0 or 1 is recommended follow the rotations of element node number 1, see NOD1 for the spring element defined',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '138': {
+    description: 'vessel during feed. If only the three dofs of translation is constrained, the top of the feed guide will act as a hinge, and direction of the guide element is continously changed.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '144': {
+    description: '1.178 2.178',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '194': {
+    description: 'C1: c1, optional, default values: 0.41 for undrain_ngi and 1.5 for undrain_dnv2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '206': {
+    description: 'An arbitrary sequence of nodes may be given, both for POLAR and COORDINATES, as indicated by the dots. However, the value of NODE must be constantly increasing.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '212': {
+    description: 'The sequence FREQ A PHI is repeated for all frequencies. Note that for each direction an arbitrary number of points may be given, however, within each direction no variation',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '256': {
+    description: 'Figure 8.1: S-lay model are two vertical rollers at the last and first roller boxes to avoid transverse displacement,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '259': {
+    description: 'Figure 8.4: Vessel dynamic displacement history in pitch node id 3001. Figure 8.5: Dynamic displacement in surge at pipe tensioner node id 441.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '261': {
+    description: 'Figure 8.8: Contact force plot at stinger tip. Figure 8.9: Dynamic bending moment plot at stinger tip.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '263': {
+    description: 'Figure 8.11: Torsion buckling of the straight beam model with 10 cm mesh size Table 8.1: STUDY INPUT DATA',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '264': {
+    description: '(a) Case A (b) Cases B and C',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '265': {
+    description: 'Figure 8.14: Deformation pattern for Case A (a) Case B',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '266': {
+    description: '(a) My (b) Mz',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '269': {
+    description: 'Figure 8.22: Development of the maximum value of the total curvature for elastic model a kink will be formed in the TDP. For design purposes a safety factor would have to',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '270': {
+    description: 'Figure 8.23: Time history - maximum total curvature - Mx',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '271': {
+    description: '(a) Mx',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '272': {
+    description: 'amplitude of 4m as presented in Fig. 8.28 a compressive force in the range of 9kN appears without indication of kink formation.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '282': {
+    description: 'Table 8.4: INPUT PARAMETERS - SIMULATION OF GLOBAL BUCKLING Parameter',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '284': {
+    description: '(a) Typical fishing gear set-up (b) Side profile of clump-weight hitting the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '173': {
+    description: 'positive paired values. Between specified points, linear interpolation is applied. Values outside the specified',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STUDY': {
+    description: 'INPUT DATA . . . . . . . . . . . . . . . . . . . . . . . . . .',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INPUT': {
+    description: 'PARAMETERS - SIMULATION OF CLUMP-WEIGHT . .',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '275': {
+    description: 'Table 8.2: INPUT PARAMETERS - SIMULATION OF J-TUBE PULL Parameter',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '287': {
+    description: 'Table 8.5: INPUT PARAMETERS - SIMULATION OF CLUMP-WEIGHT Parameter',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNRES_E': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 76',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNRES_I': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .78',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PAR1': {
+    description: ': Additional parameter to describe imported transfer functions. For TYPE = WAM, PAR1 is the characteristic length used in WAMIT. For TYPE = MOS, PAR1 is number of periods used in imported transfer function.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTPAR2': {
+    description: '= is a character string and VALUE is an integer that defines the number of pipe elements a contact point is allowed to move along during one increment or iteration step before the contact is deactivated. For the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVELOAD': {
+    description: '. . . . . . . . . . . . . . . . . . .35, 230 – FROMFILE. . . . . . . . . . . . . . . . . . . . . . .90 – GENERAL . . . . . . . . . . . . . . . . . . . . . . . 91',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ORIENT': {
+    description: '- REMOVED - Card is replaced with the two new cards NOORIENT and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UNIT': {
+    description: '- NEW - Card for specification of analysis units to obtain preferred units in',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HLA-': {
+    description: 'plots.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EXAMPLE': {
+    description: ': # raf file',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENVRES_E': {
+    description: '. . . . . . . . . . . . . . . . . . . 35, 134',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENVRES_N': {
+    description: '. . . . . . . . . . . . . . . . . . . 35, 134',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENVRES_I': {
+    description: '. . . . . . . . . . . . . . . . . . . . 35, 135',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIMVIS': {
+    description: 'unit conversion factors',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TYPE': {
+    description: ': Wave spectrum type. Implemented: 1 = two parameter Pierson Moskowitz spectrum 2 = three parameter Jonswap spectrum',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODID': {
+    description: ': Node ID number j. RO: Outer radius at node j (unit: L). RI: Inner radius at node j (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DOF': {
+    description: 'eps-unit sigma-unit',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MASTERNODE': {
+    description: ': Master node number at which the applied boundary condition is re- ferred. Only for SPECIAL.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XANG': {
+    description: ': Tait–Bryan angle for x-rotation (local system) applied to define the ori- entation of the applied prescribed displacement relative to the local system',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YANG': {
+    description: ': Tait–Bryan angle for y-rotation (local system) applied to define the ori- entation of the applied prescribed displacement relative to the local system',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZANG': {
+    description: ': Tait–Bryan angle for z-rotation (local system) applied to define the ori- entation of the applied prescribed displacement relative to the local system',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODINC': {
+    description: ': Nodal increment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REPEAT': {
+    description: '4 4 3.35',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HIST': {
+    description: ': Load history number.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIR': {
+    description: 'has value',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODE': {
+    description: ': id of node. X: Tait–Bryan angle around x-axis. Y: Tait–Bryan angle around intrinsic y-axis.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOAD': {
+    description: ': Load for first element.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODE2': {
+    description: ': Last node ID number in visual model (optional).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOAD2': {
+    description: ': Load for last element. Linear load interpolation is applied for the intermediate elements. If the REPEAT command is introduced then the previous sequence of load generation',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '3001': {
+    description: '0 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CTYPE': {
+    description: ': Type of geometry for this section. The following types are implemented:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PDTYPE': {
+    description: ': Type of contraint equation. Allowed types are:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DISPVAL': {
+    description: ': Prescribed displacement value (unit: L for dof 1-3, R for dof 4-6). The dispacement value is multiplied with the time dependent load factor',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HISTNO': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1041': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVNO': {
+    description: ': Wave id number. Note that PDISP is only applied for dof 3. The other dofs 1-2 of the sea surface',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2101': {
+    description: '3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '121': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VHEAD': {
+    description: ': Vessel heading angle relative to global x-axis see Fig. 3.1 and Fig. 3.38, (unit: R).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VAWENO': {
+    description: ': Wave id number, see Section 3.55.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAONAME': {
+    description: 'in Section 3.4.1, as shown in the examples below.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISLAY': {
+    description: ', SDDSTART or TIMEINITSDD. STRESSFREE means that the initial configuration is stressfree.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YECC': {
+    description: ': y-component eccentricity in element coordinates relative to the master node (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MNOD': {
+    description: ': id for the master node.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XECC': {
+    description: ': x-component eccentricity in element coordinates relative to the master node, see ex in Fig. 3.21 (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZECC': {
+    description: ': z-component eccentricity in element coordinates relative to the master node, see ez in Fig. 3.21 (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '0': {
+    description: '10 4.0 2200 0.25 4096 1.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SLNOD': {
+    description: ': Slave node id.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SLDOF': {
+    description: ': Slave dof number. C0:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MNOD1': {
+    description: ': Master node id under feeding (end 1 of the guide element, see FEED- command, Section 3.26). This must be the first node in a element which has',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MDOF1': {
+    description: ': Master dof number. C1:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SLAVEINC': {
+    description: ': Nodal increment for slave.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MASTINC': {
+    description: ': Nodal increment for master, mnod2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1001': {
+    description: 'Dof 1 Maxima Statistics',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PDTYP': {
+    description: ': Type of constraint, can have values LOCAL or GLOBAL.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THIST0': {
+    description: ': Time history number for C0, refering to the definition of the time dependent load factor, see Section 3.50.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MDOF': {
+    description: ': Master dof number. C1:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THIST1': {
+    description: ': Time history number for C1, refering to the definition of the time dependent load factor, see Section 3.50.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MNOD2': {
+    description: ': Master node id after feeding (end 2 of subsequent feed-element).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MNOD3': {
+    description: ': Master node id for storage of elements before feeding. This should be ori- ented with the local x-axis of the node is pointing upwards. The stack of stored',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5101': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5012': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5210': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5003': {
+    description: '50 #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5102': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5201': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IGAP': {
+    description: ': Control parameter used to control contact element features depending on con- tact element type. Dummy for elements cont125, cont128 and cont153. For cont124 and cont164 the appropriate values are IGAP ≥0 or IGAP < 0.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GRPNAME': {
+    description: ': Name of the element group to be used in FEED.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MASTERNAME': {
+    description: ': Name of the master element group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SLAVENAMEI': {
+    description: ': Name of the slave element group or the name of a contact surface, see the COSURFPR command. If the element type of the contact element group is sea150, then the master group shall have the same name as the sea group, and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IS1': {
+    description: ': First slave element in contact range. Dummy for hcont and cont152 elements.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISN': {
+    description: ': Last slave element in contact range. Dummy for hcont and cont152 elements. Search for contact is carried out between IS1 and ISN. TX: Time at which the contact elements are to be activated in the local x direction.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MAXIT': {
+    description: ': Maximum number of iterations. Must be given if STEPTYPE is given.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '10000': {
+    description: '1 50',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '341': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '441': {
+    description: '1 -1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '241': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NDIM': {
+    description: ': Dimension of analysis: 2 : 2-dimensional. This option was discontinued as of Simla version 3.17.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISOLVR': {
+    description: ': Equation solver parameter; 1 : gives skyline solver of the equation system.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NPOINT': {
+    description: ': Number of integration points around the cross section. This is used both for the pipe non-linear material elements and for the visual model meshing.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IPRINT': {
+    description: 'in Section 3.6. At each grid point, combinations of hydrodynamic diam- eters and pipe roughness parameters IROUGH from Section 3.14 are tabulated, as well as the existence of pre-generated fixed pipe hydrodynamic wake model',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONR': {
+    description: ': Convergence radius. Recommended value is 10−5–10−7. Overrules the global convergence radius from the CONTROL card in Section 3.6. Must be given if',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GAC': {
+    description: ': Acceleration of gravity (unit: LT−2) 53',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISTRES': {
+    description: '= SDDSTART is the option for automatic start with a sdd configuration. This configuration puts restrictions on how the fem model must be defined. Two sections of pipe/umbilical must be defined. The first one will be the tail, reaching',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FREE': {
+    description: ', RESTART, EIGEN, AUTOSTART, FILEINIT, TIMEINIT, INIJLAY, IN-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IRESTP': {
+    description: ': Load step at which the eigenvalues are wanted.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NEVAL': {
+    description: ': Number of eigenvalues wanted. If a negative number is given, the eigenvalues are animated from irestp on the raf file',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COFILE': {
+    description: ': Name of the ascii datafile containing the seabed geometry description.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TSLINI': {
+    description: ': Time for relevant configuration.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IFILE': {
+    description: ': Name of input file for static laying analysis.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPEGRP': {
+    description: ': Pipe group name. Note: This option requires that the pipe group in the model is identical to the one used',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VESSELGRP': {
+    description: ': Name of vessel group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEAGRP': {
+    description: ': Sea group id, only one allowed.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TENSIONERGRP': {
+    description: ': Tensioner group name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TCONGRP': {
+    description: ': T-connection group name, can have value NONE. This parameter can be used in some analysis of type SIMLA-FEED given in TIMECO, see Section 3.51.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INITYP': {
+    description: ': Type of start, currently file is the only allowable value.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NPIPE': {
+    description: ': Number of pipe groups in pipe to be layed.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TYP': {
+    description: '=WAKE specified in the DROPS_HCOEF input card are pre-generated. The 81',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LSEABED': {
+    description: ': Length of pipe resting on sebed (behind tdp).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DLSDD': {
+    description: ': Element lengths for umbilical around sdd.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DLTOP': {
+    description: ': Element length in top of umbilical.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDRANGE': {
+    description: ': Range around sdd for which DLSDD should be used.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELM1': {
+    description: ': Max. element length towards umbilical tail.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EML2': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RATE': {
+    description: ': Rate to change element lengths, recomended 0.1 ie. 10%.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDNODE': {
+    description: ': Node on pipe where sdd will be centered. (Must be the last node of umbilical number 1.)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VESSELGRPN': {
+    description: ': Last vessel group, starting with prefix vessel.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UMBGRP1': {
+    description: ': Current model first umbilical group id starting with the prefix umb.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDGRPN': {
+    description: ': Current model last sdd group id starting with the prefix sdd.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELM2': {
+    description: ': Max. element length in umbilcal region between sdd and top.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDNODE2': {
+    description: ': Node of stub 1 (Optional).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDNODE3': {
+    description: ': Node of stub 2 (Optional).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VESSELGRP1': {
+    description: ': First vessel group, starting with prefix vessel.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UMBGRPN': {
+    description: ': Current model last umbilical group id starting with the prefix umb.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CABLEGRP1': {
+    description: ': Current model cable group id starting with the prefix cab.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CABLEGRP2': {
+    description: ': Current model cable group id, connects to stub 1, starting with the prefix cab (Optional, must be given if SDDNODE2 has been given).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CABLEGRP3': {
+    description: ': Current model cable group id, connects to stub 2, starting with the prefix cab (Optional, must be given if SDDNODE3 has been given).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDGRP1': {
+    description: ': Current model first sdd group id starting with the prefix sdd.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ORHEAD': {
+    description: ': Overrule heading, optional. If given, the vessel head angle will be overruled by this value.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '13001': {
+    description: '10001 10003 # #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SURFPR': {
+    description: 'card, see Section 3.8. It then finds the initial configuration by identifying candidate seabed contact points. A catenary section is included depending on lay ves- sel parameters. Both J-lay and S-lay is allowed. Note that the catenary section option',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ICATEN': {
+    description: ': Catenary parameter.. 2 :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IN1PIP': {
+    description: ': The first pipe element ID number at the start of the catenary.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAMPLE': {
+    description: ': Vessel ramp length (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IN2PIP': {
+    description: ': The last pipe element ID number at the vessel end.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INCPIP': {
+    description: ': The node increment along the element segment (normally 1).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NROLLS': {
+    description: ': Number of roller stations along stinger.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IVSNOD': {
+    description: ': Vessel pipe node id (if relevant), i.e. the pipe node where the pipe is termi- nated in the tensioner. In order to move associated vessel model nodes the same',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DEPAN': {
+    description: ': Vessel departure angle (unit: R).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FREEB': {
+    description: ': Free board of the umbilical.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAMPAN': {
+    description: ': Vessel ramp angle (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STIRAD': {
+    description: ': Vessel stinger radius R (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KPTDP0': {
+    description: '−L Figure 3.3: Position of pipe in free span analysis (ICATEN = 0). 60',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEABDGRP': {
+    description: ': Name of seabed element group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STINGERGRP': {
+    description: ': Name of stinger group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INOCOG': {
+    description: ': Node id number for vessel cog, see Fig. 3.4.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '440': {
+    description: '1 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDSTART': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .60',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEABEDGRP': {
+    description: ': Name of seabed group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPEVNO2': {
+    description: ': Node on vessel where pipe elements are to be stored. This must be',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BACK': {
+    description: ']',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDDGRP': {
+    description: ': Name of sdd group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WIREGRP': {
+    description: ': Name of wire group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IEL1': {
+    description: ': First element ID.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IEL2': {
+    description: ': Last element ID, optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPEVNO1': {
+    description: ': Node on vessel where pipe guide element is attached. Must be different from WIREVNO1.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WIREVNO1': {
+    description: ': Node on vessel where wire guide element is attached. Must be different from PIPEVNO1.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WIREVNO2': {
+    description: ': Node on vessel where wire elements are to be stored. This must be consistent with the node given in the FEEDCONEQ constraints in the CONSTR',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HINI': {
+    description: ': Initial height over seabed for the sdd.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TDP0': {
+    description: ': Required initial kp value for tdp.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TENS0': {
+    description: ': Required tension in umbilical at touch down point. 62',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IVCOG': {
+    description: ': Vessel node, where a CLOAD with its own THIST shhould be connected if steering after tension. Note that the vessel should not have ELECC to this node.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LAYBACK': {
+    description: ': Steering to obtain constant layback. T :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MLINEID': {
+    description: ': ID of material line The material line MLINEID describes the material properties on KP basis as defined by',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KP1': {
+    description: ': KP start for this line of the table.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KP2': {
+    description: ': KP stop for this line of the table.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MNAME': {
+    description: ': Material name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '60000': {
+    description: 'soil1 3.8',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONAME': {
+    description: ': Name of contact surface as defined by the COSURFPR card.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NLINES': {
+    description: ': Number of seabed lines in contact surface file. Must be an odd number 1,3,5 etc. A positive number of lines means that the data is on the standard format in Section 3.8.1. A negative number of lines means that the data is on the survey',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KP0': {
+    description: ': KP-value for 1. point in contact surface datafile, i.e. the KP-value for the first data line in COFILE.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XSTART': {
+    description: ', YSTART and ANGSTART parameters. 64',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YSTART': {
+    description: ': y-coordinate at start of contact surface relative to the global coordinate system (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ANGSTART': {
+    description: ': Angular orientation of contact surface relative to the global coordinate system (unit: R).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MLINEIDN': {
+    description: ': Material ID of additional seabed lines. To be able to apply several seabed lines, they must also be defined in the contact surface file.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IDLINE': {
+    description: ': Optional. A number between 1 and NLINE, specifying that this seabed line is the only one to be used. The first seabed line is the center line coinciding with the route line, and any succeeding',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KP-': {
+    description: 'end. Horizontal distance from TDP to last node on pipe (connection to vessel) [m] :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NINFO5': {
+    description: '=13 and must have the following representation for pointer 1 to pointer 13 as illustrated in Fig. 3.9: 1. The cover indicator. If non-zero, then z1 refers to top of soil.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIAM': {
+    description: ': Smallest diameter of segment. (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RLEC': {
+    description: 'increases the smoothening, while small values of RLEC gives less smoothening. The applied value of RLEC should reflect the bending stiffness of the pipeline, in which high stiffness typically requires that RLEC is large. Selecting a too low value of RLEC',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PROP': {
+    description: 'card in Section 3.23.11. This modelling option is available for both the cont125 and the cont126 element types. To model initial soil embedment based on the survey route file in Section 3.8.2, the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NAME': {
+    description: ': Name of the table.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VAR': {
+    description: ': Variation parameter, 1=Harmonic, 2=Circular If VAR = 1, the radial variation along the sylinder is taken to be r(x) =',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NINTER': {
+    description: 'INTERFACE',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURVCODE': {
+    description: ': Curve code, given as a character string which may have the following values:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INTERFACE': {
+    description: ': The local interface number. Interface numbers higher than 1 are used to describe holes in a geometry.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . .97, 119 prefix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 – dyn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '360': {
+    description: '.5 30 2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DEPTH': {
+    description: ': Depth coordinate, at sea surface = 0.0. (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VELO': {
+    description: ': Velocity along the current direction vector. (unit: LT−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZROT': {
+    description: ': Rotation of the current direction vector about the global z-axis. (unit: rad) An arbitrary sequence of depths, velocities and rotations may be given, as long as the depth is constantly decreasing.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-100': {
+    description: '.0 -0.2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-500': {
+    description: '0.1 1.57',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-5000': {
+    description: '0.1 1.57',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MSTAT': {
+    description: ': Parameter for choosing mass matrix type: 1 : Concentrated mass matrix.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ALPHA1': {
+    description: ': Mass proportional damping factor, α1. 75',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ALPHA2': {
+    description: ': Stiffness proportional damping factor, α2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ALPHA': {
+    description: ': α in the HHT-α time integration method.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BETA': {
+    description: ': Axial-torsion coupling parameter β (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GAMMA': {
+    description: ': γ in the HHT-α time integration method.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNRES_N': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . .75 E',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODEID': {
+    description: 'Group name 1 Group name 2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODEID2': {
+    description: ': ID of node 2 (optional, applies only for TYPE=4).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DOF2': {
+    description: ': DOF of node 2 (optional, applies only for TYPE=4). If the optional numbers NODEID2 and DOF2 are specified the relative displacements between the two nodes will be presented.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELID': {
+    description: ': id of element. X:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELNOD': {
+    description: ': Element node (max. 2 for pipe and spring, max. 1 for cont and body502)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE31-39': {
+    description: ', SPRING136-137 : : 1 :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE31': {
+    description: '3D beam constant axial',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BODY502': {
+    description: '3D Body element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REFSYS': {
+    description: ': Reference coordinate system for the result, which can be assigned the values',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SYS': {
+    description: '=GLOBAL. The local system for the spring and pipe element types coincide with the element system as defined by the ELORIENT card in Section 3.22. The hydrodynamic loads for TYPE=3 are calculated based on the fluid relative motion,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IGAU': {
+    description: ': Element integration station 1-3, 1 and 3 at element ends.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FOR': {
+    description: 'illustration.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IPOINT': {
+    description: ': Integration point number, max npoint see Section 3.6.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '439': {
+    description: '1 1 global',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOADNO': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KPSTART': {
+    description: ':',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KPEND': {
+    description: ': KP end value for the free span.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVE_STORE': {
+    description: ': Storage of wave elevation. Allowable values are ON or OFF. Optional, default value WAVE_STORE=ON Fig. 3.16 illustrates how a single hydrodynamic grid is defined. The grid domain is',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VAZ_STORE': {
+    description: ': Storage of kinematic velocity and acceleration in z-direction. Allowable values are ON or OFF. Optional, default value VAZ_STORE=ON',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAZ_STORE': {
+    description: '=OFF. This will reduce the memory consumption. Note: The memory consumption may be reduced by specifying WAVE_STORE=OFF. This de-activates storage of the wave elevation time series and is the recommended',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OFF': {
+    description: 'ON #-----------------------------------------------------------------------',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOADTYP': {
+    description: ': Load model type at zero gap:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FACNAME': {
+    description: 'ZPENFACNAME RTRYFACNAME RTRZFACNAME] where',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IROUGH': {
+    description: ': Integer defining pipe roughness normalized by diameter, Rk = ks/D, where ks is the mean roughness grain size. The following integer values are allowed: 1 : Rk =1 · 10−3 (unit: -)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YFAC': {
+    description: ': Load scaling factor for the lateral hydrodynamic load (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZFAC': {
+    description: ': Load scaling factor for the hydrodynamic lift load (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NSTEP': {
+    description: ': Number of time instants T_I for updating the gap-dependent hydrodynamic coefficients and the load scale factors for soil penetration and trenching. Updating is performed for all load steps if NSTEP=0.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NELGRP': {
+    description: ': Number of pipe element groups referred to by PIPE_1−PIPE_N.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'T_I': {
+    description: ': Time instant(s) where the gap-dependent hydrodynamic coefficients are to be updated (unit: T).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GAPMORI': {
+    description: ': The seabed-pipe gap at which the loading is based solely on the Morison load model. See further explanation below. (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MORI': {
+    description: ': The Morison load model is applied at zero pipe-seabed gap with Cm, CL and Cd from the gap-dependent tables.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAKE': {
+    description: '# #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MASSNAME': {
+    description: ': Table name for gap-dependent mass coefficient Cm for the Morison load model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LIFTNAME': {
+    description: 'and DRAGNAME. The trench KP-dependent tables RTRYFACNAME and RTRZFACNAME applies KP as the argument and the load reduction factor as the function value. The load reduction',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DRAGNAME': {
+    description: ': Table name for gap-dependent drag coefficient Cd for the Morison load model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE_I': {
+    description: ': Name of the pipe element group(s) subjected to hydrodynamic loading. Only element types pipe31, pipe33 or compipe42 are allowed.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YPENFACNAME': {
+    description: 'and ZPENFACNAME. Note: ELPROP card will be over-ruled by the DROPS_HCOEF card.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZPENFACNAME': {
+    description: ': Table name referring to the soil penetration dependent hydrody- namic lift scaling factor. If ZPENFACNAME=NONE scaling is omitted. Op- tional, no scaling if omitted.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RTRYFACNAME': {
+    description: ': Table name referring to the trench KP-dependent lateral hydrody- namic load scaling factor. If RTRYFACNAME=NONE scaling is omitted. Op- tional, no scaling if omitted.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RTRZFACNAME': {
+    description: ': Table name referring to the trench KP-dependent lift hydrodynamic load scaling factor. If RTRZFACNAME=NONE scaling is omitted. Optional, no scaling if omitted.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELGRP': {
+    description: ': Element group name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURVEL': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURANG': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CUHREF': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CUROUGH': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVETYPE': {
+    description: ': Wave type. Possible values are REGULAR and IRREGULAR',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURPROF': {
+    description: ': Current profile type. Allowable values are:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVANG': {
+    description: ': Wave main direction measured by angle relative to the global x-axis, see φ0 in Eq. (3.8) and Fig. 3.1 (unit: rad).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TDUR': {
+    description: ': Duration of wave kinematics time series, Tdur, ( unit: T) T0:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TSTART': {
+    description: ': Start time Tstart for generation of wave kinematics and fixed pipe hydrody- namic loads (unit: T).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEED': {
+    description: ': Seed, i.e. the starting integer value of the generation of the random phase angles of the wave kinematics time series.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPEC': {
+    description: 'CURPROF [PKDNESS SPREAD NDIR SPREADPAR] where the inputs are identical to those described above for WAVETYPE=IRREGULAR and CURPROF=STANDARD is the only allowable option.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STANDARD': {
+    description: '1.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RPF109': {
+    description: '0.0625e-3 1.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PKDNESS': {
+    description: ': Peakedness parameter, only for Jonswap spectrum. The wave elevation is expressed as:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPREAD': {
+    description: ': Wave spreading option, dummy input if SPEC=10. Allowable values are:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SHORT': {
+    description: '8 2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LONG': {
+    description: ': Long-crested sea, which is the default option.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NDIR': {
+    description: ': Number of directions for short-crested sea, see Nφ in Eq. (3.8). Dummy for SPREAD=LONG.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPREADPAR': {
+    description: ': Spreading function exponent, see n in Eq. (3.10). Dummy for SPREAD=LONG.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '110': {
+    description: '1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IRREGULAR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . .87',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '10800': {
+    description: '1.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'D50': {
+    description: ': Grain size d50, i.e. median diameter of soil particles. Note the warning about consistent units described below (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SECONDORDER': {
+    description: '. . . . . . . . . . . . . . . . . . .90',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FROMFILE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .90 G',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '512': {
+    description: '0.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELGR': {
+    description: ': Element group name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELTY': {
+    description: ': Element type. The complete list of available element types is given in Table 3.1 below.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MATNAME': {
+    description: ': For the contact elements cont125, cont126 and cont128: Name of contact surface. For body502 the value must be NONE. For all other elements: material name. See the COSURFPR command in Section 3.8.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOD1': {
+    description: 'can be used if the user wants to force another node system being eccentric relative to the autostart node system to be moved accordingly.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOD2': {
+    description: ': Node 2 id, optional depending of element type',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOD3': {
+    description: ': Node 3 id, optional depending of element type',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODN': {
+    description: ': Node n id, optional depending of element type If the REPEAT command is introduced, the previous sequence is repeated: N:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NELINC': {
+    description: ': Element increment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LINEAR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . .170',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE33': {
+    description: '3D beam constant axial',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELASTOPLASTIC': {
+    description: '. . . . . . . . . . . . . . . . 171',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE34': {
+    description: '3D beam interpola- tion as for PIPE31',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE36': {
+    description: '3D beam cubic ax- ial strain and con-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE37': {
+    description: '. Max 3 for PIPE33, PIPE36, PIPE39, COMPIPE42 and CABLE111.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPE39': {
+    description: '3D beam cubic ax- ial strain and tor-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COMPIPE42': {
+    description: 'instead of pipe31 to describe a non-linear moment-curvature character- istic. Assuming that this is a cable structure and considering the low tension at TDP, the friction moment value will be governed by manufacturing effects such as shrinking',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COMPIPE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . 97, 120',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RESULTANT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . .176',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CABLE111': {
+    description: '3D cable constant axial strain',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CABLE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 97, 125',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EPCURVE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .172 F',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HY-': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURVE': {
+    description: '0 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT124': {
+    description: '3D Stinger contact element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROLLER': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 127',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTACT': {
+    description: '. . . . . . . . . . . . . . . . . . . 103, 178',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT125': {
+    description: '3D Seabed contact element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SOILCONTACT': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT126': {
+    description: '3D Seabed contact element (x and y',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '128': {
+    description: 'the friction variables will be reset. By default VALUE=1 is applied. The CON-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT128': {
+    description: '3D User',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERCONTACT': {
+    description: '. . . . . . . . . . . . . . . . . . 126 V',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPRING': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 100, 201',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT130': {
+    description: '3D Bellmouth con- tact element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BELLMOUTH': {
+    description: ': Bellmouth.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISOCONTACT': {
+    description: '. . . . . . . . . . . . . . . . . . . . 182',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPRING136': {
+    description: '3D linear spring el- ement',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LINSPRING': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . 201',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '137': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPRING137': {
+    description: '3D non-linear',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GENSPRING': {
+    description: '. . . . . . . . . . . . . . . . . 129, 202',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '150': {
+    description: 'L: Length over which the mob. factor is calculated. Should not be taken larger',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEA150': {
+    description: 'Sea element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEA': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 100, 175',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT152': {
+    description: '3D Pipe in body el- ement',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT153': {
+    description: '3D body and pipe element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTBODY': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISOKXYCONTACT': {
+    description: '. . . . . . . . . . . . . . . 183 J',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT164': {
+    description: '3D Stinger',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONT170': {
+    description: '3D Bellmouth ca- ble/pipe contact el-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '342': {
+    description: '# n j k',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HSHEAR342': {
+    description: '3D Coating (bflex) element',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COAT': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONCRETE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . 202',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '502': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BODY': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 101, 124',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NONE': {
+    description: ': usual',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HSHEAR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 100',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '340': {
+    description: '1 1 # #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GRNAME': {
+    description: ': Element group name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BEAM': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 103, 105',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RALEIGH': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 104',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ALFA1': {
+    description: ': Rayleigh damping factor for mass matrix contribution.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ALFA2': {
+    description: ': Rayleigh damping factor for material stiffness matrix contribution.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UPDATE': {
+    description: '=0 and can then not be changed during analysis restarts. ALFA1 and ALFA2 can however be changed if UPDATE=1 is applied. For two-noded elements, the same damping factors are applied at both element ends. Note that ALFA1 and ALFA2 are',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELTYP': {
+    description: ': Type of element, which may have the following values:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RADIUS': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . .108',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STINGER': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 105',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELEND': {
+    description: ': Element end 1 or 2. Default value: 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELINC': {
+    description: ': ELement increment. N times with element increment m. To summarise:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENT': {
+    description: 'card. The nodal rotations contains both rigid body and deformational rotations, meaning that the element eccentricity refers to the deformed pipe configuration. The eccentricity is defined in global coordinates for cont152, cont153, body502 and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '3000': {
+    description: '1 71.56',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '106': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DZ2': {
+    description: ': z-component eccentricity in element coordinates for the second roller end relative to the master node (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YPHI': {
+    description: ': Orientation angle of the roller system relative to the element system, see φ in Fig. 3.21. Defined as positive for rotation about the negative y-axis of the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DX1': {
+    description: ': x-component eccentricity in element coordinates for the first roller end relative to the master node (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DY1': {
+    description: ': y-component eccentricity in element coordinates for the first roller end relative',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DZ1': {
+    description: ': z-component eccentricity in element coordinates for the first roller end relative to the master node (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DX2': {
+    description: ': x-component eccentricity in element coordinates for the second roller end relative to the master node (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DY2': {
+    description: ': y-component eccentricity in element coordinates for the second roller end relative to the master node (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '107': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYPHI': {
+    description: '. If the parameter RADN is given, the stinger radius of curvature will be equal to DS divided by DYPHI between rollers i= 1 and i=2, and thereafter change linearly towards RADN between rollers i =N −1 and i =N.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RADN': {
+    description: ': Stinger radius of curvature between the two last rollers, i = N −1 and i = N. Linear interpolation of the curvature radius is then applied between rollers i = 2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PEAT': {
+    description: 'card for ELECC STINGER, however, the RADIUS option has increased flexibil- ity as the roller can rotation-symmetric about each of the three coordinate axes. The',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IAXIS': {
+    description: ': The element axis which the roller end eccentricity vectors is rotated about. The eccentricity vector for end 1 is defined by DX1, DY1 and DZ1 and by DX2,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DPHI': {
+    description: ': Constant angle increment for rotation about IAXIS=1,2 or 3. Positive rotation directions are defined according to the right-hand rule (unit: rad).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELIDN1': {
+    description: ': The first element ID of sequence n.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELID11': {
+    description: ': The first element ID of sequence 1.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELID12': {
+    description: ': The last element ID of sequence 1.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HISTNO1': {
+    description: ': The time history ID number for sequence 1.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELIDN2': {
+    description: ': The last element ID of sequence n.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HISTNON': {
+    description: ': The time history ID number for sequence n.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '300': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELNR1': {
+    description: ': First element ID number. T1: Temperature of first element (unit: TE).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELNR2': {
+    description: ': Last element ID number. T2: Temperature of last element (unit: TE). Linear interpolation is applied for the intermediate elements.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOAD1': {
+    description: '/LOAD2 is: 1 force in local x axis (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '117': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EULERANGLE': {
+    description: '. In case of COORDINATES the remaining parameters have the following meaning:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INC': {
+    description: ': Element increment related for each nodal point. Default value: 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XINC': {
+    description: ': Tait–Bryan angle increment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YINC': {
+    description: ': Tait–Bryan angle increment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZINC': {
+    description: ': Tait–Bryan angle increment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COORDINATES': {
+    description: ': Nodal points are given in global coordinates system.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-10': {
+    description: '21 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-15': {
+    description: '41 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-19': {
+    description: '.75 # #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-20': {
+    description: ' ',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EPTYP': {
+    description: ': Element property type as defined above.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FAX': {
+    description: '=VALUE SCFMY=VALUE SCFMZ=VALUE]',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAD': {
+    description: ': Structural radius i.e. the mean radius of the pipe wall (unit: L). TH:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDR': {
+    description: ': Radial drag coefficient (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDT': {
+    description: ': Tangential drag coefficient (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMR': {
+    description: ': Radial added mass coefficient (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '4D2': {
+    description: ') (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMT': {
+    description: ': Tangential added mass coefficient (unit: -). WD:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ODP': {
+    description: ': Outer diameter Dop (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ODW': {
+    description: ': External wrapping outer diameter Dow (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RKS': {
+    description: ': External wrapping fraction η (Range: 0-1). Hence the hydrodynamic diameter that will be applied to calculate drag and mass forces will be: D = (1 −η)Dop +',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '32D4': {
+    description: 'op',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PHIST': {
+    description: ': External pressure and buoyancy mass history id number, optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MHIST': {
+    description: ': Dry mass history id number. The outer contact diameter ODc is taken as the maximum of the outer diameter and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELTIME': {
+    description: '=VALUE: The activation time for the elasto-plastic material model is spec- ified by VALUE, i.e. the elements behave elastically until VALUE is exceeded.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'AUTOPLAST': {
+    description: '=VALUE: By specifying AUTOPLAST=1, the elements behave elas- tically until the proportionality limit is reached.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VALUE': {
+    description: ': Min. radius or yield stress, depending on which option is used. (Units: L or F/L2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SHEARA': {
+    description: '=VALUE: Shear deformations with a shear rigidity (shear area times shear modulus) given by VALUE will be applied. An infinite shear stiffness results for',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SCFAX': {
+    description: '=VALUE:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SCFMY': {
+    description: '=VALUE:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SCFMZ': {
+    description: '=VALUE:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RADE': {
+    description: ': External radius where external pressure acts (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RADI': {
+    description: ': Internal radius where internal pressure acts (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TCURV': {
+    description: '=VALUE: The activation time for the elasto-plastic bending model is specified by VALUE. Gives zero bending moments and zero bending stiffness until VALUE',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INSIDE': {
+    description: ': Parameter where 1 means that the master is inside the slave group of larger diameter, and any other value means that the master is outside the slave group.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GEOFAC': {
+    description: ': Scaling factor for the geometric stiffness. A value greater than 1.0 can be applied to stabilize the pipe-bellmouth interaction behaviour. Optional, default',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ANGPARALLEL': {
+    description: 'is 0.00872 rad (0.5 degree), and will be overruled by 0.00872 rad if set below the minimum value. Note that unrealistic incremental tangential displacements may occur if ANGPARALLEL is set too large, which in turn affects the friction force.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IFULLEDGE': {
+    description: ': Integer-valued control parameter for the cont153 body contact geom- etry. See explanation below. Optional, default value: 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDZ': {
+    description: ': Drag coefficient for z-direction (unit: L2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COGY': {
+    description: ': Local x-eccentricity from element origin to COG (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WDTHX': {
+    description: ': X-rotation structural mass at COG (unit: ML2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WDTHY': {
+    description: ': Y-rotation structural mass at COG (unit: ML2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WDTHZ': {
+    description: ': Z-rotation structural mass at COG (unit: ML2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDX': {
+    description: ': Drag coefficient for x-direction (unit: L2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDY': {
+    description: ': Drag coefficient for y-direction (unit: L2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDTHX': {
+    description: ': Drag coefficient for x-rotation at hydrodynamic center (unit: L5).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDTHY': {
+    description: ': Drag coefficient for y-rotation at hydrodynamic center (unit: L5).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDTHZ': {
+    description: ': Drag coefficient for z-rotation at hydrodynamic center (unit: L5).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMX': {
+    description: ': Added mass coefficient for x-direction (unit: L3).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMY': {
+    description: ': Added mass coefficient for y-direction (unit: L3).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMZ': {
+    description: ': Added mass coefficient for z-direction (unit: L3).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMTHX': {
+    description: ': Added mass coefficient for x-rotation at hydrodynamic center (unit: L5).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMTHY': {
+    description: ': Added mass coefficient for y-rotation at hydrodynamic center (unit: L5).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CMTHZ': {
+    description: ': Added mass coefficient for z-rotation at hydrodynamic center (unit: L5).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COGX': {
+    description: ': Local x-eccentricity from element origin to COG (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COGZ': {
+    description: ': Local x-eccentricity from element origin to COG (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ICCHYD': {
+    description: ': Hydrodynamic Coriolis-centripetal load switch, optional, default value: 0. 0 :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HCX': {
+    description: ': Local x-eccentricity from element origin to hydrodynamic center, optional, de- fault value: COGX(unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HCY': {
+    description: ': Local y-eccentricity from element origin to hydrodynamic center, optional, de- fault value: COGY(unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HCZ': {
+    description: ': Local z-eccentricity from element origin to hydrodynamic center, optional, de- fault value: COGZ(unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOCGLOB': {
+    description: ': Local-global parameter (dummy);',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SHEARMAT': {
+    description: ': Coating shear interaction material name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WIDTH': {
+    description: ': Coating segment width (unit: L). TH:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTPAR1': {
+    description: '= is a character string and VALUE is an integer equal to either 0 or 1. For VALUE=0 which is default, an arbitrary number of contact elements may obtain contact with the same pipe element. If VALUE=1,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TPAR2': {
+    description: '=VALUE option is currently only available for cont164 in combination with the ISOKXYCONTACT material type in Section 3.37.10. The CONTPAR1=VALUE option is applied in situations where two or more contact',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '40001': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5301': {
+    description: 'repeat 9',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IREF': {
+    description: ': Integer parameter for controlling the reference coordinate system applied for the material curves, the element displacements and the element forces. Further',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ICOULCNTR': {
+    description: ': Integer parameter for controlling the COULOMB force scaling option specified by the GENSPRING material type in Section 3.37.20. Further descrip-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '131': {
+    description: '.9 # #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COULOMB': {
+    description: ': The XNAME and PXNAME_I curves are scaled by the product of the local z-direction force and MUX, while the YNAME and PYNAME_I',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THISTTX': {
+    description: ': Time history for scaling of spring moment and stiffness about pipe axial rotation DOF.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TTX': {
+    description: ': Activation time for spring about pipe axial rotation DOF.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THISTX': {
+    description: ': Time history for scaling of spring force and stiffness in pipe axial direction.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THISTY': {
+    description: ': Time history for scaling of spring force and stiffness in pipe transverse di- rection.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THISTZ': {
+    description: ': Time history for scaling of spring force and stiffness in pipe-seabed normal direction.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XNAME': {
+    description: ': x-direction material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YNAME': {
+    description: ': y-direction material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZNAME': {
+    description: ': z-direction material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TXNAME': {
+    description: '. Note that the x-moment will be set to zero if the option IGAP=2 is applied for the CONTINT card in Section 3.5. The optional parameters must either consist of only XYCHOICE or all of the optional',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'T0_UZ': {
+    description: ': Reference time for the KP-based initial soil embedment. Optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THISTUZ': {
+    description: ': Time history for scaling of KP-based initial soil embedment. Optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UZNAME': {
+    description: ': Table name for KP-based initial soil embedment. Optional. The main purpose of the time-controlled soil springs is to enhance the modelling capa-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '133': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '400': {
+    description: '0 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '450': {
+    description: '1.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODE1': {
+    description: ': First node ID number in visual model (optional).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIME0': {
+    description: ': Time to store static information.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'START': {
+    description: ': Start time for ramping.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STOP': {
+    description: ': Stop time for ramping.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EL1': {
+    description: ': Element 1 ID.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EL2': {
+    description: ': Element 2 ID. Results are stored for element EL1 to EL2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELNODE': {
+    description: ': Element node, i.e. element end. (1 or 2 for pipe and spring, only 1 for cont).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2301': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FILE': {
+    description: 'NODES SIGF UTIL T NELPST TLENGTH OFFSET TOL',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NFDPO': {
+    description: ': The number of points in the fatigue S-N diagram R :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IGERB': {
+    description: ': Method for taking the mean stress into account 0 :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INTCO': {
+    description: ': Method for interpolation in S-N diagram: 1 :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SCF': {
+    description: ': Stress concentration factor (unit: )',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGUTS': {
+    description: ': Ultimate stress for mean stress correction (unit: F/L2) Then a number of NFDPO lines on the format:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'POINT': {
+    description: ': The point number =1- .... Number of points.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SRANGE': {
+    description: ': Stress range (in increasing order), starting with the minimum threshold value (unit: F/L2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STR-': {
+    description: 'command (with FEEDCONEQ-option) must be given for end 1 of all the elements in the group. This will cause all the elements in the group to be coupled to the storage node before feeding, to end 2 of the guide-element during feeding and to the subsequent',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '139': {
+    description: '• Feed rate given in SIMLA card • Specified distance from lowest node of pipe to seabed',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIME': {
+    description: ': Time',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IOP': {
+    description: ': Type of feed appraoch. IOP can take the following values: 1 : feed of pipe at a specified rate',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIST': {
+    description: ': Distance from sea floor.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FLOWFILE': {
+    description: '. The slug flow moves with velocity U where the incremental longitudinal motion ∆s of all fluid segments is computed by ∆s = U∆t at every load step.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UHIST': {
+    description: ': Load history number for the flow velocity.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IELREF': {
+    description: ': The origin of the curvilinear coordinate s is placed at end 2 of element IEL-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REF': {
+    description: ', and is also the location where the reference static internal pressure PREF is prescribed.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UFLOW': {
+    description: ': Flow velocity which is scaled by UHIST [LT −1].',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PREF': {
+    description: 'is prescribed. The static pressure elsewhere is calculated based on the vertical height difference h and by considering the fluid densities ρi along the slug flow.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PSWITCH': {
+    description: '=0, while it will be overruled by the static internal pressure from the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CPSWITCH': {
+    description: ': On-off switch for the centripetal effect (1=on 0=off).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CORSWITCH': {
+    description: ': On-off switch for the Coriolis effect (1=on 0=off).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '141': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELGRI': {
+    description: ': The pipe element group name(s) where the slug flow is acting. If the slug flow goes through several pipe element groups, their ELCON input cards must be given in consequtive order as defined by the positive flow direction.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '143': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NSEG': {
+    description: ': Number of segments in the geometry. A geometry can be built from several segment types aligned after each other in the sequence they are given in the geometry card.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CYLINDER': {
+    description: '0.0 4',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DTRUMPET': {
+    description: '0.0 4',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FROM_FILE': {
+    description: ': From file. For TYPE = DTRUMPET the format is:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THETA': {
+    description: ': Angle of node coordinate. Under option POLAR the REPEAT sequence has the following parameters:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NVIS': {
+    description: ': Number of visual sections.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LEN': {
+    description: ': Length of the segment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RCURV': {
+    description: ': Radius of curvature for the double trumpet.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IEL': {
+    description: '=6 ’ﬂow.txt’: =40',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '145': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RADSTART': {
+    description: ': Curvature radius at start of segment. (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RADEND': {
+    description: ': Rate of curvature radius change along segment so that 1/Rad=1/Radstart+1/Radend*s where s is curvilinear length along segment',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PHI0': {
+    description: ': Slope at start of segment. The slope is measured along the longitudinal direc- tion, and relative to the center line of the bellmouth.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '146': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIAM1': {
+    description: ': Diameter of first segment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIAM2': {
+    description: ': Diameter of last segment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CROSSGEOMNAME': {
+    description: ': Name of the cross sectional geometry X0:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '147': {
+    description: 'where:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FILENAME': {
+    description: ': Name of the file where 3D geometry is stored X0:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NEL': {
+    description: 'number of elements, NENOD number of element nodes (3 for triangles and 4 for rectangles) and NNOD number of nodes in the model. Then comes one line with the parameter RB',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-50': {
+    description: '15 10 90 15 10 90 -15 10',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TEXT': {
+    description: ': Descriptive analysis text.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HOST': {
+    description: ': Computer name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PORT': {
+    description: ': Port number.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FEDERATION': {
+    description: ': Simulation set-up name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FEDERATE': {
+    description: ': Numerical simulation name.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOGFILE': {
+    description: ': Log file, optional. If a log file is specified the HLA simulation will run in dummy mode, and produce a log file with the specified name. The log file may later be played off in the SimVis visualization module.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LAY': {
+    description: '# host port',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELID1': {
+    description: ': Element 1 ID.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELID2': {
+    description: ': Element 2 ID. Mean transverse displacement for touch down region (deviation from',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '12EI': {
+    description: '5qR where EI is the bending stiffness [FL2], R is the curve radius [L] and q is the transverse resistance [FL−1]',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OPT': {
+    description: ': Utilization option. Permitted values are:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURV': {
+    description: ': Utilization factor is based on minumum allowed radius of curva- ture.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STRESS': {
+    description: ': Utilization factor is based on yield stress limit.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IROLL': {
+    description: ': Roll element number. Distance to nominal position in tower (rollerbox) [m]:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '151': {
+    description: 'Force acting on pipe (transverse and normal) between two given KP- values [kN]:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PLOTID': {
+    description: ': Plot identifier.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KP101570-580': {
+    description: '101570 101580 3.32',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OBJTYPE': {
+    description: ': Object type for HLA visualization. May have values BODY, CPIPE or',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TPIPE': {
+    description: '. For OBJTYPE=BODY the format is as follows:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VESSEL': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '401': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '501': {
+    description: '3.33',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TRAWLBOARD': {
+    description: '. . . . . . . . . . . . . . . . . . .154',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTSURF': {
+    description: ': Name of the seabed contact surface',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IREPLACE': {
+    description: ': Replace option for hydrodynamic mass coefficients in DOF 1-6 and hy- drodynamic drag coefficients in DOF 1, 2 and 3, where allowable values are:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SCALEFACT': {
+    description: ': Trawlboard size scaling factor (unit: -)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MECCX': {
+    description: ': Local x-eccentricity from element origin to hydrodynamic mass center point (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MECCY': {
+    description: ': Local y-eccentricity from element origin to hydrodynamic mass center point (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MECCZ': {
+    description: ': Local z-eccentricity from element origin to hydrodynamic mass center point (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DECCX': {
+    description: ': Local x-eccentricity from element origin to hydrodynamic drag center point (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DECCY': {
+    description: ': Local y-eccentricity from element origin to hydrodynamic drag center point (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DECCZ': {
+    description: ': Local z-eccentricity from element origin to hydrodynamic drag center point (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NNOD': {
+    description: ': Number of nodes for seabed distance measurements',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NMASS': {
+    description: ': Number of added mass files, max 6',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NDRAG': {
+    description: ': Number of drag files, max 6',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODEI': {
+    description: ': Node ID numbers for measurement of height above seabed. The height will be taken as the minimum height based on these nodes',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MASSFILEI': {
+    description: ': File name (max 6) of stored added mass coefficients for the DOFs surge, sway, heave, roll, pitch, yaw',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DRAGFILEI': {
+    description: ': File name (max 6) of stored drag coefficients for the DOFs surge, sway, heave, roll, pitch, yaw',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IROTDRAG': {
+    description: ': Rotational drag model type, optional, default value: 0. Allowable values:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '155': {
+    description: '0 : Standard rotational drag model based on the ELPROP rotational drag coef-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CDN': {
+    description: ': Drag coefficient in plate surface normal direction applied for IROTDRAG=1, 2, 3, optional, default value: 0.0 (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '157': {
+    description: '• The hydrodynamic mass is independent of rotation about the seabed surface unit normal vector N. This is because the seabed proximity of the body is unaffected',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '159': {
+    description: 'Further, the hydrodynamic angle of attack about the body element x-axis is defined as, αx =',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ADDED': {
+    description: 'MASS DATA',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SURGE': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HEIGHTS': {
+    description: '0 1.5',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROWS': {
+    description: 'GEOMANGLE-Y 0 20 40',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COLUMNS': {
+    description: 'HYDROANGLE-Z 0 10 20 30 60 90',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '161': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '162': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DRAG': {
+    description: 'DATA',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SWAY': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '163': {
+    description: 'The first block of data above defines the drag and lift coefficient at height h=0, where the six rows defines the coefficient as a function of the hydrodynamic angle of attack',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PITCH': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISTR1': {
+    description: '/ISTR2 is 1 axial strain along local x axis (unit: -)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISTR2': {
+    description: ': Initial strain for the last element, optional. Linear interpolation is applied for intermediate elements. If the REPEAT command is used then the previous sequence of load generation is',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'JOINTABNAME': {
+    description: ': Name of joint table.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELGRP1': {
+    description: ': Name of element group for which JOINTNAME is to be used. The card can have an arbitrary number of ELGPR names. If several joint tables are to be applied in the same simulation, each joint table of them must have its own',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TO': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '167': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DOW': {
+    description: ': External wrapping outer diameter, Dow (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FRAC': {
+    description: ': External wrapping fraction η(0 −1). Hence the diameter that will be applied to calculate drag and mass forces will be: D = (1 −η)Do + ηDow',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LAB': {
+    description: ': Label for the joints described in this line of the JOINT-table.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EIY': {
+    description: ': Bending stiffness about y axis (unit: FL2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EIZ': {
+    description: ': Bending stiffness about z axis (unit: FL2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GIT': {
+    description: ': Torsion stiffness (unit: FL2) EM:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '769': {
+    description: '0.525 0.0341 1.0 0.1 2.0 0.2 1.291 0.161 1.096 1.096 0.5 ’’p2’’',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '770': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '786': {
+    description: '0.525 0.0341 1.0 0.1 2.0 0.2 1.661 0.454 1.096 1.096 0.5 ’’p2’’',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '787': {
+    description: '1771 0.525 0.0341 1.0 0.1 2.0 0.2 1.291 0.161 1.096 1.096 0.5 ’’p2’’ # #------------------------------------------------------------------',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HYCURVE': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 174',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FRICTION': {
+    description: ': Various friction models with user defined elastic stiffness.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'R_CONTACT': {
+    description: '. . . . . . . . . . . . . . . . . . . . .183',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '169': {
+    description: 'the x- and y-forces will be independent of the z-force. The element length is taken into account so the material curves are per unit length.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CLAY_Y': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 188',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SAND_Y': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .190',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BREAKOUT_Y': {
+    description: '. . . . . . . . . . . . . . . . . . .191 C',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UNDRAIN_Z': {
+    description: '. . . . . . . . . . . . . . . . . . . . . 198',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DRAIN_Z': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 200',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HYPERELASTIC': {
+    description: '. . . . . . . . . . . . . . . . . 200 I',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MTYPE': {
+    description: ': Material type as defined above. The following parameters depend on the material type as specified in the following. 3.37.1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'POISS': {
+    description: ': Poisson’s ratio.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TALFA': {
+    description: ': Temperature elongation coeff. α (unit K−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TECOND': {
+    description: ': Thermal conductivity (dummy) (unit: EL−1TE−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HEATC': {
+    description: ': Heat capacity (dummy) (unit: E−1M−1TE−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '800': {
+    description: '-0.05',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IHARD': {
+    description: ': Hardening parameter; 0 = isotropic hardening; 1 = kinematic hardening.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RHO0': {
+    description: ': Density (dummy) (unit: ML−3)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EPS': {
+    description: ': Strains, always starting at the compressive side and ends at the tensile side.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA': {
+    description: ': Stresses, always starting at the compressive side and ends at the tensile side (unit: FL−2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '7850': {
+    description: '1.17e-5 50',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-1000': {
+    description: '-0.5e5 0.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1000': {
+    description: 'kN/m/m Seabed friction factor axial',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-100000': {
+    description: '.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '100000': {
+    description: '.0 3.37.5',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ISOHYCURVE': {
+    description: '. . . . . . . . . . . . . . . . . . . . 175',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEADEN': {
+    description: ': Sea density (unit: ML−3 )',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FQX': {
+    description: ': Axial stress factor fqx (-) Axial stress = Axial force × factor',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BENDNAME': {
+    description: ': Material name defining bending moment vs. curvature (epcurve or',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RHO': {
+    description: ': Density (dummy) (unit: ML−3)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FKX': {
+    description: ': Torsion stress factor fkx (-) Shear stress = Torsion × factor',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FKY': {
+    description: ': y-curvature elastic stress factor fky (-) Bending stress = y-curvature × factor',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FKZ': {
+    description: ': z-curvature elastic stress factor fkz (-) Bending stress = z-curvature × factor FF:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IPDER': {
+    description: ': Currently dummy float number',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EPDER': {
+    description: ': Currently dummy float number',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REFT': {
+    description: ': Currently dummy float number',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TDER': {
+    description: ': Currently dummy float number',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'AXNAME': {
+    description: ': Material name defining axial force vs. axial strain (epcurve or hycurve)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TORNAME': {
+    description: ': Material name defining torque vs. torsion (epcurve or hycurve)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '177': {
+    description: 'For a non-zero axial-torsion coupling parameter β, the AXNAME and TORNAME material curves must define a constant axial stiffness EA and a constant torsion stiffness',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '27152': {
+    description: '# #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '7025': {
+    description: '81 0.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '130000': {
+    description: '.0 3.37.8',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PX_NX': {
+    description: ': Penetration value at which the last penetration-dependent material curve in local x-direction is valid. Positive for penetration into the seabed. Not specified',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PYNAME_1': {
+    description: ': Local y-direction first penetration-dependent material curve name. The curve must be hyper-elastic. Not specified for NY=0. Optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MUX': {
+    description: ': Friction coefficient in local x-direction (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MUY': {
+    description: 'as defined in Sections 3.37.8 and 3.37.11 will be applied for subsequent displacement half-cycles in that displacement direction.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XYCHOICE': {
+    description: ': Friction force scaling is introduced by specifying COULOMB. For this option, the parameter ICOULCNTR in Section 3.23.10 must be set, which governs',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERDEFINED': {
+    description: ': The XNAME, YNAME, TXNAME, PXNAME_I and PY-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COULOMB-COULOMB-COULOMB': {
+    description: ': Coulomb friction is applied for all mate- rial curves for the local x- and y-directions and the local x-rotation. Equiv-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COULOMB-USERDEFINED-USERDEFINED': {
+    description: ': Coulomb friction for XNAME,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COULOMB-USERDEFINED-COULOMB': {
+    description: ': Coulomb friction for XNAME, YNAME,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COULOMB-COULOMB-USERDEFINED': {
+    description: ': Coulomb friction for XNAME, YNAME,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERDEFINED-USERDEFINED-USERDEFINED': {
+    description: ': The curves as defined by the user are applied for all material curves for the local x-direction, the lo-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '179': {
+    description: 'Equivalent to specifying USERDEFINED only.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERDEFINED-COULOMB-USERDEFINED': {
+    description: ': Coulomb friction for PXNAME_I, and userdefined characteristics for XNAME, YNAME, TXNAME and PY-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERDEFINED-USERDEFINED-COULOMB': {
+    description: ': Coulomb friction for PYNAME_I, and userdefined characteristics for XNAME, YNAME, TXNAME and PX-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERDEFINED-COULOMB-COULOMB': {
+    description: ': Coulomb friction for PXNAME_I and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PYNAME_I': {
+    description: ', and userdefined characteristics for XNAME, YNAME and TX-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PX_1': {
+    description: ': Penetration value at which the first penetration-dependent material curve in local x-direction is valid. Positive for penetration into the seabed. Not specified',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PXNAME_1': {
+    description: ': Local x-direction first penetration-dependent material curve name. The curve must be hyper-elastic. Not specified for NX=0. Optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PXNAME_NX': {
+    description: ': Local x-direction last penetration-dependent material curve name. The curve must be hyper-elastic. Not specified for NX=0,1. Optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PY_1': {
+    description: ': Penetration value at which the first penetration-dependent material curve in local y-direction is valid. Positive for penetration into the seabed. Not specified',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PY_NY': {
+    description: ': Penetration value at which the last penetration-dependent material curve in local y-direction is valid. Positive for penetration into the seabed. Not specified',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PYNAME_NY': {
+    description: ': Local y-direction last penetration-dependent material curve name. The curve must be hyper-elastic. Not specified for NY=0,1. Optional.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '180': {
+    description: 'For the cont126 element type, the optional parameters must either consist of only',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SOILX': {
+    description: 'coulomb-userdefined-userdefined # #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '181': {
+    description: 'For XYCHOICE=USERDEFINED, the x- and y-direction curves are to be defined as a consecutive number of points defining displacement versus force per unit length or',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MUXY': {
+    description: ': Friction coefficient in local xy-direction (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XYNAME': {
+    description: ': xy-plane material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KSTICK': {
+    description: '. As opposed to the ISOCONTACT option, the stick stiffness is constant and independent of the normal direction contact force. This may enhance the convergence properties in situations where large normal direction contact forces occur, such as for',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MUTX': {
+    description: ': Friction coefficient in local y-direction due to x-rotation (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '184': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NAME_I': {
+    description: '.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FINED': {
+    description: 'characteristic depending on the penetration. For such cases it is recommended to use two curves as illustrated in Fig. 3.34. An arbitrary number of penetration-dependent curves PXNAME_I and PYNAME_I',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '185': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '186': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PXNAME_I': {
+    description: 'curves and the third word governs the PYNAME_I curves. This is con- venient when describing soil resistance where one part is related to COULOMB and the second part is related to earth pressure resistance better described by a USERDE-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '187': {
+    description: 'The actual penetration includes the contributions from the soil elastic penetration, the element initial displacement defined by the INISTR card in Section 3.34, the KP-based',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GAMD': {
+    description: ': Soil dry weight per volume (unit : FL−3). SU:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIMEON': {
+    description: ': Model activation time and reference time for constant vertical force and constant penetration (unit: T).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IZSOIL': {
+    description: ': Force model in z-direction (unit: -) 1 :',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SU_Z3': {
+    description: ': The undrained shear strength value suz3 used for defining the residual pen- etration reduction factor in Eq. (3.47).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TACT': {
+    description: 'and R_CONTACT material options, in which YNAME must refer to the name of the SAND_Y model and the Coulomb friction coefficient must be defined by the parameter MUY.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '189': {
+    description: 'of the CLAY_Y model and the Coulomb friction coefficient must be defined by the parameter MUY.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '65000': {
+    description: '1.0 drain_ngi',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '18000': {
+    description: '1.0 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GAMSAT': {
+    description: ': Soil saturated weight per volume (unit : FL−3).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MODTYP': {
+    description: ': Available model types:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UNDRAIN_NGI': {
+    description: ': ngi model for undrained soil.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UNDRAIN_DNV2': {
+    description: ':',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DRAIN_NGI': {
+    description: ': ngi model for drained soil.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'USERDEF': {
+    description: ': Userdefined model. The lateral characteristic forces and the mobilization displacements are calculated based',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GAMS': {
+    description: ': Soil submerged weight per volume (unit : FL−3). A:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SOFTYP': {
+    description: ': Option for softening of characteristic forces. The following options can be selected:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ANTISYM': {
+    description: ': The characteristic forces will be softened for the current displace- ment direction only, i.e. anti-symmetric softening. The break-out force will',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '193': {
+    description: 'undergo reduction towards the residual resistance force when the displace- ment exceeds the breakout mobilization displacement. Further, when the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SYM': {
+    description: ': Same softening as for ANTISYM, however, the softening occurs simulta- neously for the opposite displacement direction as well, i.e. symmetric soft-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '8000': {
+    description: 'sutable #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1200': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '6000': {
+    description: 'su_intact antisym',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2000': {
+    description: '.0 -0.3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '196': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '8800': {
+    description: 'antisym Userdefined model',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FRES_PASS': {
+    description: ': Passive part of residual resistance force (unit : FL−1).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'F0_MAX': {
+    description: ': Maximum force at zero mobilization displacement. See F max 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FBRK': {
+    description: ': Total break-out force. See Fbrk in Fig. 3.35. (unit : FL−1).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YBRK': {
+    description: ': Mobilization displacement for break-out force (unit : L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YRES': {
+    description: ': y-axis result type. The following result types are available:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'F0_': {
+    description: 'max Fbrk',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '90000': {
+    description: '2.0 userdef',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '199': {
+    description: 'B: b, optional, default value: 0.25 (unit: -).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '9000': {
+    description: '.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2400': {
+    description: '.0 -0.1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '6500': {
+    description: '3.37.17',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '700': {
+    description: '# 3.37.18',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KTX': {
+    description: ': Stiffness about local x-axis (FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KTY': {
+    description: ': Stiffness about local y-axis (FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KTZ': {
+    description: ': Stiffness about local z-axis (FL) 3.37.19',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MXNAME': {
+    description: ': Torsion moment material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RXNAME': {
+    description: ': x-rotation material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RYNAME': {
+    description: ': y-rotation material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RZNAME': {
+    description: ': z-rotation material curve name',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-17': {
+    description: '-0.002',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'POLAR': {
+    description: ': Nodal points are given in a polar coordinates system . Local origo and orientation of the polar system must be specified. Nodal coordinates will be described along local x-axis by defining radius, angles and distance along the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROTDISP': {
+    description: ': Enables the user to rotate and displace a given set of coordinates If option COORDINATES is selected, the NOCOOR card has the following ele- ments:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XCOR': {
+    description: ': x-coordinate along local x-axis.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YCOR': {
+    description: ': y-coordinate.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ZCOR': {
+    description: ': z-coordinate. Under option COORDINATES, the REPEAT card has the following parameters:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '205': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BETA1': {
+    description: ': Rotation about x for local system.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BETA2': {
+    description: ': Rotation about y for local system.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BETA3': {
+    description: ': Rotation about z for local system. R:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THETAINC': {
+    description: ': Increment in angle. If option ROTDISP is selected, the NOCOOR card has the following elements.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1042': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1043': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1044': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1045': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1046': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PRESHIST': {
+    description: ': External pressure and buoyancy mass history number.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GRAVHIST': {
+    description: ': Dry mass history number. Refer to the concepts of dry mass and dry buoyancy mass concepts applied in the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '16001': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '16280': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '17001': {
+    description: '69.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '17280': {
+    description: '69.0 3.44',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIR1': {
+    description: ': The direction angles of the first transfer function.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DIRN': {
+    description: ': The direction angles of the n-th transfer function.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NAME1': {
+    description: ': Name of the first transfer function.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NAMEN': {
+    description: ': Name of the n-th transfer function. An arbitrary number of directions DIR can be given, and a corresponding set of',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FREQ': {
+    description: ': Frequency (unit: R). A:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PHI': {
+    description: ': Phase angle ϕ (unit: R). The wave elevation at any point x,y along the sea surface is calculated as:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '213': {
+    description: '2. If necessary interpolate for each response direction defined in the CONSTR PDISP card (surge, pitch etc.) to find the relevant rao values defined by curves for each',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '3': {
+    description: 'yaw1 yaw2 yaw3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DEF': {
+    description: '0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIM': {
+    description: '# #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAM': {
+    description: '1.0 #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MOS': {
+    description: '35 #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '215': {
+    description: '# filename',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '5001': {
+    description: '6 0.785',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HEAVE': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROLL': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YAW': {
+    description: '#',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '217': {
+    description: 'The principle for the rolls is similar, but in this case only one master node in the pipe connects to one slave node in the roll. Hence only one “slave-element” needs to be',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REELGRP': {
+    description: ': Name of the pipe group intended for REELING.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROPIPE': {
+    description: ': Outer radius of the reeled pipe.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPOOLSPRGRP': {
+    description: ': Name of group containing “spring elements” in spool.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SPOOLCOGRP': {
+    description: ': Name of group containing “contact elements” in spool.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RSPOOL': {
+    description: ': Radius of spool.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FCLIMSPOOL': {
+    description: ': Contact-force cut-off limit for spool.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROLLGRP': {
+    description: ': Name of group for roll.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROLLCOGRP': {
+    description: ': Name of group for “contact element” in roll.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RROLL': {
+    description: ': Radius of roll.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FCLIMROLL': {
+    description: ': Contact-force cut-off limit for spool. The sequence ROLLGRP ROLLCOGRP RROLL FCLIMROLL can be repeated to model multiple rolls.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEAGR': {
+    description: ': Sea element group name. X1: x-coordinate point 1 (unit: L). Y1: y-coordinate point 1 (unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CURRNO': {
+    description: ': Current profile number.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RNO': {
+    description: 'THIST. The curvilinear path consists of piecewise straigth segments spanning between (X1, Y1) and (X2, Y2). The direction change between adjacent straight seg- ments must be small. This is because only pipe elements located perpendicular to the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '-4000': {
+    description: '0 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '24000': {
+    description: '0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '500': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPEGRP2': {
+    description: 'SEABEDGRP2]',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IVESSEL': {
+    description: ': Node ID number for prescribed vessel motions.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPEGRP1': {
+    description: ': Name of pipe group number 1, beeing the group starting at the pipe tail.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEABDGRP1': {
+    description: ': Name of seabed group number 1, beeing the seabed contact group of',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPGRP1': {
+    description: '.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SEABDGRP2': {
+    description: ': Name of the last seabed group, beeing the seabed contact group of',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PIPGRP2': {
+    description: '.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '220': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODES': {
+    description: ': Number of nodal points from and including tdp, where the soil reaction forces are to be stored (only points in contact)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGF': {
+    description: ': Yield stress in steel material (unit: F/L2).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UTIL': {
+    description: ': Maximum allowable sagbend utilization, if this level is exceeded the steering parameter will be adjusted (only for J and S type in present version).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TENSION': {
+    description: '5 7.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NELPST': {
+    description: ': Number of elements per step. The model will then in each step be moved along the route a distance corresponding to a feed of NELPST elements.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DEPANG': {
+    description: ': Required departure angle.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TOL': {
+    description: ': Tolerance. Note: NELPST may be negative (retrieval) when a STATIC-FEED type analysis is',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROLLDIST': {
+    description: ': Required distance to roller.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '221': {
+    description: 'For TYPE=TENSION, the following format is applied:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TENS': {
+    description: ': Required tension at TDP.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LAYBK': {
+    description: ': Required layback.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TLENGTH': {
+    description: ': Distance from top of tower(tensioner exit) to steering position of pipe.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OFFSET': {
+    description: ': Ofset relative to nominell position. Positive values correspond to larger',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '7001': {
+    description: '1 umbilical1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TDPT': {
+    description: 'tol',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '450000': {
+    description: '1.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'T11': {
+    description: ': Value of entry (1,1), first arguement value',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TN1': {
+    description: ': Value of entry (n,1), last argument value.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NCOL': {
+    description: ': Number of columns in table. Must be larger than or equal to 2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'T12': {
+    description: ': Value of entry (1,2), first function value of column 2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'T1_NCOL': {
+    description: ': Value of entry (1,ncol), first function value of last column.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TIJ': {
+    description: ': Value of entry (i,j).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TN2': {
+    description: ': Value of entry (n,2), last function value of column 2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TN_NCOL': {
+    description: ': Value of entry (n,ncol), last function value of last column. The first column defines the argument values, and the other columns define the function values. Linear interpolation of the function values are applied in between the argument',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FAC1': {
+    description: ': Load factor for time t1. T2: Time t2.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FAC2': {
+    description: ': Load factor for time t2 An arbitrary sequence may be given, and linear interpolation is applied between the time steps defined by the TIMECO card above. For t ∈[T1 , T2] the load factor will',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THIST_F': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TFILE': {
+    description: ': file name containing the parameters t1,fac1,t2,fac2...,defined above 3.50.2',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THIST_H': {
+    description: '100 0.628 0.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OMEGA': {
+    description: ': Frequency, ω.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'PHASE': {
+    description: ': Phase displacement, φ. The load factor at any time t, is then defined by: F = sin(ωt + φ)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THIST_R': {
+    description: '100 10 20',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '225': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAMPTYPE': {
+    description: ': Type of ramping, only RAMPCOS allowed.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FAC': {
+    description: ': Load factor after the ramping. The shape of the ramping function is a half cosine period, starting at zero slope. Be- tween ramping periods, the load factor is keept constant at the value obtained in the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAMPCOS': {
+    description: '0.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DTVI': {
+    description: ': Time increment between each restart/visual storage to the .raf file.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DTDY': {
+    description: ': Time increment between each storage to the .ldat file.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DT0': {
+    description: ': Time increment between each zero setting of the accumulated convergence control vectors.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SDD': {
+    description: 'or STATIC-FEED .',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HLAFLAG': {
+    description: ': HLA control parameter which may be HLA or NOHLA.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STEPTYPE': {
+    description: 'is given.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ITCRIT': {
+    description: ': Iteration criterion parameter, enables the user to select between alternative incremental norms scaled with respect to the associated accumulated norms. Must be given if STEPTYPE is given.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MANUAL': {
+    description: ': Time stepping is carried out as normal, but given MAXIT overrules the one given in the CONTROL card.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'AUTO': {
+    description: ': If required tolerance is not met within MAXIT, the step is subdivided in two parts. This is repeated until required tolerance is met within MAXIT or',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ITERCO': {
+    description: ': Iteration control parameter. Must be given if STEPTYPE is given.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'GO-ON': {
+    description: ': the program proceeds after the maximum number of iterations is reached',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DISP': {
+    description: ': displacement norm is used',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '227': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FORC': {
+    description: ': force norm is used',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENER': {
+    description: ': energy norm is used',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ALL': {
+    description: ': all norms are used',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MAXDIV': {
+    description: ': Maximum number of sub-divisions. Must be given if STEPTYPE is given.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STATIC': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOHLA': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DYNAMIC': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UMASS': {
+    description: ': Mass unit relative to kg.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ULENGTH': {
+    description: ': Length unit relative to m.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UTIME': {
+    description: ': Time unit relative to sec. For an analysis where kN, m and s have been used for forces, lengths and times respec- tively, the card would be as follows:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MODE': {
+    description: ': Result presentation mode:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INTEGRATION': {
+    description: ':',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FEM': {
+    description: 'results according to the list defined below is enabled in- cluding consistent representation of all numerical elements of the FEM model in xpost including the applied element and node numbers. In addition to',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FACTOR': {
+    description: ': Scaling factor for all radial quantities (scale pipe radius).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RESULT': {
+    description: ': Result types that will be stored, can be a list. Options are:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-XX': {
+    description: ': σxx Longitudinal stress (cable elements) at mean surface (pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-YY': {
+    description: ': σyy Hoop stress at mean surface- thinwalled theory (pipe ele- ments).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-XY': {
+    description: ': σxy Shear stress at mean surface (pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STRAIN-XX': {
+    description: ': εxx Longitudinal strain at mean surface - (pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STRAIN-YY': {
+    description: ': εyy Hoop strain at mean surface (pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'STRAIN-XY': {
+    description: ': εxy Shear strain at mean surface (pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ACCSTRAIN': {
+    description: ': εtot Accumulated (equivalent) plastic strain (elastoplastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-XXI': {
+    description: ': σxxi Longitudinal stress at inner surface (elastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-YYI': {
+    description: ': σyyi Hoop stress at inner surface-thickwalled theory (elastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-XYI': {
+    description: ': σxyi Shear stress at inner surface (elastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-XXO': {
+    description: ': σxxo Longitudinal stress at outer surface (elastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-YYO': {
+    description: ': σyyo Hoop stress at outer surface-thickwalled theory (elastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIGMA-XYO': {
+    description: ': σxyo Shear stress at outer surface (elastic pipe elements).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VCONDIS-X': {
+    description: ': Contact element local x-displacement.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VCONDIS-Y': {
+    description: ': Contact element local y-displacement.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VCONDIS-Z': {
+    description: ': Contact element local z-displacement.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VCONFOR-X': {
+    description: ': Contact element local x-force (unit: See Table 3.1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VCONFOR-Y': {
+    description: ': Contact element local y-force (unit: See Table 3.1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VCONFOR-Z': {
+    description: ': Contact element local z-force (unit: See Table 3.1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVENO': {
+    description: ': Wave load number.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WAVEHIST': {
+    description: ': Wave history number. X0:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ANG': {
+    description: ': Wave direction angle, φw, relative to the global coordinate system x-axis and counterclockwise, see Fig. 3.1. (unit: R)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'REGULAR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . 232',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1667': {
+    description: '.270 0 0.000',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2200': {
+    description: '0 #',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '233': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DKIN': {
+    description: ': Kinematic water depth, nodes located below this depth at T0 will be assigned zero wave kinematics, ( unit: L).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '234': {
+    description: 'The three parameter Jonswap spectrum is given as Sη(ω) =αg2ω−5e−β(',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NRPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 245 O',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FATIGUE': {
+    description: 'for FATIGUE calculations',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 247',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YSCL': {
+    description: ': Scaling factor to be used for y-axis (to convert to convenient unit). Then all defined envelopes will be plotted stored on .mpf files.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RAFPRE': {
+    description: ': The Simla.raf file name prefix. If the file name is defined by a combination of lower case and upper case letters, use e.g. ’input-filename’.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MPFPRE': {
+    description: ': The output .mpf file name prefix. If the file name is defined by a combination of lower case and upper case letters, use e.g. ’mpf-filename’.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XLEG': {
+    description: ': The legend name for the x-axis. If the legend name contains more than one word or if the name is defined by a combination of lower case and upper case letters, use e.g. ’Displacement (m)’.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XRES': {
+    description: ': x-axis result type. The following result types are available:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOADSTEP': {
+    description: ': Load step number.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HISTN': {
+    description: ': History number with reference to Simla input file, e.g. HIST100',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'YLEG': {
+    description: ': The legend name for the y-axis. If the legend name contains more than one word or if the name is defined by a combination of lower case and upper case letters, use e.g. ’Displacement (m)’.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODISP-X': {
+    description: ': nodal x-displacement (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODISP-Y': {
+    description: ': nodal y-displacement (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODISP-Z': {
+    description: ': nodal z-displacement (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOROT-X': {
+    description: ': nodal x-rotations (unit: 1/L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOROT-Y': {
+    description: ': nodal y-rotations (unit: 1/L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NOROT-Z': {
+    description: ': nodal z-rotations (unit: 1/L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FNODEID': {
+    description: ': First node ID number in numerical model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LNODEID': {
+    description: ': Last node ID number in numerical model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'XSCL': {
+    description: ': Scaling factor to be used for x-axis (to convert to convenient unit).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '16611': {
+    description: '10 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CID': {
+    description: 'XSCL YSCL',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FELID': {
+    description: ': First element ID number in numerical model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LELID': {
+    description: ': Last element ID number in numerical model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LSECID': {
+    description: ': Integration section number along element. Max 2 for PIPE31, PIPE34 and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CSECID': {
+    description: ': Integration section number in cross-section. The total number is given in the control card of the SIMLA analysis.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '239': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELFORCE-X': {
+    description: ': Fx force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELFORCE-Y': {
+    description: ': Fy force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELFORCE-Z': {
+    description: ': Fz force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELMOM-X': {
+    description: ': Mx moment about centroid x-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELMOM-Y': {
+    description: ': My moment about centroid y-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELMOM-Z': {
+    description: ': Mz moment about centroid z-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELDISP-X': {
+    description: ': Local element x displacement (element elongation for beams) (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELDISP-Y': {
+    description: ': Local element y displacement (zero for beam) (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELDISP-Z': {
+    description: ': Local element z displacement (zero for beam) (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELROT-X': {
+    description: ': Local x-rotation (rigid body rotation eliminated for beam) (unit: R)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELROT-Y': {
+    description: ': Local y-rotation (rigid body rotation eliminated for beam) (unit: R)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELROT-Z': {
+    description: ': Local z-rotation (rigid body rotation eliminated for beam) (unit: R)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELTOR-X': {
+    description: ': Torsion about centroid (unit: 1/L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELCUR-Y': {
+    description: ': y-curvature about centroid (unit: 1/L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELCUR-Z': {
+    description: ': z-curvature about centroid (unit: 1/L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONDIS-X': {
+    description: ': Contact element displacement in local x-direction (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONDIS-Y': {
+    description: ': Contact element displacement in local y-direction (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONDIS-Z': {
+    description: ': Contact element displacement in local z-direction (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONFOR-X': {
+    description: ': Contact element force in local x-direction (unit: FL−1 for all con- tact elements except CONT124 and 130 having unit: F ).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONFOR-Y': {
+    description: ': Contact element force in local y-direction (unit: FL−1 for all con- tact elements except CONT124 and 130 having unit: F ).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONFOR-Z': {
+    description: ': Contact element force in local z-direction (unit: FL−1 for all con- tact elements except CONT124, 130 having unit: F ).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SUBMASS': {
+    description: ': dry mass - buoyancy mass (unit: ML−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DRYMASS': {
+    description: ': dry mass (unit: ML−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INISTRA-X': {
+    description: ': element initial axial strain (unit: -)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TEMP': {
+    description: ': element temperature (unit: oC)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INTPRES': {
+    description: ': internal pressure (unit: FL−2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'EXTPRES': {
+    description: ': external pressure (unit: FL−2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INITOR-X': {
+    description: ': initial torsion (unit: L−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INICUR-Y': {
+    description: ': initial curvature about local y-axis (unit: L−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INICUR-Z': {
+    description: ': initial curvature about local z-axis (unit: L−1)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ICONDIS-X': {
+    description: ': Contact element initial displacement in local x-direction (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ICONDIS-Y': {
+    description: ': Contact element initial displacement in local y-direction (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ICONDIS-Z': {
+    description: ': Contact element initial displacement in local z-direction (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2316': {
+    description: '1 1e3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'X-COR': {
+    description: ': x-coordinate (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'Y-COR': {
+    description: ': y-coordinate (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'Z-COR': {
+    description: ': z-coordinate (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'T-COR': {
+    description: ': Polar theta coordinate (for elements connected to nodes generated by this option) (unit: R)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'A-COR': {
+    description: ': Polar lay angle (for elements connected to nodes generated by this option) (unit: R)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'E-COR': {
+    description: ': curvilinear element coordinate (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'K-COR': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VNDISP-X': {
+    description: ': visual model nodal x-displacement (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VNDISP-Y': {
+    description: ': visual model nodal y-displacement (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VNDISP-Z': {
+    description: ': visual model nodal z-displacement (unit: L)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '243': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INTPOI': {
+    description: ': Integration point number (around cross section, point 1 start at local y=radius and z = 0 and then clockwise). If no integration point, this is the negative refer- ence load step number. Default value: 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NLOADSTEP': {
+    description: ': If a positive load step number is given, then the results will be measured relative to the state at that step. If no or a negative loadstep is given, then actual values are used. Default value: 0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELFOR-X': {
+    description: '1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FAPLOT': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 244',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOFPRE': {
+    description: ': The output .lof file name prefix. If the file name is defined by a combination of lower case and upper case letters, use e.g. ’fat-filename’. I3: the number of load cycles.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FTIME': {
+    description: ': the first load step for calculating stress range.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LTIME': {
+    description: ': the last load step point for calculating stress range.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OPTSTR': {
+    description: ': Option for stress range calculation. ̸= 1 : Stress range is taken to be the difference between the stress ranges obtained',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'UNTCONV': {
+    description: ': unit conversion factor to fit the fatigue data. 4.9',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '246': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QX-REACT': {
+    description: ': Fx restoring force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QY-REACT': {
+    description: ': Fy restoring force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QZ-REACT': {
+    description: ': Fz restoring force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MX-REACT': {
+    description: ': Mx restoring moment about centroid x-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MY-REACT': {
+    description: ': My restoring moment about centroid y-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MZ-REACT': {
+    description: ': Mz restoring moment about centroid z-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QX-DAMP': {
+    description: ': Fx damping force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QY-DAMP': {
+    description: ': Fy damping force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QZ-DAMP': {
+    description: ': Fz damping force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MX-DAMP': {
+    description: ': Mx damping moment about centroid x-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MY-DAMP': {
+    description: ': My damping moment about centroid y-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MZ-DAMP': {
+    description: ': Mz damping moment about centroid z-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QX-INER': {
+    description: ': Fx inertia force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QY-INER': {
+    description: ': Fy inertia force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QZ-INER': {
+    description: ': Fz inertia force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MX-INER': {
+    description: ': Mx inertia moment about centroid x-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MY-INER': {
+    description: ': My inertia moment about centroid y-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MZ-INER': {
+    description: ': Mz inertia moment about centroid z-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QX-ALL': {
+    description: ': Fx restoring+damping+inertia force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QY-ALL': {
+    description: ': Fy restoring+damping+inertia force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'QZ-ALL': {
+    description: ': Fz restoring+damping+inertia force (unit: F)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MX-ALL': {
+    description: ': Mx restoring+damping+inertia moment about centroid x-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MY-ALL': {
+    description: ': My restoring+damping+inertia moment about centroid y-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MZ-ALL': {
+    description: ': Mz restoring+damping+inertia moment about centroid z-axis (unit: FL)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IEND': {
+    description: ': The element end that shall contribute. Default value = 0 means that all element ends are considered. 4.10',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'FNODID': {
+    description: ': First node ID number in numerical model.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NODESCL': {
+    description: ': Scaling factor to be used for node number (i = i - NODESCL ).',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'VALSCL': {
+    description: ': Scaling factor to be used for x-,y and z-values (xi = xi * VALSCL) . The output file format is: Node number, Xi , Yi , Zi , T11, T12, T13, T21, T22, T23, T31, T32, T33',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ELEM': {
+    description: '1 1',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DNV1986': {
+    description: '. The VIVFAT format is:',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ROUGH': {
+    description: ': Roughness of pipe. Note: Only single pipes should be applied for this options. Piggy back pipes or PiP systems are not handled.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'KPSTRT': {
+    description: ': KP start value for the free span.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOADSTP': {
+    description: ': Load step.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NMODES': {
+    description: 'ROUGH "KP-coordinate [m]"',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '249': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'LOADST': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '4500': {
+    description: '.0',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '4700': {
+    description: '.0 25 5',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MARIN': {
+    description: '#',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'A7-AN': {
+    description: ': prefix of all dyn files to be processed',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'I3B': {
+    description: ': optional parameter. If specified, the plot number range i3-i3b will be stored to the same .mpf file',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COSURF': {
+    description: '. Note: In AUTOSTART with ICATEN=0, the pipe will be positioned with the last end located at the given touch down KP',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'CONTRIBUTORS': {
+    description: '"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'INCLUDING': {
+    description: ', BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'MERCHANTABILITY': {
+    description: 'AND FITNESS FOR A PARTICULAR PURPOSE ARE',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DISCLAIMED': {
+    description: '. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CON-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TRIBUTORS': {
+    description: 'BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BUT': {
+    description: 'NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SERVICES': {
+    description: '; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTER-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'RUPTION': {
+    description: ') HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'WHETHER': {
+    description: 'IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'NEGLIGENCE': {
+    description: 'OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DAMAGE': {
+    description: '.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '4EIT': {
+    description: '(8.1) with bending stiffness EI and effective tension T.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2016': {
+    description: ').',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1990': {
+    description: '). Thus the coupling between torsion and bending as relevant to the torsion buck- ling problem relies on the co-rotational update of each elements coordinate system. 8.3.3',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '409': {
+    description: '(MN) Bending stiffness 5.03 (kNm2)',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2013': {
+    description: '). The model included a single catenary from a flat seabed to the sea surface using input data according to Table 8.1. Using the catenary equation, the above gave a catenary length of 1007 m and an asso-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'TDP': {
+    description: 'as a measure of kink formation 7. Use a sufficient number of cycles to prove that kink formations is not developed due to accumulated plastic deformations. If a stable value of the maximum cur-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SHOWS': {
+    description: 'distribution in the outer pipe at different stages of the pull-in. It is seen that there is a local maximum in the pull-force as the pull-head first meets the outer J-tube wall. Then a new maximum is reached as the plastically bent pipe experiences reversed',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'AGAINST': {
+    description: 'Mf Mymax, where Mymax is the maximum bending moment before prescribed torsion rotation is applied (Mz = 0) for the linear elastic Case C.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'THAT': {
+    description: 'buckling capacity. The bigger friction moment Mf, the larger critical torsion moment.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BELOW': {
+    description: 'the three cases of torque utilization and for variable heave amplitudes. The red line represents the critical curvature value obtained by the prescribed rotation procedure κt. For all cases where the maximum curvature exceeded this line a kink was formed',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '273': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '637': {
+    description: 'MPa Stress at 10% strain',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '657': {
+    description: 'MPa Water depth',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '299': {
+    description: 'm J-tube length horizontal section',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2010': {
+    description: '). This may cause the pipe to move towards the cool-end. In addition, the presence of dynamic tension variation from steel catenary risers or a seabed sloping downwards in the direction of the cool end may accelerate the process. A flowline with length 4',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '280': {
+    description: 'cohesive soils For the hydrodynamic stability case the movement of the pipe is governed by the',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DNV': {
+    description: '(2014). Recommended Practice DNV-RP-F111: Interference between Trawl Gear and Pipelines. DNV, Høvik, Norway.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '285': {
+    description: 'Further improvements of the recommended design procedures for pull-over interaction has been the focus in many research efforts the last decades. see e.g. (Fyrileiv et al.,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '1997': {
+    description: '). Removal of unnecessary conservatism by use of structural reliability methods on pull-over events was recently addressed by Amdal, Røneid and Etterdal (Amdal et al.,',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '2011': {
+    description: '). Numerical methods for response prediction of pipelines subjected to prescribed pull- over loads were introduced in work carried out by Bergan and Mollestad (Bergan and',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '3624': {
+    description: 'kg Clump-weight roller diameter/length',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '892': {
+    description: 'm Sweep-line axial stiffness',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '290': {
+    description: 'Bibliography Amdal, L., Røneid., S., and Etterdal, B. (2011). Optimised design of pipelines exposed',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'DNVGL': {
+    description: '(2017). Recommended Practice DNV-RP-F109, On-bottom stability design of submarine pipelines, May 2017. Høvik, Norway. Fyrileiv, O., Spiten, J., and Mellem, T. (1997). Dnv’96, acceptance criteria for interac-',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '291': {
+    description: 'Giertsen, E., Taby, J., and Økland, O. (2017). Simla Quick Start User Guide. SINTEF Ocean, Trondheim, Norway.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '561': {
+    description: '–568. M. Carr, F. S. and Bruton, D. (2006). Pipeline walking - understanding the field layout challenges, and analytical solutions, developed for the safebuck jip. In Proc. of',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'OTC': {
+    description: '’2006. Maalø, K., Alsos, H., and Sævik, S. (2012). Detailed analysis of clump-weight interfer- ence with subsea pipelines. In Proc. of OMAE’2012.',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ASCII': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'BFLEX2010POST': {
+    description: '– FAPLOT . . . . . . . . . . . . . . . . . . . . . . . . 244',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'COSURFR': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . .62',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ENVRES': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . . 134',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '293': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '294': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'HEADING': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . .148',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IRREGULARDNVRPF109CURR': {
+    description: '. . . 89',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'IRREGULARSTANDARDCURR': {
+    description: '. . . 88',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '295': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'ORREGULAR': {
+    description: '. . . . . . . . . . . . . . . . . . . . .232 P',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  'SIMPOST': {
+    description: '. . . . . . . . . . . . . . . . . . . . . . . . . 235 – ELPLOT . . . . . . . . . . . . . . . . . . . . . . . . 238 – ENPLOT . . . . . . . . . . . . . . . . . . . . . . . . 247',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+  '296': {
+    description: '',
+    valueType: 'string', // Default placeholder
+    section: 'General',
+  },
+};

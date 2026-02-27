@@ -1,0 +1,1802 @@
+{
+  "UFLEX2D": {
+    "description": "Version 2.8.8 User Manual April 11, 2018",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CHANGES": {
+    "description": "15 1 Introduction",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GENERAL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BITUMEN": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .27 C",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CENTERFIX": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 28",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CMERGE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . .29",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTA2D": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .30",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTINT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 30",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CNTINTFIND": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 33",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTROL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 34",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CROSS": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 D",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DISPLACE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 37 E",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DARMOUR": {
+    "description": ". . . . . . . . . . . . . . . . . . .37",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DCONTROL": {
+    "description": ". . . . . . . . . . . . . . . . . .38",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DCORE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 38",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DELDEF": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 39",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DGEOM": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 40",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DLAYER": {
+    "description": "PIPE5 FILL1 QUAD1 3.17",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3DOUTER": {
+    "description": ". . . . . . . . . . . . . . . . . . . . .41",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXTCON": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . .41 F",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICMODEL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . .42",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICTION": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 43 G",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GCLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . .43",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GEOM": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . .44",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GLBON": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . .46",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GPDISP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 47 H",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEAD": {
+    "description": "Bending test # 48",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HIST": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INISTRAIN": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . .48 L",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LCLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 49",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LMERGE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . .50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOBON": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . .52",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LPDISP": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 54 M",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATERIAL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . 55 N",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PRLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 67 R",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROTATE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 68 S",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SMERGE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 68 T",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THICKWALL": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . .69",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TIME": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .70",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TLOAD": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . .70",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TORSCENTRE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . .71",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TUGEOM": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 71 U",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VISRES": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . .72",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VOID": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .73",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GLPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 75",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 77 P 84",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELPLOT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 78",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FATIGUE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . .80 Files . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CAPACIT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 81",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CST": {
+    "description": ": Constant Strain Triangular element Qx:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PACIT": {
+    "description": "input card. \u2022 Improved stability of stick/slip behaviour after tuning. Prior versions were highly sensitive to changes in contacts during a curvature history.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RESULTANT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . 59",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONSHELLFAC": {
+    "description": ".",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATERIAL-FRICSPRING": {
+    "description": "- CHANGED - By default the given material curve for",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICSPRING": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . 62",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INIS-": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TRAIN": {
+    "description": "de\ufb01nes initial strains, PRLOAD pressure on inner or outer surface of a member and LPDISP and GPDISP can be used to apply local or global prescribed displacements. For all load speci\ufb01cations, reference to a history must be given. This history must be",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXAMPLE": {
+    "description": ": 73 #",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LINENO": {
+    "description": ": Line number, dummy.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PROCESS": {
+    "description": ": An alphanumeric parameter used to indicate whether the present geometry consists of smaller bodies that need to be de\ufb01ned in more detail. Note that",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PROCNO": {
+    "description": ": The number of processes. If the number is > 1 then distribute these bodies evenly from THETA (see below) to THETA + 360\u25e6according to the number of processes. This is convenient for armour layers consisting of a large number of",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAD": {
+    "description": ": The body radius to the centroid of the group.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THETA": {
+    "description": ": The angular position in degrees. See Fig. 3.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELTYPE": {
+    "description": ": Element type. Only CONSHELL allowed.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GEONAME": {
+    "description": ": Name of geometry. An arbitrary number of geometry names can be listed after a THICKWALL key, and several THICKWALL cards can be used.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATNAME": {
+    "description": ": The name of the material property data used to \ufb01ll the voids (either",
+    "valueType": "number",
+    "section": "General"
+  },
+  "QUAD1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NEXT": {
+    "description": "1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-1725": {
+    "description": "34.85",
+    "valueType": "number",
+    "section": "General"
+  },
+  "108": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "144": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILLER": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "180": {
+    "description": "0 5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BEAM": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "POLYE": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "216": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "252": {
+    "description": "24",
+    "valueType": "number",
+    "section": "General"
+  },
+  "288": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "324": {
+    "description": "# # FO details",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FOOUT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHELL": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MDPE": {
+    "description": "# # Conductor",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ARM": {
+    "description": "31",
+    "valueType": "number",
+    "section": "General"
+  },
+  "260": {
+    "description": "5.75 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ARM4": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GSW120": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FOINT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FOROR": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STEEL": {
+    "description": "# # QUAD1 details",
+    "valueType": "number",
+    "section": "General"
+  },
+  "Q1OUT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LLDPE": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "366": {
+    "description": "8.55 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ARM3": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "Q1INT": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COND1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "140": {
+    "description": "5.20",
+    "valueType": "number",
+    "section": "General"
+  },
+  "270": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILL0": {
+    "description": "1 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILLER0": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILL1": {
+    "description": "1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILLER1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "135": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "225": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "315": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KAPPC": {
+    "description": "1 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CUKAPP1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CU11": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COPPER": {
+    "description": "2.10 General advice",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CU21": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "120": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "240": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "300": {
+    "description": "#",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SPRING": {
+    "description": "unless the user wishes to manually control the exact slip level for a contact interface. Specifying AUTO for FRICMATNAME in CONTINTallows",
+    "valueType": "number",
+    "section": "General"
+  },
+  "OMEGA": {
+    "description": ": Frequency, unit: rad/sec. (\u03c9)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONST": {
+    "description": ": Force constant, unit: 1/mm. Note that bitumen is modelled using following two parameters K = G\u2032\u00b7Const, C = G\u2032\u2032\u03c9\u22121\u00b7Const, see theory manual for details.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ARMO1": {
+    "description": "1E2 1E2 1 1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YCOR": {
+    "description": ": y-coordinate shift (horizontal).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZCOR": {
+    "description": ": z-coordinate shift (vertical). Here is an example",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FORM": {
+    "description": "X0 Y0 Curvcode P1 P2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NINTER": {
+    "description": "INTERFACE 46",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CLOSED": {
+    "description": "0 0 CI",
+    "valueType": "number",
+    "section": "General"
+  },
+  "360": {
+    "description": "9.10 1.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "200": {
+    "description": "3.34",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-80": {
+    "description": "0 3.4",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MGEONAME": {
+    "description": ": Name of master geometry, normally the steel tube.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SGEONAME": {
+    "description": ": Name of slave geometry, normally the coating. Several slave geometries can be given. With respect to the associated element types to each geometry the following combina-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KAPP1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ACTIV": {
+    "description": ": Dummy",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DELX": {
+    "description": ": Longitudinal increment along vertical axis of umbilical, default value is 0.1. NX: Number NX of DELX-steps up and NX of DELX-steps down will be performed along particular helical vertical axis. Default value is 400.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "400": {
+    "description": "3.6",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EFF": {
+    "description": "FRICLEV GAP1 GAP2 COCODE [EPSI] where:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MNAME": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SNAME": {
+    "description": ": The name of the neighboring candidate slave surface geometry.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICMATNAME": {
+    "description": ": The friction material name de\ufb01ning the stick-slip transition curve (friction interface for unbonded cases) or shear stress interaction curve (for bonded cases). By specifying the word AUTO, a contact material of type FRICSPRING",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTERFACE": {
+    "description": ": Interface number. Can have two values: 1 : External pressure (applied on the external surface)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SURFSTIFF": {
+    "description": ": Surface sti\ufb00ness modulus, unit MPa/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICOEFF": {
+    "description": ": Friction coe\ufb03cient.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICLEV": {
+    "description": ": Load level to activate friction. In some cases it is useful to enable \ufb02exibility with respect to when in the load history friction forces should be activated. The value refers to the load steps de\ufb01ned in the HIST data group. If a negative value",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GAP1": {
+    "description": "a contact element is de\ufb01ned. The gap between them is eliminated, that means that the contact element will carry load in the cases where gap - gap0 is negative. This will be the case for the slave nodes within the inner circle of Fig. 3.1, in this case none.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GAP2": {
+    "description": ": For gaps less than the speci\ufb01ed value, contact is considered during loading.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COCODE": {
+    "description": ": Contact element code. COCODE can have the following values: 0 : Ordinary contact element is applied.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EPSI": {
+    "description": ": Contact interface bu\ufb00er, optional parameter, to be used combined with scaling parameters in CONTROL card. EPSI must correspond to the body sizes involved 32",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NONE": {
+    "description": ": This card does not have any parameters. N.B. If using CNTINTFIND, it is advised to arrange more simple GEOMs to appear in the geometries list before complex geometries (with multiple interfaces) in the input",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NLPRINT": {
+    "description": ": Number of load levels with print. By entering a negative number, output of iterations to screen is avoided.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MAXIT": {
+    "description": ": Maximum number of iterations.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONVR": {
+    "description": ": Convergence radius, recommended value: 10e-5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SEADEN": {
+    "description": ": Sea water density. Unit: kg/mm3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GACC": {
+    "description": ": Acceleration of gravity. Unit: m/s2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AVRGT": {
+    "description": ": Average tension of system. If negative value, this is specifying the step for tuning friction springs. Unit: N if positive. See below for more details. The parameter AVRGT is used to automatically determine the slip level of contact in-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1025": {
+    "description": ".0E-9 9.81",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-10": {
+    "description": ".0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AME": {
+    "description": "MATNAME",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NAME": {
+    "description": ": The name of the geometry.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PITCH": {
+    "description": ": The pitch length, 2 \u03c0 RAD/tan(\u03b1), where \u03b1 is the lay angle positive for right hand lay. If pitch \u0338= 0 then the body is helically wound.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BEAMSH": {
+    "description": ": for \ufb01lled bodies. Reference is given to the theory manual (S\u00e6vik,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2004": {
+    "description": "b).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FYLL": {
+    "description": "1 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FYLL1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PLASTIC1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROR1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-2400": {
+    "description": "33.50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ROR": {
+    "description": "1 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE1": {
+    "description": "90",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DUPLEXSIGY450": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "KAPPE": {
+    "description": "KAPPE 1 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PLASTIC2": {
+    "description": "3.10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LDISP": {
+    "description": ": Length of displacement. The card can be given several times. When issued several times the displacement will be the sum of the given displacements.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NUM": {
+    "description": ": Number of armour members in 3d pro\ufb01le",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ANG": {
+    "description": ": Angle of \ufb01rst member in 3d pro\ufb01le In the example below, the number of pipe2 geometry members have been reduced to two. The \ufb01rst of them will be positioned at angle 0. In Uflex3d this will be along the",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PIPE2": {
+    "description": "2 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FILENAME3D": {
+    "description": ": Name of 3d \ufb01le. Extension 3if will be added",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LENGTH": {
+    "description": ": Element length at the given location. In the example below, constant element length of 100 will be applied in the \ufb01rst region of length 950. This requires 9.5 element, and is then rounded upward to a number",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SECTION": {
+    "description": ": Location of the 2d section along the 3d pro\ufb01le. Value ban be between 0 and LENGTH, where 0 means that the 2d cross section is located at the start of the 3d pro\ufb01le. LENGTH means that the 2d cross section is located at the end of",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NEL": {
+    "description": ": Number of elements in axial direction for the 3d pro\ufb01le. Note that if a EXP3DELDEF card is issued, this parameter will be overruled.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "3000": {
+    "description": "0 9",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TYPE": {
+    "description": ": Method to use for changing element length. Options: LINEAR or PERCENT. X: Location along x-axis.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "950": {
+    "description": "e-9 1e-4 0.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "100": {
+    "description": "3.39",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1400": {
+    "description": "50 3.15",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CODE": {
+    "description": ": Material code. Values:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WIDTH": {
+    "description": ": Width of one armour tendon.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "THICK": {
+    "description": ": Thickness of one armour tendon.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "REC": {
+    "description": "PIPE2 40 20",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONSHELL": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SURF1": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONT1": {
+    "description": "3.19",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FRICID": {
+    "description": ": The friction model to be used. FRICID can have the following values: 0 : Friction based on accumulated work in friction springs.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATNAMEA": {
+    "description": ": The material name of one surface.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MATNAMEB": {
+    "description": ": The material name of the candidate surface.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STIFF": {
+    "description": ": Surface sti\ufb00nes modulo, unit: MPa/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "COEFF": {
+    "description": ": Friction coe\ufb03cient. The card can be repeated as many times as needed. For a contact interface wich has its material-pair listed in a FRICTION card, the values",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIR": {
+    "description": ": Direction that displacement is applied in. Values can be: 1 : x-direction",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VAL": {
+    "description": ": Value of the temperature, unit: degrees Celsius.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "7000": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CURVCODE": {
+    "description": ": Curve code, given as a character string which may have the following values: S :",
+    "valueType": "number",
+    "section": "General"
+  },
+  "OPEN": {
+    "description": "0 0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DOF": {
+    "description": ": Dof that boundary condition applies for. Values can be: 1 : x-direction",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TEXT": {
+    "description": ": Descriptive analysis text.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTNO": {
+    "description": ": Time history id.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOADLEVEL": {
+    "description": ": Load level number.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "VALUE": {
+    "description": ": The load scaling factor of the load at a certain loadlevel. A reference value, L0, for the load is given in the load de\ufb01nitions. The applied load at a certain loadlevel will then be: L0 \u00d7 VALUE.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODE": {
+    "description": ": Nodal position point. The following six values are allowed for shell and conshell (for beam only MID is applicable):",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LEFT": {
+    "description": ": Position having minimum local y-coordinate value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MID": {
+    "description": ": Position having mean local y-coordinate value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RIGHT": {
+    "description": ": Position having maximum local y-coordinate value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "UPPER": {
+    "description": ": Position having maximum local z-coordinate value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOWER": {
+    "description": ": Position having minimum local z-coordinate value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MIDHEIGHT": {
+    "description": ": Position having mean local z-coordinate value.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SURF2": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-1000": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LINEAR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 64",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELASTOPLASTIC": {
+    "description": ". . . . . . . . . . . . . .56, 57",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TERMOELASTOPL": {
+    "description": ": Termoelastoplastic strain-stress material.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HYPERELASTIC": {
+    "description": ". . . . . . . . . . . . . . . . . . .58 I",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EPCURVE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .61",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HYCURVE": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 62",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SHEARSPRING": {
+    "description": ". . . . . . . . . . . . . . . . . . . . 63",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTENT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . 65",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FIXCONTENT": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . 66 Forbidden strings . . . . . . . . . . . . . . . . . . . 24",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ANISOTR": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . 66 B",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MTYPE": {
+    "description": ": Material type as de\ufb01ned above. 3.32.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HPAR": {
+    "description": ": Hardening parameter. Can have value 1 or -1. Both gives kinematic hardening, and -1 forces the given material curve to be applied. With value 1, Uflex2d",
+    "valueType": "number",
+    "section": "General"
+  },
+  "POISS": {
+    "description": ": Poisson ratio \u03bd12 in hoop-axial direction, unit: -.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DENS": {
+    "description": ": Density, unit: kg/mm3. 67",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TELONG": {
+    "description": ": Temperature elongation coe\ufb03cient, unit: -. Dummy unless TLOAD is",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TCOND": {
+    "description": ": Thermal conductivity, unit W/mK. Dummy.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HCAP": {
+    "description": ": Heat capacity, unit: J/kgK. Dummy.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRAIN": {
+    "description": ": Strain, unit: -.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRESS": {
+    "description": ": Stress, unit: MPa. The STRAIN and STRESS pair can be repeated as many times as required.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "7850E-9": {
+    "description": "1.00E-05 50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "500": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "350": {
+    "description": "0.005",
+    "valueType": "number",
+    "section": "General"
+  },
+  "450": {
+    "description": ".0 0.1",
+    "valueType": "number",
+    "section": "General"
+  },
+  "550": {
+    "description": "3.32.4",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TERMOELASTOPLASTIC": {
+    "description": "Termoelastoplastic strain-stress material behaviour with kinematic/isotropic hardening (applicable for beam only). Analagous to the elastoplastic material, with linear inter-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TEMP2": {
+    "description": "\u2212",
+    "valueType": "number",
+    "section": "General"
+  },
+  "150": {
+    "description": ".00 0.03",
+    "valueType": "number",
+    "section": "General"
+  },
+  "95": {
+    "description": "0.02",
+    "valueType": "number",
+    "section": "General"
+  },
+  "147": {
+    "description": ".5 0.03",
+    "valueType": "number",
+    "section": "General"
+  },
+  "197": {
+    "description": ".5 3.32.3",
+    "valueType": "number",
+    "section": "General"
+  },
+  "950E-9": {
+    "description": "1.00E-05 50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-550": {
+    "description": "10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EMOD": {
+    "description": ": Young\u2019s modulus, unit: MPa.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WEIGHT": {
+    "description": ": Weight per mm, unit: kg/mm. Note that Poisson ratio \u03bd21 in axial-radial direction does not need to be speci\ufb01ed, as it",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BETA": {
+    "description": ": Torque/tension coupling factor, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FQX": {
+    "description": ": Axial stress or strain factor fqx. Axial stress = Axial force \u00d7 FQX, unit: 1/mm2. (Alternatively the factor is used for axial strain: Axial straini = Axial straintotal",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FMX": {
+    "description": ": Torsion stress or strain factor fmx. Shear stress = Torque \u00d7 FMX, unit: 1/mm3. (Alternatively: Shear strain = Torsion \u00d7 FMX, unit: mm).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FMY": {
+    "description": ": Y-moment stress or strain factor fmy. Bending stress = Moment \u00d7 FMY, unit: 1/mm3. (Alternatively: Bending strain = Curvature \u00d7 FMY, unit: mm.)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "FMZ": {
+    "description": ": Z-moment stress or strain factor fmz. Bending stress = Moment \u00d7 FMZ, unit: 1/mm3. (Alternatively: Bending strain = Curvature \u00d7 FMZ, unit: mm.)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AXMAT": {
+    "description": ": Axial stress resultant material curve, refering to an EPCURVE of HYCURVE name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TORMAT": {
+    "description": ": Torsion material curve name, refering to an EPCURVE of HYCURVE name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YBENMAT": {
+    "description": ": Bending about local y-axis material curve name, refering to an EPCURVE of HYCURVE name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ZBENMAT": {
+    "description": ": Bending about local z-axis material curve name, refering to an EPCURVE of HYCURVE name.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1000": {
+    "description": "AUTO 3.32.12",
+    "valueType": "number",
+    "section": "General"
+  },
+  "529": {
+    "description": ".162 # 62",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-31164000": {
+    "description": "10.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "31164000": {
+    "description": "3.32.7",
+    "valueType": "number",
+    "section": "General"
+  },
+  "-40513000": {
+    "description": "10.0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "40513000": {
+    "description": "3.32.5",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DISP": {
+    "description": ": Relative displacement, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MANUAL": {
+    "description": ": The last \ufb01ve parameters are user de\ufb01ned",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AUTO": {
+    "description": "8E4 2E5 3.33",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EIY": {
+    "description": ": Bending sti\ufb00ness about tangential axis (local y-axis), unit: Nmm2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EIZ": {
+    "description": ": Bending sti\ufb00ness about surface normal axis (local z-axis), unit: Nmm2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "GIT": {
+    "description": ": Torsion sti\ufb00ness, unit: Nmm2.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "7800": {
+    "description": "1.00E-05 50",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1E5": {
+    "description": "0",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1E6": {
+    "description": "",
+    "valueType": "number",
+    "section": "General"
+  },
+  "2E6": {
+    "description": "10 3.32.10",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1055E-9": {
+    "description": "1.00E-04 0.2",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EMOD1": {
+    "description": ": Young\u2019s modulus E1 in hoop direction, unit: MPa.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EMOD2": {
+    "description": ": Young\u2019s modulus E2 in axial direction, unit: MPa. EA:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOAD": {
+    "description": "data group is de\ufb01ned by:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "PRES": {
+    "description": ": Pressure, unit: MPa. 68",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ANGLE": {
+    "description": ": Angle of rotation. The card can be given several times. When issued several times the rotation will be the sum of the given rotations.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TOTALTIME": {
+    "description": ": Total time, sec.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RESULT": {
+    "description": ": Result types that will be stored, can be a list. Options are: Result type: Valid for:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XX": {
+    "description": "\u03c3xx stress. Unit: MPa. Shell, beam, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-YY": {
+    "description": "\u03c3yy stress. Unit: MPa. Shell, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-ZZ": {
+    "description": "\u03c3zz stress. Unit: MPa. Beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XY": {
+    "description": "\u03c3xy stress. Unit: MPa. Shell, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-XZ": {
+    "description": "\u03c3xz stress. Unit: MPa. Beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-YZ": {
+    "description": "\u03c3yz stress. Unit: MPa. Beam, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-VM": {
+    "description": "Von Mises stress. Shell, beam, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-CONTACT": {
+    "description": "which are the tube longitudinal stresses, hoop stresses, shear stresses for hoop/longitudinal direction, Von Mises stresses and contact stresses. If THICK-",
+    "valueType": "number",
+    "section": "General"
+  },
+  "SIGMA-RADIAL": {
+    "description": "Radial stress. Shell with THICKWALL,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CURV-SLIP": {
+    "description": "Slip curvature. Shell, beam, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRA-XX": {
+    "description": "\u03b5xx strain. Unit: -. Shell, beam, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRA-YY": {
+    "description": "\u03b5yy strain. Unit: -. Shell, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRA-ZZ": {
+    "description": "\u03b5zz strain. Unit: -. Beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRA-XY": {
+    "description": "\u03b5xy strain. Unit: -. Shell, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRA-XZ": {
+    "description": "\u03b5xz strain. Unit: -. Beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRA-YZ": {
+    "description": "\u03b5yz strain. Unit: -. Beam, beamshell",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONTACT": {
+    "description": "which are the longitudinal stresses, shear stresses for hoop/radial direction, the Von Mises stresses and the contact stresses. The Von Mises stresses for beam take into account SIGMA-XX and SIGMA-YZ.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "WALL": {
+    "description": "is applied the radial stresses due to inner/outer pressure,SIGMA-RADIAL is calculated, and SIGMA-YY is adjusted for thickwall. Von Mises stresses take into",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXTGEONAME": {
+    "description": ": Name of external surface geometry.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXTINTERF": {
+    "description": ": The interface number for the external surface geometry. 1 : Outside",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTGEONAME": {
+    "description": ": Name of internal surface geometry.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INTINTERF": {
+    "description": ": The interface number of internal surface geeometry. 1 : Outside",
+    "valueType": "number",
+    "section": "General"
+  },
+  "1998": {
+    "description": "). 4.2 Input data",
+    "valueType": "number",
+    "section": "General"
+  },
+  "RAF": {
+    "description": ": The Uflex2d *.raf \ufb01le name pre\ufb01x. If the \ufb01le name is de\ufb01ned by a combination of lower case and upper case letters, use \": e.g. \"input-\ufb01lename\"",
+    "valueType": "number",
+    "section": "General"
+  },
+  "MPF": {
+    "description": ": The output *.mpf \ufb01le name pre\ufb01x. If the \ufb01le name is de\ufb01ned by a combination of lower case and upper case letters, use \": e.g. \"mpf-\ufb01lename\"",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XLEG": {
+    "description": ": The legend name for the x-axis. If the legend name contains more than one word or if the name is de\ufb01ned by a combination of lower case and upper case letters, use \": e.g. \"Displacement (m)\"",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XRES": {
+    "description": ": x-axis result type. The following result types are available:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "LOADSTEP": {
+    "description": ": Load step.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AXSTRAIN": {
+    "description": ": Global axial strain, unit: -.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TORSION": {
+    "description": ": Global torsion, unit: 1/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CURV-Y": {
+    "description": ": Global curvature about y-axis, unit: 1/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CURV-Z": {
+    "description": ": Global curvature about z-axis, unit: 1/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "AXFORCE": {
+    "description": ": Global axial force, unit: N.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "TORSMOM": {
+    "description": ": Global torsion moment, unit: Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BENDM-Y": {
+    "description": ": Global bending moment about y-axis, unit: Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "BENDM-Z": {
+    "description": ": Global bending moment about z-axis, unit: Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HISTN": {
+    "description": ": History number with reference to Uflex2d input \ufb01le, e.g HIST100, see Section 3.26.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YLEG": {
+    "description": ": The legend name for the y-axis. If the legend name contains more than one word or if the name is de\ufb01ned by a combination of lower case and upper case letters, use \": e.g \"Displacement (m)\".",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YRES": {
+    "description": ": y-axis result type. The following result types are available:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "XFAC": {
+    "description": ": Scaling factor to be used for x-axis (to convert to convenient unit)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YFAC": {
+    "description": ": Scaling factor to be used for y-axis (to convert to convenient unit)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "DIGIT": {
+    "description": ": Optional parameter used to de\ufb01ne number of signi\ufb01cant digits written to the output \ufb01le. must be given on the format \"digit=N\", where N is a number between 1 and 9. Default value is 3 digits.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODISP-X": {
+    "description": ": x-displacement, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODISP-Y": {
+    "description": ": y-displacement, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NODISP-Z": {
+    "description": ": z-displacement, unit: mm. 78",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOPOS-X": {
+    "description": ": x-coordinate, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOPOS-Y": {
+    "description": ": y-coordinate, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "NOPOS-Z": {
+    "description": ": z-coordinate, unit: mm. In addition, results stored to .raf \ufb01le by the VISRES command, see Section 3.41,",
+    "valueType": "number",
+    "section": "General"
+  },
+  "POS": {
+    "description": ": Position \ufb01lter (among nodes). The following positions are available:",
+    "valueType": "number",
+    "section": "General"
+  },
+  "OUTER": {
+    "description": ": All positions on outer surface.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "INNER": {
+    "description": ": All positions on inner surface.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALL": {
+    "description": ": All positions.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORCE-X": {
+    "description": ": Fx force, unit: N.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORCE-Y": {
+    "description": ": Fy force, unit: N.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFORCE-Z": {
+    "description": ": Fz force, unit: N.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFSHMO-X": {
+    "description": ": Local shell Mx moment, unit: Nmm. (Dummy for beam)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFSHMO-Y": {
+    "description": ": Local shell My moment, unit: Nmm. (Dummy for beam)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFSHMO-Z": {
+    "description": ": Local shell Mz moment, unit: Nmm. (Dummy for beam)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFMO-X": {
+    "description": ": Mx moment about centroid x-axis, unit: Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFMO-Y": {
+    "description": ": My moment about centroid y-axis, unit: Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELFMO-Z": {
+    "description": ": Mz moment about centroid z-axis, unit: Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALLELFORC": {
+    "description": ": All stress resultant components, 6 for beam, 9 for shell. Unit: N and Nmm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDISP-X": {
+    "description": ": x displacement, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDISP-Y": {
+    "description": ": y displacement, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDISP-Z": {
+    "description": ": z displacement, unit: mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDROT-X": {
+    "description": ": Local shell x-rotation, unit: rad. (Dummy for beam)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDROT-Y": {
+    "description": ": Local shell y-rotation, unit: rad. (Dummy for beam)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDROT-Z": {
+    "description": ": Local shell z-rotation, unit: rad. (Dummy for beam)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDTOR-X": {
+    "description": ": Torsion about centroid, unit: 1/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDCUR-Y": {
+    "description": ": y-curvature about centroid, unit: 1/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ELDCUR-Z": {
+    "description": ": z-curvature about centroid, unit: 1/mm.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "ALLEDISP": {
+    "description": ": All element displacement quantities, unit: mm, rad or 1/mm. 80",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONDIS-X": {
+    "description": ": Contact element displacement in local x-direction, unit: mm. (For this type POS parameter is dummy.)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONDIS-Y": {
+    "description": ": Contact element displacement in local y-direction, unit: mm. (For this type POS parameter is dummy.)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONDIS-Z": {
+    "description": ": Contact element displacement in local z-direction, unit: mm. (For this type POS parameter is dummy.)",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONFOR-X": {
+    "description": ": Contact element force in local x-direction, unit: N. (For this type",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONFOR-Y": {
+    "description": ": Contact element force in local y-direction, unit: N. (For this type",
+    "valueType": "number",
+    "section": "General"
+  },
+  "CONFOR-Z": {
+    "description": ": Contact element force in local z-direction, unit: N. (For this type",
+    "valueType": "number",
+    "section": "General"
+  },
+  "STRESS-COMPONENT": {
+    "description": ": The stress-component relevant for the provided yield stress.",
+    "valueType": "number",
+    "section": "General"
+  },
+  "YIELD-STRESS": {
+    "description": ": The speci\ufb01ed minimum yield stress (SMYS).",
+    "valueType": "number",
+    "section": "General"
+  },
+  "EXP3D": {
+    "description": "layer . . . . . . . . . . . . . . . . . . . . . . . . 40",
+    "valueType": "number",
+    "section": "General"
+  },
+  "HEADING": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . .47",
+    "valueType": "number",
+    "section": "General"
+  },
+  "UPOST": {
+    "description": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75 \u2013 CAPACIT . . . . . . . . . . . . . . . . . . . . . . . . 81 \u2013 ELPLOT. . . . . . . . . . . . . . . . . . . . . . . . . .78",
+    "valueType": "number",
+    "section": "General"
+  }
+}
